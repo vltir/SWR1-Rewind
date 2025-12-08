@@ -15,6 +15,9 @@ const isReady = ref(false)         // Ist der nächste Song abspielbereit?
 
 let audioCtx = null
 
+// NEU: Hier merken wir uns den aktuellen "Player", um ihn stoppen zu können
+let currentSourceNode = null
+
 // --- LOGIK ---
 
 onMounted(async () => {
@@ -86,7 +89,11 @@ async function prepareNextSong() {
 
     // Fertig!
     isReady.value = true
-    statusMessage.value = "Bereit für nächsten Song!"
+    // Wenn gerade nichts spielt, können wir "Bereit" anzeigen,
+    // sonst lassen wir die Nachricht des laufenden Songs stehen.
+    if (!isPlaying.value) {
+      statusMessage.value = "Bereit für nächsten Song!"
+    }
 
   } catch (e) {
     console.error("Fehler beim Vorladen:", e)
@@ -104,7 +111,19 @@ async function playReadySong() {
     await audioCtx.resume()
   }
 
-  // 2. UI zurücksetzen
+  // --- NEU: ALTE WIEDERGABE STOPPEN ---
+  if (currentSourceNode) {
+    try {
+      // Wichtig: Wir entfernen den Event-Listener, damit nicht "Wiedergabe beendet"
+      // aufploppt, obwohl wir gerade einen neuen Song starten.
+      currentSourceNode.onended = null
+      currentSourceNode.stop()
+    } catch (e) {
+      // Falls er schon gestoppt war, egal.
+    }
+  }
+  // ------------------------------------
+
   isRevealed.value = false
   isPlaying.value = true
 
@@ -115,6 +134,10 @@ async function playReadySong() {
   const source = audioCtx.createBufferSource()
   source.buffer = nextAudioBuffer.value
   source.connect(audioCtx.destination)
+
+  // NEU: Den neuen Player in der Variable speichern
+  currentSourceNode = source
+
   source.start()
 
   statusMessage.value = "Spielt ab... 🎵"
@@ -122,6 +145,8 @@ async function playReadySong() {
   source.onended = () => {
     isPlaying.value = false
     statusMessage.value = "Wiedergabe beendet. Rate mal!"
+    // Variable leeren, da der Song physikalisch zu Ende ist
+    currentSourceNode = null
   }
 
   // 5. WICHTIG: Sofort den NÄCHSTEN Song laden, während der User rät!
