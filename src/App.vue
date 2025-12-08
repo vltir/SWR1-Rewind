@@ -1,110 +1,134 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-// --- ZUSTANDS-VARIABLEN (STATE) ---
+// --- ZUSTAND (STATE) ---
 const songs = ref([])
-const currentSong = ref(null)
+const currentSong = ref(null)      // Der Song, der gerade läuft/angezeigt wird
 const isPlaying = ref(false)
 const isRevealed = ref(false)
-const isLoading = ref(false)
-const statusMessage = ref('')
+const statusMessage = ref('Initialisiere...')
+
+// --- PRELOAD STATE (Der Puffer) ---
+const nextSong = ref(null)         // Metadaten für den NÄCHSTEN Song
+const nextAudioBuffer = ref(null)  // Das fertige Audio für den NÄCHSTEN Song
+const isReady = ref(false)         // Ist der nächste Song abspielbereit?
 
 let audioCtx = null
 
 // --- LOGIK ---
 
-// 1. Songs laden beim Start
 onMounted(async () => {
+  // 1. AudioContext sofort anlegen (aber er ist noch "suspended")
+  audioCtx = new (window.AudioContext || window.webkitAudioContext)()
+
   try {
-    const res = await fetch('/swr1_songs.json') // Lädt aus dem public Ordner
+    // 2. Liste laden
+    const res = await fetch('/swr1_songs.json')
     songs.value = await res.json()
-    statusMessage.value = `${songs.value.length} Songs bereit!`
+    statusMessage.value = `${songs.value.length} Songs geladen.`
+
+    // 3. SOFORT den ersten Song vorbereiten
+    await prepareNextSong()
+
   } catch (e) {
-    statusMessage.value = 'Fehler: swr1_songs.json nicht gefunden.'
+    statusMessage.value = 'Fehler beim Laden der JSON.'
+    console.error(e)
   }
 })
 
-// 2. Audio Logik
-async function playRandomSong() {
+// Diese Funktion macht die schwere Arbeit im Hintergrund
+async function prepareNextSong() {
   if (songs.value.length === 0) return
 
-  // UI Reset
-  isRevealed.value = false
-  isPlaying.value = true
-  isLoading.value = true
-  statusMessage.value = "Lade & Schneide..." // Kleines Update im Text
+  isReady.value = false
+  statusMessage.value = "Lade nächsten Song im Hintergrund..."
 
-  const randomIndex = Math.floor(Math.random() * songs.value.length)
-  currentSong.value = songs.value[randomIndex]
+  // Zufälligen Song wählen (verhindern, dass es der gleiche wie gerade eben ist)
+  let randomIndex
+  do {
+    randomIndex = Math.floor(Math.random() * songs.value.length)
+  } while (currentSong.value && songs.value[randomIndex].audio === currentSong.value.audio && songs.value.length > 1)
+
+  const selectedSong = songs.value[randomIndex]
 
   try {
-    if (!audioCtx) {
-      audioCtx = new (window.AudioContext || window.webkitAudioContext)()
-    }
-
-    // 1. Laden (mit Proxy Fix)
-    const originalUrl = currentSong.value.audio
+    // A) Fetch
+    const originalUrl = selectedSong.audio
     const proxyUrl = originalUrl.replace('https://hooks.swr.de', '/swr-proxy')
     const response = await fetch(proxyUrl)
     const arrayBuffer = await response.arrayBuffer()
 
-    // 2. Dekodieren (Vollständiges Audio inkl. Jingle)
+    // B) Decode
     const fullBuffer = await audioCtx.decodeAudioData(arrayBuffer)
 
-    // --- SCHNITT-LOGIK START ---
+    // C) Schneiden & Umdrehen
+    const SECONDS_TO_CUT = 7.3
+    const samplesToCut = Math.floor(fullBuffer.sampleRate * SECONDS_TO_CUT)
+    const newLength = Math.max(0, fullBuffer.length - samplesToCut)
 
-    // Wie viel wollen wir hinten abschneiden? (Hier: 5 Sekunden)
-    // Falls der Jingle kürzer/länger ist, passe diese Zahl an (z.B. 4.5 oder 6)
-    const SECONDS_TO_CUT = 7.3;
-
-    // Berechne neue Länge: Gesamtlänge minus (SampleRate * Sekunden)
-    const samplesToCut = Math.floor(fullBuffer.sampleRate * SECONDS_TO_CUT);
-    const newLength = Math.max(0, fullBuffer.length - samplesToCut);
-
-    // Erstelle einen neuen, leeren Buffer, der kürzer ist
     const trimmedBuffer = audioCtx.createBuffer(
         fullBuffer.numberOfChannels,
         newLength,
         fullBuffer.sampleRate
-    );
+    )
 
-    // Kopiere Daten UND drehe sie um
     for (let i = 0; i < fullBuffer.numberOfChannels; i++) {
-      const originalData = fullBuffer.getChannelData(i);
-      const newData = trimmedBuffer.getChannelData(i);
-
-      // Wir nehmen vom Original nur den Teil von 0 bis zum Schnittpunkt (newLength)
-      // .subarray ist performanter als eine Schleife
-      const cutData = originalData.subarray(0, newLength);
-
-      // Daten in den neuen Buffer füllen
-      newData.set(cutData);
-
-      // JETZT den gekürzten Teil umdrehen
-      Array.prototype.reverse.call(newData);
-    }
-    // --- SCHNITT-LOGIK ENDE ---
-
-    // 3. Abspielen des gekürzten Buffers
-    const source = audioCtx.createBufferSource()
-    source.buffer = trimmedBuffer // Wichtig: Hier den trimmedBuffer nehmen!
-    source.connect(audioCtx.destination)
-    source.start()
-
-    source.onended = () => {
-      isPlaying.value = false
-      statusMessage.value = "Wiedergabe beendet."
+      const originalData = fullBuffer.getChannelData(i)
+      const newData = trimmedBuffer.getChannelData(i)
+      const cutData = originalData.subarray(0, newLength)
+      newData.set(cutData)
+      Array.prototype.reverse.call(newData)
     }
 
-    isLoading.value = false
-    statusMessage.value = "Läuft rückwärts (ohne Jingle)! 🎵"
+    // D) In den "Puffer"-Variablen speichern
+    nextSong.value = selectedSong
+    nextAudioBuffer.value = trimmedBuffer
+
+    // Fertig!
+    isReady.value = true
+    statusMessage.value = "Bereit für nächsten Song!"
 
   } catch (e) {
-    console.error(e)
-    statusMessage.value = "Fehler beim Abspielen."
-    isLoading.value = false
-    isPlaying.value = false
+    console.error("Fehler beim Vorladen:", e)
+    // Falls einer fehlschlägt, einfach nochmal probieren
+    setTimeout(prepareNextSong, 1000)
   }
+}
+
+// Diese Funktion wird beim Button-Klick ausgeführt (passiert sofort)
+async function playReadySong() {
+  if (!isReady.value || !nextAudioBuffer.value) return
+
+  // 1. Browser-Policy: Context aufwecken beim ersten Klick
+  if (audioCtx.state === 'suspended') {
+    await audioCtx.resume()
+  }
+
+  // 2. UI zurücksetzen
+  isRevealed.value = false
+  isPlaying.value = true
+
+  // 3. Den Puffer in den "Live"-Status schieben
+  currentSong.value = nextSong.value // Metadaten anzeigen (aber noch verdeckt)
+
+  // 4. Abspielen
+  const source = audioCtx.createBufferSource()
+  source.buffer = nextAudioBuffer.value
+  source.connect(audioCtx.destination)
+  source.start()
+
+  statusMessage.value = "Spielt ab... 🎵"
+
+  source.onended = () => {
+    isPlaying.value = false
+    statusMessage.value = "Wiedergabe beendet. Rate mal!"
+  }
+
+  // 5. WICHTIG: Sofort den NÄCHSTEN Song laden, während der User rät!
+  // Wir löschen den Puffer und laden neu.
+  nextAudioBuffer.value = null
+  isReady.value = false
+  prepareNextSong()
 }
 
 function reveal() {
@@ -122,11 +146,11 @@ function reveal() {
 
       <div class="controls">
         <button
-            @click="playRandomSong"
-            :disabled="isLoading"
+            @click="playReadySong"
+            :disabled="!isReady"
             class="btn-primary"
         >
-          {{ isLoading ? 'Lade...' : '🎲 Neuer Song (Rückwärts)' }}
+          {{ !isReady ? '⏳ Lade im Hintergrund...' : '🎲 Song abspielen (Sofort!)' }}
         </button>
 
         <button
@@ -147,7 +171,6 @@ function reveal() {
 </template>
 
 <style scoped>
-/* Ein bisschen CSS für den Look */
 .container {
   display: flex; justify-content: center; align-items: center;
   min-height: 100vh; background: #1a1a1a; color: white;
@@ -159,15 +182,17 @@ function reveal() {
   box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
 h1 { color: #ffcc00; margin-bottom: 0.5rem; }
-.status-bar { height: 20px; font-size: 0.9rem; color: #888; margin-bottom: 20px; }
+.status-bar { height: 20px; font-size: 0.9rem; color: #888; margin-bottom: 20px; transition: color 0.3s;}
 .controls { display: flex; flex-direction: column; gap: 10px; }
 button {
   padding: 12px; font-size: 1rem; border: none; border-radius: 6px;
-  cursor: pointer; font-weight: bold; transition: transform 0.1s;
+  cursor: pointer; font-weight: bold; transition: all 0.2s;
 }
 button:active { transform: scale(0.98); }
 .btn-primary { background: #ffcc00; color: #222; }
-.btn-primary:disabled { background: #555; cursor: not-allowed; }
+/* Wenn deaktiviert (während des Ladens): */
+.btn-primary:disabled { background: #444; color: #888; cursor: wait; opacity: 0.7; }
+
 .btn-secondary { background: #444; color: #fff; }
 .result { margin-top: 25px; padding-top: 20px; border-top: 1px solid #444; }
 .result h2 { margin: 0; color: #fff; }
