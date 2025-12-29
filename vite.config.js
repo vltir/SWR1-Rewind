@@ -1,8 +1,9 @@
-import { defineConfig } from 'vite'
+    import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
     plugins: [vue()],
+    base: '/SWR1-Rewind/',
     server: {
         proxy: {
             // Jede Anfrage, die mit '/swr-proxy' beginnt...
