@@ -1,0 +1,6320 @@
+[
+  {
+    "id": 1,
+    "artist": "Queen",
+    "title": "Bohemian Rhapsody",
+    "audio": "https://hooks.swr.de/99005/M0005682.011.mp3"
+  },
+  {
+    "id": 2,
+    "artist": "Led Zeppelin",
+    "title": "Stairway to heaven",
+    "audio": "https://hooks.swr.de/99005/M0000353.004.mp3"
+  },
+  {
+    "id": 3,
+    "artist": "Disturbed",
+    "title": "The sound of silence",
+    "audio": "https://hooks.swr.de/99005/M0422353.001.mp3"
+  },
+  {
+    "id": 4,
+    "artist": "Reinhard Mey",
+    "title": "Das Narrenschiff",
+    "audio": "https://hooks.swr.de/99005/M0253172.001.mp3"
+  },
+  {
+    "id": 5,
+    "artist": "Deep Purple",
+    "title": "Child in time",
+    "audio": "https://hooks.swr.de/99005/M0025050.003.mp3"
+  },
+  {
+    "id": 6,
+    "artist": "Pferdle & Äffle",
+    "title": "Der Hafer- und Bananenblues",
+    "audio": "https://hooks.swr.de/99005/M0425290.005.mp3"
+  },
+  {
+    "id": 7,
+    "artist": "Journey",
+    "title": "Don't stop believin'",
+    "audio": "https://hooks.swr.de/99005/M0095006.014.mp3"
+  },
+  {
+    "id": 8,
+    "artist": "Metallica",
+    "title": "Nothing else matters (Album Version)",
+    "audio": "https://hooks.swr.de/99005/M0018391.008.mp3"
+  },
+  {
+    "id": 9,
+    "artist": "City",
+    "title": "Am Fenster",
+    "audio": "https://hooks.swr.de/99005/M0006298.001.mp3"
+  },
+  {
+    "id": 10,
+    "artist": "John Miles",
+    "title": "Music",
+    "audio": "https://hooks.swr.de/99005/M0020661.011.mp3"
+  },
+  {
+    "id": 11,
+    "artist": "Dire Straits",
+    "title": "Brothers in arms (Album Version)",
+    "audio": "https://hooks.swr.de/99005/M0000354.009.mp3"
+  },
+  {
+    "id": 12,
+    "artist": "Reinhard Mey",
+    "title": "Nein, meine Söhne geb' ich nicht",
+    "audio": "https://hooks.swr.de/99005/M0007551.010.mp3"
+  },
+  {
+    "id": 13,
+    "artist": "Linkin Park",
+    "title": "The emptiness machine",
+    "audio": "https://hooks.swr.de/99005/2108728.mp3"
+  },
+  {
+    "id": 14,
+    "artist": "Die Ärzte",
+    "title": "Schrei nach Liebe",
+    "audio": "https://hooks.swr.de/99005/M0080338.034.mp3"
+  },
+  {
+    "id": 15,
+    "artist": "Schwoißfuaß",
+    "title": "Oinr isch emmr dr Arsch",
+    "audio": "https://hooks.swr.de/99005/M0020660.001.mp3"
+  },
+  {
+    "id": 16,
+    "artist": "Udo Lindenberg & Apache 207",
+    "title": "Komet",
+    "audio": "https://hooks.swr.de/99005/1794723.mp3"
+  },
+  {
+    "id": 17,
+    "artist": "Hubert von Goisern",
+    "title": "Weit, weit weg",
+    "audio": "https://hooks.swr.de/99005/M0006251.003.mp3"
+  },
+  {
+    "id": 18,
+    "artist": "Iron Maiden",
+    "title": "Fear of the dark (Live 1992 in Helsinki)",
+    "audio": "https://hooks.swr.de/99005/M0494269.012.mp3"
+  },
+  {
+    "id": 19,
+    "artist": "Pink Floyd",
+    "title": "Wish you were here",
+    "audio": "https://hooks.swr.de/99005/M0006301.004.mp3"
+  },
+  {
+    "id": 20,
+    "artist": "Badischer Bürgermeisterchor",
+    "title": "Badnerlied",
+    "audio": "https://hooks.swr.de/99005/M0030854.004.mp3"
+  },
+  {
+    "id": 21,
+    "artist": "AC/DC",
+    "title": "Thunderstruck",
+    "audio": "https://hooks.swr.de/99005/M0319773.001.mp3"
+  },
+  {
+    "id": 22,
+    "artist": "Pink Floyd",
+    "title": "Comfortably numb",
+    "audio": "https://hooks.swr.de/99005/M0290300.001.mp3"
+  },
+  {
+    "id": 23,
+    "artist": "Metallica",
+    "title": "Master of puppets",
+    "audio": "https://hooks.swr.de/99005/M0249159.002.mp3"
+  },
+  {
+    "id": 24,
+    "artist": "Leonard Cohen",
+    "title": "Hallelujah",
+    "audio": "https://hooks.swr.de/99005/M0099261.005.mp3"
+  },
+  {
+    "id": 25,
+    "artist": "Die Toten Hosen",
+    "title": "Tage wie diese",
+    "audio": "https://hooks.swr.de/99005/M0300945.001.mp3"
+  },
+  {
+    "id": 26,
+    "artist": "Abba",
+    "title": "Dancing queen",
+    "audio": "https://hooks.swr.de/99005/M0001410.004.mp3"
+  },
+  {
+    "id": 27,
+    "artist": "Manowar",
+    "title": "Warriors of the world united",
+    "audio": "https://hooks.swr.de/99005/M0299804.008.mp3"
+  },
+  {
+    "id": 28,
+    "artist": "AC/DC",
+    "title": "Hells bells",
+    "audio": "https://hooks.swr.de/99005/M0011555.001.mp3"
+  },
+  {
+    "id": 29,
+    "artist": "The Eagles",
+    "title": "Hotel California",
+    "audio": "https://hooks.swr.de/99005/M0088659.006.mp3"
+  },
+  {
+    "id": 30,
+    "artist": "Füenf",
+    "title": "Mir im Süden",
+    "audio": "https://hooks.swr.de/99005/M0352184.016.mp3"
+  },
+  {
+    "id": 31,
+    "artist": "Metallica",
+    "title": "One",
+    "audio": "https://hooks.swr.de/99005/M0554957.001.mp3"
+  },
+  {
+    "id": 32,
+    "artist": "Guns N' Roses",
+    "title": "November rain",
+    "audio": "https://hooks.swr.de/99005/M0012442.009.mp3"
+  },
+  {
+    "id": 33,
+    "artist": "John Lennon",
+    "title": "Imagine",
+    "audio": "https://hooks.swr.de/99005/M0006304.001.mp3"
+  },
+  {
+    "id": 34,
+    "artist": "Runrig",
+    "title": "Loch Lomond (live)",
+    "audio": "https://hooks.swr.de/99005/M0075499.009.mp3"
+  },
+  {
+    "id": 35,
+    "artist": "Metallica",
+    "title": "Enter Sandman",
+    "audio": "https://hooks.swr.de/99005/M0018391.001.mp3"
+  },
+  {
+    "id": 36,
+    "artist": "Bryan Adams",
+    "title": "Summer Of '69",
+    "audio": "https://hooks.swr.de/99005/M0006215.006.mp3"
+  },
+  {
+    "id": 37,
+    "artist": "Genesis",
+    "title": "The carpet crawlers",
+    "audio": "https://hooks.swr.de/99005/M0023737.001.mp3"
+  },
+  {
+    "id": 38,
+    "artist": "Gotthilf Fischer und seine Chöre",
+    "title": "Der reichste Fürst (Württemberger Lied)",
+    "audio": "https://hooks.swr.de/99005/M0674414.012.mp3"
+  },
+  {
+    "id": 39,
+    "artist": "AC/DC",
+    "title": "Highway to hell",
+    "audio": "https://hooks.swr.de/99005/M0000185.001.mp3"
+  },
+  {
+    "id": 40,
+    "artist": "Freddie Mercury & Montserrat Caballé",
+    "title": "Barcelona",
+    "audio": "https://hooks.swr.de/99005/M0362401.001.mp3"
+  },
+  {
+    "id": 41,
+    "artist": "Bette Midler",
+    "title": "The rose",
+    "audio": "https://hooks.swr.de/99005/M0040492.010.mp3"
+  },
+  {
+    "id": 42,
+    "artist": "Rainhard Fendrich",
+    "title": "Weus'd a Herz hast wie a Bergwerk",
+    "audio": "https://hooks.swr.de/99005/M0332759.002.mp3"
+  },
+  {
+    "id": 43,
+    "artist": "Pink Floyd",
+    "title": "Shine on you crazy diamond",
+    "audio": "https://hooks.swr.de/99005/M0006301.001.mp3"
+  },
+  {
+    "id": 44,
+    "artist": "Pink Floyd",
+    "title": "Echoes",
+    "audio": "https://hooks.swr.de/99005/M0080009.006.mp3"
+  },
+  {
+    "id": 45,
+    "artist": "Konstantin Wecker",
+    "title": "Sage nein!",
+    "audio": "https://hooks.swr.de/99005/M0360668.004.mp3"
+  },
+  {
+    "id": 46,
+    "artist": "Barclay James Harvest",
+    "title": "Hymn",
+    "audio": "https://hooks.swr.de/99005/M0343110.009.mp3"
+  },
+  {
+    "id": 47,
+    "artist": "Reinhard Mey",
+    "title": "Wie vor Jahr und Tag",
+    "audio": "https://hooks.swr.de/99005/M0251984.007.mp3"
+  },
+  {
+    "id": 48,
+    "artist": "Reinhard Mey",
+    "title": "Über den Wolken",
+    "audio": "https://hooks.swr.de/99005/M0009406.009.mp3"
+  },
+  {
+    "id": 49,
+    "artist": "Deep Purple",
+    "title": "April",
+    "audio": "https://hooks.swr.de/99005/M0367900.001.mp3"
+  },
+  {
+    "id": 50,
+    "artist": "Dire Straits",
+    "title": "Sultans of swing",
+    "audio": "https://hooks.swr.de/99005/M0020742.006.mp3"
+  },
+  {
+    "id": 51,
+    "artist": "Roy Bianco & Die Abbrunzati Boys",
+    "title": "Bella Napoli",
+    "audio": "https://hooks.swr.de/99005/2266298.mp3"
+  },
+  {
+    "id": 52,
+    "artist": "Led Zeppelin",
+    "title": "Kashmir",
+    "audio": "https://hooks.swr.de/99005/M0040547.006.mp3"
+  },
+  {
+    "id": 53,
+    "artist": "Iron Maiden",
+    "title": "Run to the hills",
+    "audio": "https://hooks.swr.de/99005/M0062212.004.mp3"
+  },
+  {
+    "id": 54,
+    "artist": "Herbert Grönemeyer",
+    "title": "Der Weg",
+    "audio": "https://hooks.swr.de/99005/M0001095.001.mp3"
+  },
+  {
+    "id": 55,
+    "artist": "The Eagles",
+    "title": "Hotel California (unplugged)",
+    "audio": "https://hooks.swr.de/99005/M0088754.001.mp3"
+  },
+  {
+    "id": 56,
+    "artist": "Phil Collins",
+    "title": "In the air tonight",
+    "audio": "https://hooks.swr.de/99005/M0040319.001.mp3"
+  },
+  {
+    "id": 57,
+    "artist": "Herrn Stumpfes Zieh & Zupfkapelle",
+    "title": "Linsengericht",
+    "audio": "https://hooks.swr.de/99005/M0030445.004.mp3"
+  },
+  {
+    "id": 58,
+    "artist": "Billy Joel",
+    "title": "Piano man (Album Version)",
+    "audio": "https://hooks.swr.de/99005/M0041108.002.mp3"
+  },
+  {
+    "id": 59,
+    "artist": "Hannes Wader",
+    "title": "Es ist an der Zeit",
+    "audio": "https://hooks.swr.de/99005/M0061923.010.mp3"
+  },
+  {
+    "id": 60,
+    "artist": "AC/DC",
+    "title": "T.N.T.",
+    "audio": "https://hooks.swr.de/99005/M0040482.002.mp3"
+  },
+  {
+    "id": 61,
+    "artist": "Peter Maffay",
+    "title": "Nessaja",
+    "audio": "https://hooks.swr.de/99005/M0040489.011.mp3"
+  },
+  {
+    "id": 62,
+    "artist": "Black Sabbath",
+    "title": "Paranoid",
+    "audio": "https://hooks.swr.de/99005/M0024988.002.mp3"
+  },
+  {
+    "id": 63,
+    "artist": "BAP",
+    "title": "Verdamp lang her",
+    "audio": "https://hooks.swr.de/99005/M0000314.001.mp3"
+  },
+  {
+    "id": 64,
+    "artist": "Gänsehaut",
+    "title": "Karl der Käfer",
+    "audio": "https://hooks.swr.de/99005/M0115690.001.mp3"
+  },
+  {
+    "id": 65,
+    "artist": "AC/DC",
+    "title": "Back in black",
+    "audio": "https://hooks.swr.de/99005/M0011555.006.mp3"
+  },
+  {
+    "id": 66,
+    "artist": "Iron Maiden",
+    "title": "The number of the beast",
+    "audio": "https://hooks.swr.de/99005/M0080402.005.mp3"
+  },
+  {
+    "id": 67,
+    "artist": "Iron Butterfly",
+    "title": "In-a-gadda-da-vida",
+    "audio": "https://hooks.swr.de/99005/M0024546.003.mp3"
+  },
+  {
+    "id": 68,
+    "artist": "Iron Maiden",
+    "title": "Hallowed be thy name",
+    "audio": "https://hooks.swr.de/99005/M0080402.008.mp3"
+  },
+  {
+    "id": 69,
+    "artist": "Oimara",
+    "title": "Wackelkontakt",
+    "audio": "https://hooks.swr.de/99005/2200784.mp3"
+  },
+  {
+    "id": 70,
+    "artist": "Die Ärzte",
+    "title": "Westerland",
+    "audio": "https://hooks.swr.de/99005/M0004971.009.mp3"
+  },
+  {
+    "id": 71,
+    "artist": "Metallica",
+    "title": "The unforgiven",
+    "audio": "https://hooks.swr.de/99005/M0018391.004.mp3"
+  },
+  {
+    "id": 72,
+    "artist": "Genesis",
+    "title": "Supper's ready",
+    "audio": "https://hooks.swr.de/99005/M0079701.001.mp3"
+  },
+  {
+    "id": 73,
+    "artist": "Coldplay",
+    "title": "Viva la vida",
+    "audio": "https://hooks.swr.de/99005/M0093456.001.mp3"
+  },
+  {
+    "id": 74,
+    "artist": "Queen",
+    "title": "Love of my life",
+    "audio": "https://hooks.swr.de/99005/M0005682.009.mp3"
+  },
+  {
+    "id": 75,
+    "artist": "Coldplay",
+    "title": "Fix you",
+    "audio": "https://hooks.swr.de/99005/M0035192.001.mp3"
+  },
+  {
+    "id": 76,
+    "artist": "Udo Lindenberg & Pascal",
+    "title": "Wozu sind Kriege da?",
+    "audio": "https://hooks.swr.de/99005/M0056064.010.mp3"
+  },
+  {
+    "id": 77,
+    "artist": "Ed Sheeran",
+    "title": "Perfect",
+    "audio": "https://hooks.swr.de/99005/M0493741.001.mp3"
+  },
+  {
+    "id": 78,
+    "artist": "Abba",
+    "title": "Thank you for the music",
+    "audio": "https://hooks.swr.de/99005/M0001390.003.mp3"
+  },
+  {
+    "id": 79,
+    "artist": "Westernhagen",
+    "title": "Freiheit (live)",
+    "audio": "https://hooks.swr.de/99005/M0000303.017.mp3"
+  },
+  {
+    "id": 80,
+    "artist": "Lady Gaga & Bradley Cooper",
+    "title": "Shallow",
+    "audio": "https://hooks.swr.de/99005/M0544388.001.mp3"
+  },
+  {
+    "id": 81,
+    "artist": "Sportfreunde Stiller",
+    "title": "Ein Kompliment",
+    "audio": "https://hooks.swr.de/99005/M0121400.001.mp3"
+  },
+  {
+    "id": 82,
+    "artist": "Pur",
+    "title": "Abenteuerland",
+    "audio": "https://hooks.swr.de/99005/M0001843.001.mp3"
+  },
+  {
+    "id": 83,
+    "artist": "Peter Schilling",
+    "title": "Major Tom",
+    "audio": "https://hooks.swr.de/99005/M0539206.004.mp3"
+  },
+  {
+    "id": 84,
+    "artist": "Jethro Tull",
+    "title": "Locomotive breath",
+    "audio": "https://hooks.swr.de/99005/M0024541.024.mp3"
+  },
+  {
+    "id": 85,
+    "artist": "Abba",
+    "title": "The winner takes it all",
+    "audio": "https://hooks.swr.de/99005/M0001410.012.mp3"
+  },
+  {
+    "id": 86,
+    "artist": "Queen",
+    "title": "Don't stop me now",
+    "audio": "https://hooks.swr.de/99005/M0000285.007.mp3"
+  },
+  {
+    "id": 87,
+    "artist": "Toto",
+    "title": "Africa",
+    "audio": "https://hooks.swr.de/99005/M0023712.031.mp3"
+  },
+  {
+    "id": 88,
+    "artist": "Wolle Kriwanek",
+    "title": "Die Stroßaboh",
+    "audio": "https://hooks.swr.de/99005/M0041024.001.mp3"
+  },
+  {
+    "id": 89,
+    "artist": "Prince & The Revolution",
+    "title": "Purple rain",
+    "audio": "https://hooks.swr.de/99005/M0040493.016.mp3"
+  },
+  {
+    "id": 90,
+    "artist": "Dire Straits",
+    "title": "Telegraph Road",
+    "audio": "https://hooks.swr.de/99005/M0006158.001.mp3"
+  },
+  {
+    "id": 91,
+    "artist": "The Beatles",
+    "title": "Let it be",
+    "audio": "https://hooks.swr.de/99005/M0233084.001.mp3"
+  },
+  {
+    "id": 92,
+    "artist": "Faithless",
+    "title": "Insomnia",
+    "audio": "https://hooks.swr.de/99005/M0414228.001.mp3"
+  },
+  {
+    "id": 93,
+    "artist": "Rammstein",
+    "title": "Deutschland",
+    "audio": "https://hooks.swr.de/99005/M0564678.001.mp3"
+  },
+  {
+    "id": 94,
+    "artist": "Udo Lindenberg (feat. KIDS ON STAGE)",
+    "title": "Wir ziehen in den Frieden  (MTV Unplugged 2)",
+    "audio": "https://hooks.swr.de/99005/M0550066.001.mp3"
+  },
+  {
+    "id": 95,
+    "artist": "Unheilig",
+    "title": "Geboren um zu leben",
+    "audio": "https://hooks.swr.de/99005/M0246153.001.mp3"
+  },
+  {
+    "id": 96,
+    "artist": "Motörhead",
+    "title": "Ace of spades",
+    "audio": "https://hooks.swr.de/99005/M0108519.001.mp3"
+  },
+  {
+    "id": 97,
+    "artist": "Hubert von Goisern",
+    "title": "Heast as net",
+    "audio": "https://hooks.swr.de/99005/M0056148.002.mp3"
+  },
+  {
+    "id": 98,
+    "artist": "Abba",
+    "title": "Mamma mia",
+    "audio": "https://hooks.swr.de/99005/M0001402.014.mp3"
+  },
+  {
+    "id": 99,
+    "artist": "Metallica",
+    "title": "Whiskey in the jar",
+    "audio": "https://hooks.swr.de/99005/M0106964.009.mp3"
+  },
+  {
+    "id": 100,
+    "artist": "Linkin Park",
+    "title": "Numb",
+    "audio": "https://hooks.swr.de/99005/M0080225.001.mp3"
+  },
+  {
+    "id": 101,
+    "artist": "Bruce Springsteen",
+    "title": "Tougher than the rest",
+    "audio": "https://hooks.swr.de/99005/M0040949.002.mp3"
+  },
+  {
+    "id": 102,
+    "artist": "Huntr/x",
+    "title": "Golden",
+    "audio": "https://hooks.swr.de/99005/2266303.mp3"
+  },
+  {
+    "id": 103,
+    "artist": "David Bowie",
+    "title": "Heroes",
+    "audio": "https://hooks.swr.de/99005/M0025071.003.mp3"
+  },
+  {
+    "id": 104,
+    "artist": "Udo Jürgens",
+    "title": "Griechischer Wein",
+    "audio": "https://hooks.swr.de/99005/M0017886.001.mp3"
+  },
+  {
+    "id": 105,
+    "artist": "Udo Jürgens",
+    "title": "Ich war noch niemals in New York",
+    "audio": "https://hooks.swr.de/99005/M0007791.007.mp3"
+  },
+  {
+    "id": 106,
+    "artist": "Vicky Leandros",
+    "title": "Ich liebe das Leben",
+    "audio": "https://hooks.swr.de/99005/M0494270.011.mp3"
+  },
+  {
+    "id": 107,
+    "artist": "Jonny Hill",
+    "title": "Ruf Teddybär eins-vier",
+    "audio": "https://hooks.swr.de/99005/M0079803.016.mp3"
+  },
+  {
+    "id": 108,
+    "artist": "Die Toten Hosen",
+    "title": "Hier kommt Alex",
+    "audio": "https://hooks.swr.de/99005/M0024567.027.mp3"
+  },
+  {
+    "id": 109,
+    "artist": "Depeche Mode",
+    "title": "Enjoy the silence",
+    "audio": "https://hooks.swr.de/99005/M0025037.006.mp3"
+  },
+  {
+    "id": 110,
+    "artist": "Queen",
+    "title": "Who wants to live forever?",
+    "audio": "https://hooks.swr.de/99005/M0007430.009.mp3"
+  },
+  {
+    "id": 111,
+    "artist": "Linkin Park",
+    "title": "In the end",
+    "audio": "https://hooks.swr.de/99005/M0517228.001.mp3"
+  },
+  {
+    "id": 112,
+    "artist": "Andreas Gabalier",
+    "title": "Amoi seg' ma uns wieder",
+    "audio": "https://hooks.swr.de/99005/M0231048.011.mp3"
+  },
+  {
+    "id": 113,
+    "artist": "Simon & Garfunkel",
+    "title": "The sound of silence",
+    "audio": "https://hooks.swr.de/99005/M0023433.003.mp3"
+  },
+  {
+    "id": 114,
+    "artist": "Rio Reiser",
+    "title": "Für immer und dich",
+    "audio": "https://hooks.swr.de/99005/M0514601.003.mp3"
+  },
+  {
+    "id": 115,
+    "artist": "BAP",
+    "title": "Do kanns zaubere",
+    "audio": "https://hooks.swr.de/99005/M0032402.005.mp3"
+  },
+  {
+    "id": 116,
+    "artist": "Bruce Springsteen",
+    "title": "The River",
+    "audio": "https://hooks.swr.de/99005/M0018447.011.mp3"
+  },
+  {
+    "id": 117,
+    "artist": "Pink Floyd",
+    "title": "Time",
+    "audio": "https://hooks.swr.de/99005/M0290297.001.mp3"
+  },
+  {
+    "id": 118,
+    "artist": "Wendrsonn",
+    "title": "Da ben i dahoim (Original Studioversion)",
+    "audio": "https://hooks.swr.de/99005/M0624733.001.mp3"
+  },
+  {
+    "id": 119,
+    "artist": "Bon Jovi",
+    "title": "Bed of roses",
+    "audio": "https://hooks.swr.de/99005/M0001940.008.mp3"
+  },
+  {
+    "id": 120,
+    "artist": "Radiohead",
+    "title": "Creep",
+    "audio": "https://hooks.swr.de/99005/M0082028.001.mp3"
+  },
+  {
+    "id": 121,
+    "artist": "Uriah Heep",
+    "title": "Lady in black",
+    "audio": "https://hooks.swr.de/99005/M0008923.008.mp3"
+  },
+  {
+    "id": 122,
+    "artist": "Ozzy Osbourne",
+    "title": "Mama, I'm coming home",
+    "audio": "https://hooks.swr.de/99005/M0024371.012.mp3"
+  },
+  {
+    "id": 123,
+    "artist": "Adele",
+    "title": "Hello",
+    "audio": "https://hooks.swr.de/99005/M0415259.001.mp3"
+  },
+  {
+    "id": 124,
+    "artist": "Robbie Williams",
+    "title": "Angels",
+    "audio": "https://hooks.swr.de/99005/M0006162.001.mp3"
+  },
+  {
+    "id": 125,
+    "artist": "Scorpions",
+    "title": "Wind of change (Album-Version)",
+    "audio": "https://hooks.swr.de/99005/M0106745.006.mp3"
+  },
+  {
+    "id": 126,
+    "artist": "Wolfgang Ambros",
+    "title": "Es lebe der Zentralfriedhof",
+    "audio": "https://hooks.swr.de/99005/M0000199.001.mp3"
+  },
+  {
+    "id": 127,
+    "artist": "Bon Jovi",
+    "title": "Livin' on a prayer",
+    "audio": "https://hooks.swr.de/99005/M0024992.003.mp3"
+  },
+  {
+    "id": 128,
+    "artist": "Peter Fox",
+    "title": "Haus am See",
+    "audio": "https://hooks.swr.de/99005/M0103413.001.mp3"
+  },
+  {
+    "id": 129,
+    "artist": "Lynyrd Skynyrd",
+    "title": "Simple man",
+    "audio": "https://hooks.swr.de/99005/M0080335.008.mp3"
+  },
+  {
+    "id": 130,
+    "artist": "Nirvana",
+    "title": "Smells like teen spirit",
+    "audio": "https://hooks.swr.de/99005/M0022190.001.mp3"
+  },
+  {
+    "id": 131,
+    "artist": "Reinhard Mey",
+    "title": "Gute Nacht, Freunde",
+    "audio": "https://hooks.swr.de/99005/M0301646.016.mp3"
+  },
+  {
+    "id": 132,
+    "artist": "Alice Cooper",
+    "title": "Poison",
+    "audio": "https://hooks.swr.de/99005/M0518780.001.mp3"
+  },
+  {
+    "id": 133,
+    "artist": "Ozzy Osbourne",
+    "title": "Dreamer",
+    "audio": "https://hooks.swr.de/99005/M0001123.001.mp3"
+  },
+  {
+    "id": 134,
+    "artist": "Dire Straits",
+    "title": "Money for nothing",
+    "audio": "https://hooks.swr.de/99005/M0000354.002.mp3"
+  },
+  {
+    "id": 135,
+    "artist": "The Cranberries",
+    "title": "Zombie",
+    "audio": "https://hooks.swr.de/99005/M0025678.003.mp3"
+  },
+  {
+    "id": 136,
+    "artist": "Konstantin Wecker",
+    "title": "Willy",
+    "audio": "https://hooks.swr.de/99005/M0024448.018.mp3"
+  },
+  {
+    "id": 137,
+    "artist": "Reinhard Mey",
+    "title": "Menschenjunges",
+    "audio": "https://hooks.swr.de/99005/M0350950.001.mp3"
+  },
+  {
+    "id": 138,
+    "artist": "Hannes Wader",
+    "title": "Heute hier, morgen dort",
+    "audio": "https://hooks.swr.de/99005/M0064046.020.mp3"
+  },
+  {
+    "id": 139,
+    "artist": "Alphaville",
+    "title": "Forever young",
+    "audio": "https://hooks.swr.de/99005/M0563839.001.mp3"
+  },
+  {
+    "id": 140,
+    "artist": "Elvis Presley",
+    "title": "In the ghetto",
+    "audio": "https://hooks.swr.de/99005/M0007805.001.mp3"
+  },
+  {
+    "id": 141,
+    "artist": "Münchener Freiheit",
+    "title": "Ohne Dich (schlaf ich heut Nacht nicht ein)",
+    "audio": "https://hooks.swr.de/99005/M0059294.008.mp3"
+  },
+  {
+    "id": 142,
+    "artist": "Die Toten Hosen",
+    "title": "Altes Fieber",
+    "audio": "https://hooks.swr.de/99005/M0312628.001.mp3"
+  },
+  {
+    "id": 143,
+    "artist": "Element of Crime",
+    "title": "Am Ende denk ich immer nur an dich",
+    "audio": "https://hooks.swr.de/99005/M0280819.002.mp3"
+  },
+  {
+    "id": 144,
+    "artist": "Peter Maffay",
+    "title": "Über sieben Brücken mußt du geh'n",
+    "audio": "https://hooks.swr.de/99005/M0007569.016.mp3"
+  },
+  {
+    "id": 145,
+    "artist": "Pink Floyd",
+    "title": "High hopes",
+    "audio": "https://hooks.swr.de/99005/M0302665.001.mp3"
+  },
+  {
+    "id": 146,
+    "artist": "Ed Sheeran",
+    "title": "Sapphire",
+    "audio": "https://hooks.swr.de/99005/2245764.mp3"
+  },
+  {
+    "id": 147,
+    "artist": "Doro",
+    "title": "Für immer",
+    "audio": "https://hooks.swr.de/99005/M0496371.001.mp3"
+  },
+  {
+    "id": 148,
+    "artist": "Herbert Grönemeyer",
+    "title": "Mensch",
+    "audio": "https://hooks.swr.de/99005/M0001600.001.mp3"
+  },
+  {
+    "id": 149,
+    "artist": "Udo Lindenberg",
+    "title": "Cello",
+    "audio": "https://hooks.swr.de/99005/M0009583.011.mp3"
+  },
+  {
+    "id": 150,
+    "artist": "Metallica",
+    "title": "Fade to black",
+    "audio": "https://hooks.swr.de/99005/M0080322.004.mp3"
+  },
+  {
+    "id": 151,
+    "artist": "Simon & Garfunkel",
+    "title": "Bridge over troubled water",
+    "audio": "https://hooks.swr.de/99005/M0006306.001.mp3"
+  },
+  {
+    "id": 152,
+    "artist": "Alexandra",
+    "title": "Mein Freund, der Baum",
+    "audio": "https://hooks.swr.de/99005/M0009227.004.mp3"
+  },
+  {
+    "id": 153,
+    "artist": "Iron Maiden",
+    "title": "Wasted years",
+    "audio": "https://hooks.swr.de/99005/M0481517.002.mp3"
+  },
+  {
+    "id": 154,
+    "artist": "The Beatles",
+    "title": "Hey Jude",
+    "audio": "https://hooks.swr.de/99005/M0059595.024.mp3"
+  },
+  {
+    "id": 155,
+    "artist": "The Killers",
+    "title": "Mr. Brightside",
+    "audio": "https://hooks.swr.de/99005/M0501588.002.mp3"
+  },
+  {
+    "id": 156,
+    "artist": "AC/DC",
+    "title": "You shook me all night long",
+    "audio": "https://hooks.swr.de/99005/M0011555.007.mp3"
+  },
+  {
+    "id": 157,
+    "artist": "Queen & David Bowie",
+    "title": "Under pressure",
+    "audio": "https://hooks.swr.de/99005/M0005796.011.mp3"
+  },
+  {
+    "id": 158,
+    "artist": "Deep Purple",
+    "title": "Perfect strangers",
+    "audio": "https://hooks.swr.de/99005/M0006524.009.mp3"
+  },
+  {
+    "id": 159,
+    "artist": "Lady Gaga & Bruno Mars",
+    "title": "Die with a smile",
+    "audio": "https://hooks.swr.de/99005/2098176.mp3"
+  },
+  {
+    "id": 160,
+    "artist": "Cat Stevens",
+    "title": "Father and son",
+    "audio": "https://hooks.swr.de/99005/M0028290.010.mp3"
+  },
+  {
+    "id": 161,
+    "artist": "Herbert Grönemeyer",
+    "title": "Bochum",
+    "audio": "https://hooks.swr.de/99005/M0006151.001.mp3"
+  },
+  {
+    "id": 162,
+    "artist": "Deep Purple",
+    "title": "Smoke on the water (Album Version)",
+    "audio": "https://hooks.swr.de/99005/M0240082.005.mp3"
+  },
+  {
+    "id": 163,
+    "artist": "Seiler und Speer",
+    "title": "Ham kummst",
+    "audio": "https://hooks.swr.de/99005/M0424199.001.mp3"
+  },
+  {
+    "id": 164,
+    "artist": "Rage Against The Machine",
+    "title": "Killing in the name",
+    "audio": "https://hooks.swr.de/99005/M0027535.002.mp3"
+  },
+  {
+    "id": 165,
+    "artist": "Frank Sinatra",
+    "title": "My way",
+    "audio": "https://hooks.swr.de/99005/M0008047.001.mp3"
+  },
+  {
+    "id": 166,
+    "artist": "Accept",
+    "title": "Princess of the dawn",
+    "audio": "https://hooks.swr.de/99005/M0275003.010.mp3"
+  },
+  {
+    "id": 167,
+    "artist": "Queen",
+    "title": "The show must go on",
+    "audio": "https://hooks.swr.de/99005/M0508232.001.mp3"
+  },
+  {
+    "id": 168,
+    "artist": "STS",
+    "title": "Großvater",
+    "audio": "https://hooks.swr.de/99005/M0080330.022.mp3"
+  },
+  {
+    "id": 169,
+    "artist": "Deep Purple",
+    "title": "Highway star",
+    "audio": "https://hooks.swr.de/99005/M0006213.007.mp3"
+  },
+  {
+    "id": 170,
+    "artist": "System Of A Down",
+    "title": "Chop Suey!",
+    "audio": "https://hooks.swr.de/99005/M0469478.006.mp3"
+  },
+  {
+    "id": 171,
+    "artist": "Nina Hagen",
+    "title": "Du hast den Farbfilm vergessen",
+    "audio": "https://hooks.swr.de/99005/M0314564.001.mp3"
+  },
+  {
+    "id": 172,
+    "artist": "Taylor Swift",
+    "title": "The fate of Ophelia",
+    "audio": "https://hooks.swr.de/99005/2270423.mp3"
+  },
+  {
+    "id": 173,
+    "artist": "Nena",
+    "title": "99 Luftballons",
+    "audio": "https://hooks.swr.de/99005/M0010489.013.mp3"
+  },
+  {
+    "id": 174,
+    "artist": "Zartmann",
+    "title": "Tau mich auf",
+    "audio": "https://hooks.swr.de/99005/2195275.mp3"
+  },
+  {
+    "id": 175,
+    "artist": "Guns N' Roses",
+    "title": "Sweet child o' mine (Album Version)",
+    "audio": "https://hooks.swr.de/99005/M0360080.009.mp3"
+  },
+  {
+    "id": 176,
+    "artist": "Dio",
+    "title": "Holy diver",
+    "audio": "https://hooks.swr.de/99005/M0261025.001.mp3"
+  },
+  {
+    "id": 177,
+    "artist": "Adele",
+    "title": "Skyfall",
+    "audio": "https://hooks.swr.de/99005/M0315851.001.mp3"
+  },
+  {
+    "id": 178,
+    "artist": "Iron Maiden",
+    "title": "The trooper",
+    "audio": "https://hooks.swr.de/99005/M0062212.015.mp3"
+  },
+  {
+    "id": 179,
+    "artist": "Karat",
+    "title": "Der blaue Planet",
+    "audio": "https://hooks.swr.de/99005/M0026262.037.mp3"
+  },
+  {
+    "id": 180,
+    "artist": "Karat",
+    "title": "Über sieben Brücken mußt du gehen",
+    "audio": "https://hooks.swr.de/99005/M0474774.001.mp3"
+  },
+  {
+    "id": 181,
+    "artist": "Eric Clapton",
+    "title": "Tears in heaven",
+    "audio": "https://hooks.swr.de/99005/M0347669.001.mp3"
+  },
+  {
+    "id": 182,
+    "artist": "Helene Fischer",
+    "title": "Atemlos durch die Nacht",
+    "audio": "https://hooks.swr.de/99005/M0343639.001.mp3"
+  },
+  {
+    "id": 183,
+    "artist": "Black Sabbath",
+    "title": "War pigs",
+    "audio": "https://hooks.swr.de/99005/M0024988.001.mp3"
+  },
+  {
+    "id": 184,
+    "artist": "Pink Floyd",
+    "title": "Another brick in the wall",
+    "audio": "https://hooks.swr.de/99005/M0006307.003.mp3"
+  },
+  {
+    "id": 185,
+    "artist": "CYRIL",
+    "title": "Stumblin' in",
+    "audio": "https://hooks.swr.de/99005/2056842.mp3"
+  },
+  {
+    "id": 186,
+    "artist": "Rainbow",
+    "title": "Stargazer",
+    "audio": "https://hooks.swr.de/99005/M0023431.006.mp3"
+  },
+  {
+    "id": 187,
+    "artist": "Joe Bonamassa & Beth Hart",
+    "title": "I'd rather go blind",
+    "audio": "https://hooks.swr.de/99005/M0370804.006.mp3"
+  },
+  {
+    "id": 188,
+    "artist": "Adele",
+    "title": "Rolling in the deep",
+    "audio": "https://hooks.swr.de/99005/M0264458.001.mp3"
+  },
+  {
+    "id": 189,
+    "artist": "Udo Lindenberg",
+    "title": "Hinter dem Horizont",
+    "audio": "https://hooks.swr.de/99005/M0444033.008.mp3"
+  },
+  {
+    "id": 190,
+    "artist": "Miley Cyrus",
+    "title": "Flowers",
+    "audio": "https://hooks.swr.de/99005/1794188.mp3"
+  },
+  {
+    "id": 191,
+    "artist": "Herbert Grönemeyer",
+    "title": "Musik nur, wenn sie laut ist",
+    "audio": "https://hooks.swr.de/99005/M0006152.001.mp3"
+  },
+  {
+    "id": 192,
+    "artist": "ZZ Top",
+    "title": "La grange",
+    "audio": "https://hooks.swr.de/99005/M0283091.001.mp3"
+  },
+  {
+    "id": 193,
+    "artist": "Fools Garden",
+    "title": "Lemon tree",
+    "audio": "https://hooks.swr.de/99005/M0032718.001.mp3"
+  },
+  {
+    "id": 194,
+    "artist": "Led Zeppelin",
+    "title": "Whole lotta love (Album Version)",
+    "audio": "https://hooks.swr.de/99005/M0006299.001.mp3"
+  },
+  {
+    "id": 195,
+    "artist": "U2",
+    "title": "With or without you",
+    "audio": "https://hooks.swr.de/99005/M0000283.003.mp3"
+  },
+  {
+    "id": 196,
+    "artist": "Helloween",
+    "title": "Keeper of the seven keys",
+    "audio": "https://hooks.swr.de/99005/M0370801.017.mp3"
+  },
+  {
+    "id": 197,
+    "artist": "BAP",
+    "title": "Kristallnaach",
+    "audio": "https://hooks.swr.de/99005/M0032402.001.mp3"
+  },
+  {
+    "id": 198,
+    "artist": "Rod Stewart",
+    "title": "Sailing",
+    "audio": "https://hooks.swr.de/99005/M0028256.010.mp3"
+  },
+  {
+    "id": 199,
+    "artist": "Mike Oldfield",
+    "title": "Tubular Bells Part one",
+    "audio": "https://hooks.swr.de/99005/M0000293.001.mp3"
+  },
+  {
+    "id": 200,
+    "artist": "Queen",
+    "title": "Radio ga ga",
+    "audio": "https://hooks.swr.de/99005/M0007430.003.mp3"
+  },
+  {
+    "id": 201,
+    "artist": "Bonnie Tyler",
+    "title": "Total eclipse of the heart",
+    "audio": "https://hooks.swr.de/99005/M0024643.003.mp3"
+  },
+  {
+    "id": 202,
+    "artist": "Pur",
+    "title": "Funkelperlenaugen",
+    "audio": "https://hooks.swr.de/99005/M0071348.007.mp3"
+  },
+  {
+    "id": 203,
+    "artist": "Manowar",
+    "title": "Kings of Metal",
+    "audio": "https://hooks.swr.de/99005/M0400892.001.mp3"
+  },
+  {
+    "id": 204,
+    "artist": "Guns N' Roses",
+    "title": "Paradise city",
+    "audio": "https://hooks.swr.de/99005/M0360080.006.mp3"
+  },
+  {
+    "id": 205,
+    "artist": "Pur",
+    "title": "Lena",
+    "audio": "https://hooks.swr.de/99005/M0002214.001.mp3"
+  },
+  {
+    "id": 206,
+    "artist": "The Beatles",
+    "title": "Yesterday",
+    "audio": "https://hooks.swr.de/99005/M0008996.013.mp3"
+  },
+  {
+    "id": 207,
+    "artist": "Lynyrd Skynyrd",
+    "title": "Free bird",
+    "audio": "https://hooks.swr.de/99005/M0019368.002.mp3"
+  },
+  {
+    "id": 208,
+    "artist": "Herbert Grönemeyer",
+    "title": "Halt mich",
+    "audio": "https://hooks.swr.de/99005/M0454344.001.mp3"
+  },
+  {
+    "id": 209,
+    "artist": "Queen",
+    "title": "We will rock you",
+    "audio": "https://hooks.swr.de/99005/M0048917.022.mp3"
+  },
+  {
+    "id": 210,
+    "artist": "Peter Gabriel",
+    "title": "Solsbury Hill",
+    "audio": "https://hooks.swr.de/99005/M0316609.001.mp3"
+  },
+  {
+    "id": 211,
+    "artist": "Sarah Connor",
+    "title": "Vincent",
+    "audio": "https://hooks.swr.de/99005/M0565178.001.mp3"
+  },
+  {
+    "id": 212,
+    "artist": "Ludwig Hirsch",
+    "title": "Komm, großer, schwarzer Vogel",
+    "audio": "https://hooks.swr.de/99005/M0122897.016.mp3"
+  },
+  {
+    "id": 213,
+    "artist": "Aerosmith",
+    "title": "Dream on",
+    "audio": "https://hooks.swr.de/99005/M0059591.012.mp3"
+  },
+  {
+    "id": 214,
+    "artist": "Kraftwerk",
+    "title": "Autobahn",
+    "audio": "https://hooks.swr.de/99005/M0025671.001.mp3"
+  },
+  {
+    "id": 215,
+    "artist": "AC/DC",
+    "title": "Whole lotta Rosie",
+    "audio": "https://hooks.swr.de/99005/M0040480.008.mp3"
+  },
+  {
+    "id": 216,
+    "artist": "Ozzy Osbourne",
+    "title": "Crazy Train",
+    "audio": "https://hooks.swr.de/99005/M0024371.004.mp3"
+  },
+  {
+    "id": 217,
+    "artist": "Adele",
+    "title": "Someone like you",
+    "audio": "https://hooks.swr.de/99005/M0285775.001.mp3"
+  },
+  {
+    "id": 218,
+    "artist": "Liquido",
+    "title": "Narcotic",
+    "audio": "https://hooks.swr.de/99005/M0058833.007.mp3"
+  },
+  {
+    "id": 219,
+    "artist": "Beggars Opera",
+    "title": "Time machine",
+    "audio": "https://hooks.swr.de/99005/M0361901.001.mp3"
+  },
+  {
+    "id": 220,
+    "artist": "a-ha",
+    "title": "Take on me",
+    "audio": "https://hooks.swr.de/99005/M0025543.020.mp3"
+  },
+  {
+    "id": 221,
+    "artist": "Die Toten Hosen",
+    "title": "Bonnie & Clyde",
+    "audio": "https://hooks.swr.de/99005/M0112456.002.mp3"
+  },
+  {
+    "id": 222,
+    "artist": "Johannes Oerding",
+    "title": "An guten Tagen",
+    "audio": "https://hooks.swr.de/99005/M0564707.001.mp3"
+  },
+  {
+    "id": 223,
+    "artist": "Westlife",
+    "title": "You raise me up",
+    "audio": "https://hooks.swr.de/99005/M0414707.037.mp3"
+  },
+  {
+    "id": 224,
+    "artist": "Wolle Kriwanek",
+    "title": "Reggae di uf",
+    "audio": "https://hooks.swr.de/99005/M0041024.007.mp3"
+  },
+  {
+    "id": 225,
+    "artist": "Udo Lindenberg",
+    "title": "Durch die schweren Zeiten",
+    "audio": "https://hooks.swr.de/99005/M0425730.001.mp3"
+  },
+  {
+    "id": 226,
+    "artist": "Nathan Evans",
+    "title": "Wellerman",
+    "audio": "https://hooks.swr.de/99005/M0634878.001.mp3"
+  },
+  {
+    "id": 227,
+    "artist": "Die Ärzte",
+    "title": "Junge",
+    "audio": "https://hooks.swr.de/99005/M0076599.001.mp3"
+  },
+  {
+    "id": 228,
+    "artist": "Rammstein",
+    "title": "Engel",
+    "audio": "https://hooks.swr.de/99005/M0024681.001.mp3"
+  },
+  {
+    "id": 229,
+    "artist": "Die Toten Hosen",
+    "title": "Nur zu Besuch",
+    "audio": "https://hooks.swr.de/99005/M0080224.001.mp3"
+  },
+  {
+    "id": 230,
+    "artist": "Meat Loaf",
+    "title": "Bat out of hell",
+    "audio": "https://hooks.swr.de/99005/M0028210.001.mp3"
+  },
+  {
+    "id": 231,
+    "artist": "Rosé & Bruno Mars",
+    "title": "APT.",
+    "audio": "https://hooks.swr.de/99005/2174671.mp3"
+  },
+  {
+    "id": 232,
+    "artist": "The Rolling Stones",
+    "title": "(I can't get no) Satisfaction",
+    "audio": "https://hooks.swr.de/99005/M0320609.001.mp3"
+  },
+  {
+    "id": 233,
+    "artist": "Hank Häberle jr",
+    "title": "I fahr GTI",
+    "audio": "https://hooks.swr.de/99005/M0041434.002.mp3"
+  },
+  {
+    "id": 234,
+    "artist": "Metallica",
+    "title": "Turn the page",
+    "audio": "https://hooks.swr.de/99005/M0106748.001.mp3"
+  },
+  {
+    "id": 235,
+    "artist": "Heinz Rudolf Kunze",
+    "title": "Dein ist mein ganzes Herz",
+    "audio": "https://hooks.swr.de/99005/M0061923.004.mp3"
+  },
+  {
+    "id": 236,
+    "artist": "Nightwish",
+    "title": "Sleeping sun",
+    "audio": "https://hooks.swr.de/99005/M0102073.001.mp3"
+  },
+  {
+    "id": 237,
+    "artist": "Sting",
+    "title": "Fields of gold",
+    "audio": "https://hooks.swr.de/99005/M0001962.001.mp3"
+  },
+  {
+    "id": 238,
+    "artist": "Coldplay",
+    "title": "Yellow",
+    "audio": "https://hooks.swr.de/99005/M0091075.005.mp3"
+  },
+  {
+    "id": 239,
+    "artist": "Supertramp",
+    "title": "School",
+    "audio": "https://hooks.swr.de/99005/M0040992.001.mp3"
+  },
+  {
+    "id": 240,
+    "artist": "Hubert von Goisern",
+    "title": "Brenna tuats guat",
+    "audio": "https://hooks.swr.de/99005/M0284092.001.mp3"
+  },
+  {
+    "id": 241,
+    "artist": "Wolle Kriwanek",
+    "title": "Ufo",
+    "audio": "https://hooks.swr.de/99005/M0041024.003.mp3"
+  },
+  {
+    "id": 242,
+    "artist": "Pink Floyd",
+    "title": "Atom heart mother",
+    "audio": "https://hooks.swr.de/99005/M0022751.001.mp3"
+  },
+  {
+    "id": 243,
+    "artist": "Queen",
+    "title": "Innuendo",
+    "audio": "https://hooks.swr.de/99005/M0007430.006.mp3"
+  },
+  {
+    "id": 244,
+    "artist": "AnnenMayKantereit",
+    "title": "Tommi (Live)",
+    "audio": "https://hooks.swr.de/99005/M0581853.001.mp3"
+  },
+  {
+    "id": 245,
+    "artist": "The Rolling Stones",
+    "title": "Sympathy for the devil",
+    "audio": "https://hooks.swr.de/99005/M0074426.006.mp3"
+  },
+  {
+    "id": 246,
+    "artist": "Charles Trenet",
+    "title": "La mer",
+    "audio": "https://hooks.swr.de/99005/M0257973.016.mp3"
+  },
+  {
+    "id": 247,
+    "artist": "Gotthard",
+    "title": "Heaven",
+    "audio": "https://hooks.swr.de/99005/M0253360.024.mp3"
+  },
+  {
+    "id": 248,
+    "artist": "U2",
+    "title": "One",
+    "audio": "https://hooks.swr.de/99005/M0060170.012.mp3"
+  },
+  {
+    "id": 249,
+    "artist": "Puhdys",
+    "title": "Alt wie ein Baum",
+    "audio": "https://hooks.swr.de/99005/M0392940.032.mp3"
+  },
+  {
+    "id": 250,
+    "artist": "Carole King",
+    "title": "You've got a friend",
+    "audio": "https://hooks.swr.de/99005/M0040175.007.mp3"
+  },
+  {
+    "id": 251,
+    "artist": "Wham!",
+    "title": "Last Christmas",
+    "audio": "https://hooks.swr.de/99005/M0583049.001.mp3"
+  },
+  {
+    "id": 252,
+    "artist": "Eva Cassidy",
+    "title": "Fields of gold",
+    "audio": "https://hooks.swr.de/99005/M0059671.001.mp3"
+  },
+  {
+    "id": 253,
+    "artist": "AC/DC",
+    "title": "It's a long way to the top",
+    "audio": "https://hooks.swr.de/99005/M0079560.001.mp3"
+  },
+  {
+    "id": 254,
+    "artist": "Johnny Cash",
+    "title": "Hurt",
+    "audio": "https://hooks.swr.de/99005/M0234545.001.mp3"
+  },
+  {
+    "id": 255,
+    "artist": "Blind Guardian",
+    "title": "The bard's song (in the forest)",
+    "audio": "https://hooks.swr.de/99005/M0370815.001.mp3"
+  },
+  {
+    "id": 256,
+    "artist": "Eminem",
+    "title": "Lose yourself",
+    "audio": "https://hooks.swr.de/99005/M0043505.006.mp3"
+  },
+  {
+    "id": 257,
+    "artist": "Harry Styles",
+    "title": "Sign of the times",
+    "audio": "https://hooks.swr.de/99005/M0477724.001.mp3"
+  },
+  {
+    "id": 258,
+    "artist": "ZAZ",
+    "title": "Je veux",
+    "audio": "https://hooks.swr.de/99005/M0258106.002.mp3"
+  },
+  {
+    "id": 259,
+    "artist": "Meat Loaf",
+    "title": "I'd do anything for love (but I won't do that) LP-",
+    "audio": "https://hooks.swr.de/99005/M0131041.001.mp3"
+  },
+  {
+    "id": 260,
+    "artist": "Bryan Adams",
+    "title": "(Everything I Do) I Do It For You",
+    "audio": "https://hooks.swr.de/99005/M0002232.001.mp3"
+  },
+  {
+    "id": 261,
+    "artist": "Falco",
+    "title": "Jeanny (Part I)",
+    "audio": "https://hooks.swr.de/99005/M0024570.025.mp3"
+  },
+  {
+    "id": 262,
+    "artist": "Jeff Buckley",
+    "title": "Hallelujah",
+    "audio": "https://hooks.swr.de/99005/M0087608.016.mp3"
+  },
+  {
+    "id": 263,
+    "artist": "Kiss",
+    "title": "I was made for lovin' you",
+    "audio": "https://hooks.swr.de/99005/M0023412.017.mp3"
+  },
+  {
+    "id": 264,
+    "artist": "Holstuonarmusigbigbandclub",
+    "title": "Vo Mello bis ge Schoppornou",
+    "audio": "https://hooks.swr.de/99005/M0277849.001.mp3"
+  },
+  {
+    "id": 265,
+    "artist": "Udo Jürgens & Jenny",
+    "title": "Liebe ohne Leiden",
+    "audio": "https://hooks.swr.de/99005/M0294259.001.mp3"
+  },
+  {
+    "id": 266,
+    "artist": "Kate Bush",
+    "title": "Running Up That Hill (A Deal With God)",
+    "audio": "https://hooks.swr.de/99005/M0025064.001.mp3"
+  },
+  {
+    "id": 267,
+    "artist": "Sting",
+    "title": "Fragile",
+    "audio": "https://hooks.swr.de/99005/M0262337.008.mp3"
+  },
+  {
+    "id": 268,
+    "artist": "Van Halen",
+    "title": "Jump",
+    "audio": "https://hooks.swr.de/99005/M0075920.002.mp3"
+  },
+  {
+    "id": 269,
+    "artist": "Depeche Mode",
+    "title": "Never let me down again",
+    "audio": "https://hooks.swr.de/99005/M0074975.001.mp3"
+  },
+  {
+    "id": 270,
+    "artist": "Oasis",
+    "title": "Don't look back in anger",
+    "audio": "https://hooks.swr.de/99005/M0060171.018.mp3"
+  },
+  {
+    "id": 271,
+    "artist": "Tina Turner",
+    "title": "The best",
+    "audio": "https://hooks.swr.de/99005/M0537306.001.mp3"
+  },
+  {
+    "id": 272,
+    "artist": "Genesis",
+    "title": "Mama",
+    "audio": "https://hooks.swr.de/99005/M0006142.003.mp3"
+  },
+  {
+    "id": 273,
+    "artist": "Hubert von Goisern und die Alpinkatzen",
+    "title": "Da Juchitzer",
+    "audio": "https://hooks.swr.de/99005/M0043080.012.mp3"
+  },
+  {
+    "id": 274,
+    "artist": "Marillion",
+    "title": "Kayleigh",
+    "audio": "https://hooks.swr.de/99005/M0024550.005.mp3"
+  },
+  {
+    "id": 275,
+    "artist": "Toy Dolls",
+    "title": "Nellie the elephant (live)",
+    "audio": "https://hooks.swr.de/99005/M0096417.017.mp3"
+  },
+  {
+    "id": 276,
+    "artist": "Israel Kamakawiwo'ole",
+    "title": "Somewhere over the rainbow/What a wonderful world",
+    "audio": "https://hooks.swr.de/99005/M0256167.001.mp3"
+  },
+  {
+    "id": 277,
+    "artist": "Gloria Gaynor",
+    "title": "I will survive",
+    "audio": "https://hooks.swr.de/99005/M0385139.001.mp3"
+  },
+  {
+    "id": 278,
+    "artist": "Karat",
+    "title": "Schwanenkönig",
+    "audio": "https://hooks.swr.de/99005/M0102229.001.mp3"
+  },
+  {
+    "id": 279,
+    "artist": "Amy Winehouse",
+    "title": "Back to black",
+    "audio": "https://hooks.swr.de/99005/M0084451.005.mp3"
+  },
+  {
+    "id": 280,
+    "artist": "Klaus Lage",
+    "title": "1000 und 1 Nacht",
+    "audio": "https://hooks.swr.de/99005/M0025618.001.mp3"
+  },
+  {
+    "id": 281,
+    "artist": "Falco",
+    "title": "Out Of The Dark",
+    "audio": "https://hooks.swr.de/99005/M0064219.021.mp3"
+  },
+  {
+    "id": 282,
+    "artist": "Wise Guys",
+    "title": "Deutsche Bahn",
+    "audio": "https://hooks.swr.de/99005/M0308408.001.mp3"
+  },
+  {
+    "id": 283,
+    "artist": "Janis Joplin",
+    "title": "Me and Bobby McGee",
+    "audio": "https://hooks.swr.de/99005/M0052098.003.mp3"
+  },
+  {
+    "id": 284,
+    "artist": "Cockney Rebel",
+    "title": "Sebastian (Album Version)",
+    "audio": "https://hooks.swr.de/99005/1772024.mp3"
+  },
+  {
+    "id": 285,
+    "artist": "Guns N' Roses",
+    "title": "Knockin' on heaven's door",
+    "audio": "https://hooks.swr.de/99005/M0003801.004.mp3"
+  },
+  {
+    "id": 286,
+    "artist": "Johnny Cash",
+    "title": "One",
+    "audio": "https://hooks.swr.de/99005/M0261222.020.mp3"
+  },
+  {
+    "id": 287,
+    "artist": "Snow Patrol",
+    "title": "Chasing cars",
+    "audio": "https://hooks.swr.de/99005/M0049494.001.mp3"
+  },
+  {
+    "id": 288,
+    "artist": "AC/DC",
+    "title": "Let there be Rock",
+    "audio": "https://hooks.swr.de/99005/M0040480.003.mp3"
+  },
+  {
+    "id": 289,
+    "artist": "Pur",
+    "title": "Wenn sie diesen Tango hört",
+    "audio": "https://hooks.swr.de/99005/M0071348.002.mp3"
+  },
+  {
+    "id": 290,
+    "artist": "Reinhard Mey",
+    "title": "Sommermorgen",
+    "audio": "https://hooks.swr.de/99005/M0043131.002.mp3"
+  },
+  {
+    "id": 291,
+    "artist": "Michael Jackson",
+    "title": "Earth song",
+    "audio": "https://hooks.swr.de/99005/M0037572.036.mp3"
+  },
+  {
+    "id": 292,
+    "artist": "AC/DC",
+    "title": "Touch too much",
+    "audio": "https://hooks.swr.de/99005/M0000185.004.mp3"
+  },
+  {
+    "id": 293,
+    "artist": "The Jimi Hendrix Experience",
+    "title": "All along the watchtower",
+    "audio": "https://hooks.swr.de/99005/M0118747.001.mp3"
+  },
+  {
+    "id": 294,
+    "artist": "Die Toten Hosen",
+    "title": "Alles aus Liebe",
+    "audio": "https://hooks.swr.de/99005/M0508260.001.mp3"
+  },
+  {
+    "id": 295,
+    "artist": "The Rolling Stones",
+    "title": "Gimme shelter",
+    "audio": "https://hooks.swr.de/99005/1941726.mp3"
+  },
+  {
+    "id": 296,
+    "artist": "4 Non Blondes",
+    "title": "What's Up?",
+    "audio": "https://hooks.swr.de/99005/M0001972.001.mp3"
+  },
+  {
+    "id": 297,
+    "artist": "Wolle Kriwanek",
+    "title": "I fahr Daimler (Der PS-Walzer )",
+    "audio": "https://hooks.swr.de/99005/M0041024.006.mp3"
+  },
+  {
+    "id": 298,
+    "artist": "Peter Maffay",
+    "title": "Eiszeit",
+    "audio": "https://hooks.swr.de/99005/M0019370.006.mp3"
+  },
+  {
+    "id": 299,
+    "artist": "Pur",
+    "title": "Ein graues Haar",
+    "audio": "https://hooks.swr.de/99005/M0028264.008.mp3"
+  },
+  {
+    "id": 300,
+    "artist": "Abba",
+    "title": "Slipping through my fingers",
+    "audio": "https://hooks.swr.de/99005/M0024375.011.mp3"
+  },
+  {
+    "id": 301,
+    "artist": "Runrig",
+    "title": "Hearts of olden glory",
+    "audio": "https://hooks.swr.de/99005/M0080081.003.mp3"
+  },
+  {
+    "id": 302,
+    "artist": "Herrn Stumpfes Zieh & Zupfkapelle",
+    "title": "Bemberle",
+    "audio": "https://hooks.swr.de/99005/M0057826.009.mp3"
+  },
+  {
+    "id": 303,
+    "artist": "Abba",
+    "title": "Chiquitita",
+    "audio": "https://hooks.swr.de/99005/M0001410.009.mp3"
+  },
+  {
+    "id": 304,
+    "artist": "Black Sabbath",
+    "title": "Iron man",
+    "audio": "https://hooks.swr.de/99005/M0024988.004.mp3"
+  },
+  {
+    "id": 305,
+    "artist": "Peter Maffay",
+    "title": "Und es war Sommer",
+    "audio": "https://hooks.swr.de/99005/M0497537.001.mp3"
+  },
+  {
+    "id": 306,
+    "artist": "Scorpions",
+    "title": "Still loving you",
+    "audio": "https://hooks.swr.de/99005/M0020848.012.mp3"
+  },
+  {
+    "id": 307,
+    "artist": "Das Lumpenpack",
+    "title": "Pädagogen",
+    "audio": "https://hooks.swr.de/99005/1740441.mp3"
+  },
+  {
+    "id": 308,
+    "artist": "Pink Floyd",
+    "title": "On the turning away",
+    "audio": "https://hooks.swr.de/99005/M0233936.005.mp3"
+  },
+  {
+    "id": 309,
+    "artist": "Ozzy Osbourne",
+    "title": "Mister Crowley",
+    "audio": "https://hooks.swr.de/99005/M0024371.005.mp3"
+  },
+  {
+    "id": 310,
+    "artist": "Pink Floyd",
+    "title": "Us and them",
+    "audio": "https://hooks.swr.de/99005/M0022748.006.mp3"
+  },
+  {
+    "id": 311,
+    "artist": "Fleetwood Mac",
+    "title": "Go your own way",
+    "audio": "https://hooks.swr.de/99005/M0324667.001.mp3"
+  },
+  {
+    "id": 312,
+    "artist": "Eric Clapton",
+    "title": "Wonderful tonight",
+    "audio": "https://hooks.swr.de/99005/M0025068.002.mp3"
+  },
+  {
+    "id": 313,
+    "artist": "Santana",
+    "title": "Samba pa ti",
+    "audio": "https://hooks.swr.de/99005/M0028208.007.mp3"
+  },
+  {
+    "id": 314,
+    "artist": "Rio Reiser",
+    "title": "Junimond",
+    "audio": "https://hooks.swr.de/99005/M0036130.007.mp3"
+  },
+  {
+    "id": 315,
+    "artist": "Golden Earring",
+    "title": "Radar love",
+    "audio": "https://hooks.swr.de/99005/M0024541.016.mp3"
+  },
+  {
+    "id": 316,
+    "artist": "Bruce Springsteen",
+    "title": "My hometown",
+    "audio": "https://hooks.swr.de/99005/M0001934.009.mp3"
+  },
+  {
+    "id": 317,
+    "artist": "Udo Jürgens",
+    "title": "Immer wieder geht die Sonne auf",
+    "audio": "https://hooks.swr.de/99005/M0245486.001.mp3"
+  },
+  {
+    "id": 318,
+    "artist": "Accept",
+    "title": "Metal heart",
+    "audio": "https://hooks.swr.de/99005/M0370393.001.mp3"
+  },
+  {
+    "id": 319,
+    "artist": "Melissa Etheridge",
+    "title": "Like the way I do",
+    "audio": "https://hooks.swr.de/99005/M0014591.003.mp3"
+  },
+  {
+    "id": 320,
+    "artist": "Ayliva & Apache 207",
+    "title": "Wunder",
+    "audio": "https://hooks.swr.de/99005/2046692.mp3"
+  },
+  {
+    "id": 321,
+    "artist": "Bruce Springsteen",
+    "title": "Dancing in the dark",
+    "audio": "https://hooks.swr.de/99005/M0002523.011.mp3"
+  },
+  {
+    "id": 322,
+    "artist": "Queen",
+    "title": "I want to break free",
+    "audio": "https://hooks.swr.de/99005/1727000.mp3"
+  },
+  {
+    "id": 323,
+    "artist": "Dropkick Murphys",
+    "title": "Rose Tattoo",
+    "audio": "https://hooks.swr.de/99005/M0681532.001.mp3"
+  },
+  {
+    "id": 324,
+    "artist": "Elton John",
+    "title": "Your song",
+    "audio": "https://hooks.swr.de/99005/M0000300.001.mp3"
+  },
+  {
+    "id": 325,
+    "artist": "Fleetwood Mac",
+    "title": "The chain",
+    "audio": "https://hooks.swr.de/99005/M0324651.001.mp3"
+  },
+  {
+    "id": 326,
+    "artist": "Linkin Park",
+    "title": "Heavy is the crown",
+    "audio": "https://hooks.swr.de/99005/2121633.mp3"
+  },
+  {
+    "id": 327,
+    "artist": "Fury In The Slaughterhouse",
+    "title": "Time to wonder",
+    "audio": "https://hooks.swr.de/99005/M0102706.006.mp3"
+  },
+  {
+    "id": 328,
+    "artist": "Sting",
+    "title": "Englishman in New York",
+    "audio": "https://hooks.swr.de/99005/M0253653.002.mp3"
+  },
+  {
+    "id": 329,
+    "artist": "Paul Kalkbrenner",
+    "title": "Sky and sand",
+    "audio": "https://hooks.swr.de/99005/M0356091.011.mp3"
+  },
+  {
+    "id": 330,
+    "artist": "Earth, Wind & Fire",
+    "title": "September",
+    "audio": "https://hooks.swr.de/99005/M0024429.006.mp3"
+  },
+  {
+    "id": 331,
+    "artist": "Queensrÿche",
+    "title": "Silent lucidity",
+    "audio": "https://hooks.swr.de/99005/M0040542.008.mp3"
+  },
+  {
+    "id": 332,
+    "artist": "Manowar",
+    "title": "Carry on",
+    "audio": "https://hooks.swr.de/99005/M0102879.001.mp3"
+  },
+  {
+    "id": 333,
+    "artist": "Die Fantastischen Vier",
+    "title": "Troy",
+    "audio": "https://hooks.swr.de/99005/M0015667.001.mp3"
+  },
+  {
+    "id": 334,
+    "artist": "Don McLean",
+    "title": "Vincent",
+    "audio": "https://hooks.swr.de/99005/M0020661.014.mp3"
+  },
+  {
+    "id": 335,
+    "artist": "STS",
+    "title": "Irgendwann bleib i dann dort",
+    "audio": "https://hooks.swr.de/99005/M0080329.022.mp3"
+  },
+  {
+    "id": 336,
+    "artist": "Abba",
+    "title": "I have a dream",
+    "audio": "https://hooks.swr.de/99005/M0001410.011.mp3"
+  },
+  {
+    "id": 337,
+    "artist": "Queen",
+    "title": "Somebody to love",
+    "audio": "https://hooks.swr.de/99005/M0000285.010.mp3"
+  },
+  {
+    "id": 338,
+    "artist": "Héroes Del Silencio",
+    "title": "Entre dos tierras (Album Version)",
+    "audio": "https://hooks.swr.de/99005/M0397183.001.mp3"
+  },
+  {
+    "id": 339,
+    "artist": "Queen",
+    "title": "These are the days of our lives",
+    "audio": "https://hooks.swr.de/99005/M0005683.008.mp3"
+  },
+  {
+    "id": 340,
+    "artist": "Simon & Garfunkel",
+    "title": "The boxer",
+    "audio": "https://hooks.swr.de/99005/M0388502.006.mp3"
+  },
+  {
+    "id": 341,
+    "artist": "AC/DC",
+    "title": "The Jack",
+    "audio": "https://hooks.swr.de/99005/M0079560.003.mp3"
+  },
+  {
+    "id": 342,
+    "artist": "Abba",
+    "title": "Our last summer",
+    "audio": "https://hooks.swr.de/99005/M0043511.013.mp3"
+  },
+  {
+    "id": 343,
+    "artist": "The Goo Goo Dolls",
+    "title": "Iris",
+    "audio": "https://hooks.swr.de/99005/M0026289.001.mp3"
+  },
+  {
+    "id": 344,
+    "artist": "Bon Jovi",
+    "title": "It's my life",
+    "audio": "https://hooks.swr.de/99005/M0006154.001.mp3"
+  },
+  {
+    "id": 345,
+    "artist": "Depeche Mode",
+    "title": "Personal Jesus",
+    "audio": "https://hooks.swr.de/99005/M0278717.001.mp3"
+  },
+  {
+    "id": 346,
+    "artist": "Procol Harum",
+    "title": "A whiter shade of pale",
+    "audio": "https://hooks.swr.de/99005/M0363324.009.mp3"
+  },
+  {
+    "id": 347,
+    "artist": "Abba",
+    "title": "Super Trouper",
+    "audio": "https://hooks.swr.de/99005/M0001410.015.mp3"
+  },
+  {
+    "id": 348,
+    "artist": "George Michael & Queen",
+    "title": "Somebody to love",
+    "audio": "https://hooks.swr.de/99005/M0363222.005.mp3"
+  },
+  {
+    "id": 349,
+    "artist": "Accept",
+    "title": "Balls to the wall",
+    "audio": "https://hooks.swr.de/99005/M0370663.001.mp3"
+  },
+  {
+    "id": 350,
+    "artist": "Billy Joel",
+    "title": "Leningrad",
+    "audio": "https://hooks.swr.de/99005/M0063390.007.mp3"
+  },
+  {
+    "id": 351,
+    "artist": "Oasis",
+    "title": "Wonderwall",
+    "audio": "https://hooks.swr.de/99005/M0060171.006.mp3"
+  },
+  {
+    "id": 352,
+    "artist": "Black Sabbath",
+    "title": "Heaven and hell",
+    "audio": "https://hooks.swr.de/99005/M0066746.003.mp3"
+  },
+  {
+    "id": 353,
+    "artist": "Franz Josef Degenhardt",
+    "title": "Spiel nicht mit den Schmuddelkindern",
+    "audio": "https://hooks.swr.de/99005/M0109946.001.mp3"
+  },
+  {
+    "id": 354,
+    "artist": "Reinhard Mey",
+    "title": "Mein Apfelbäumchen",
+    "audio": "https://hooks.swr.de/99005/M0007551.001.mp3"
+  },
+  {
+    "id": 355,
+    "artist": "Jermaine Jackson & Pia Zadora",
+    "title": "When the rain begins to fall",
+    "audio": "https://hooks.swr.de/99005/M0040301.002.mp3"
+  },
+  {
+    "id": 356,
+    "artist": "Peter Alexander",
+    "title": "Die kleine Kneipe",
+    "audio": "https://hooks.swr.de/99005/M0006896.001.mp3"
+  },
+  {
+    "id": 357,
+    "artist": "Louis Armstrong",
+    "title": "What a wonderful world",
+    "audio": "https://hooks.swr.de/99005/M0008050.016.mp3"
+  },
+  {
+    "id": 358,
+    "artist": "Udo Lindenberg featuring Clueso",
+    "title": "Cello",
+    "audio": "https://hooks.swr.de/99005/M0287541.001.mp3"
+  },
+  {
+    "id": 359,
+    "artist": "Linkin Park",
+    "title": "One more light",
+    "audio": "https://hooks.swr.de/99005/M0481418.001.mp3"
+  },
+  {
+    "id": 360,
+    "artist": "Wishful Thinking",
+    "title": "Hiroshima",
+    "audio": "https://hooks.swr.de/99005/M0040485.007.mp3"
+  },
+  {
+    "id": 361,
+    "artist": "Adele",
+    "title": "Set fire to the rain",
+    "audio": "https://hooks.swr.de/99005/M0273976.001.mp3"
+  },
+  {
+    "id": 362,
+    "artist": "BAP",
+    "title": "Jupp (Album Version)",
+    "audio": "https://hooks.swr.de/99005/M0000314.005.mp3"
+  },
+  {
+    "id": 363,
+    "artist": "Kate Bush",
+    "title": "Wuthering heights",
+    "audio": "https://hooks.swr.de/99005/M0087331.003.mp3"
+  },
+  {
+    "id": 364,
+    "artist": "Led Zeppelin",
+    "title": "Immigrant Song",
+    "audio": "https://hooks.swr.de/99005/M0415684.001.mp3"
+  },
+  {
+    "id": 365,
+    "artist": "Bob Dylan",
+    "title": "Like a rolling stone",
+    "audio": "https://hooks.swr.de/99005/M0016502.005.mp3"
+  },
+  {
+    "id": 366,
+    "artist": "Friedi",
+    "title": "Schwaben-Rap",
+    "audio": "https://hooks.swr.de/99005/M0041434.007.mp3"
+  },
+  {
+    "id": 367,
+    "artist": "Katie Melua",
+    "title": "Nine million bicycles",
+    "audio": "https://hooks.swr.de/99005/M0080062.001.mp3"
+  },
+  {
+    "id": 368,
+    "artist": "Disturbed",
+    "title": "Down with the sickness",
+    "audio": "https://hooks.swr.de/99005/M0445127.004.mp3"
+  },
+  {
+    "id": 369,
+    "artist": "Coldplay",
+    "title": "Feelslikeimfallinginlove",
+    "audio": "https://hooks.swr.de/99005/2069288.mp3"
+  },
+  {
+    "id": 370,
+    "artist": "Queen",
+    "title": "Friends will be friends",
+    "audio": "https://hooks.swr.de/99005/M0005747.005.mp3"
+  },
+  {
+    "id": 371,
+    "artist": "Peter Cornelius",
+    "title": "Du entschuldige - i kenn' di",
+    "audio": "https://hooks.swr.de/99005/M0026262.011.mp3"
+  },
+  {
+    "id": 372,
+    "artist": "Herbert Grönemeyer",
+    "title": "Männer",
+    "audio": "https://hooks.swr.de/99005/M0006151.002.mp3"
+  },
+  {
+    "id": 373,
+    "artist": "Miley Cyrus",
+    "title": "End of the world",
+    "audio": "https://hooks.swr.de/99005/2223045.mp3"
+  },
+  {
+    "id": 374,
+    "artist": "Spider Murphy Gang",
+    "title": "Skandal im Sperrbezirk",
+    "audio": "https://hooks.swr.de/99005/M0024330.007.mp3"
+  },
+  {
+    "id": 375,
+    "artist": "Peter Maffay",
+    "title": "So bist du",
+    "audio": "https://hooks.swr.de/99005/M0026776.007.mp3"
+  },
+  {
+    "id": 376,
+    "artist": "Michael Jackson",
+    "title": "Thriller",
+    "audio": "https://hooks.swr.de/99005/M0315158.001.mp3"
+  },
+  {
+    "id": 377,
+    "artist": "The Beatles",
+    "title": "While my guitar gently weeps",
+    "audio": "https://hooks.swr.de/99005/M0008652.007.mp3"
+  },
+  {
+    "id": 378,
+    "artist": "Rio Reiser",
+    "title": "König von Deutschland",
+    "audio": "https://hooks.swr.de/99005/M0514601.006.mp3"
+  },
+  {
+    "id": 379,
+    "artist": "Joe Bonamassa",
+    "title": "Sloe gin",
+    "audio": "https://hooks.swr.de/99005/M0086876.005.mp3"
+  },
+  {
+    "id": 380,
+    "artist": "Bon Jovi",
+    "title": "Runaway",
+    "audio": "https://hooks.swr.de/99005/M0040484.001.mp3"
+  },
+  {
+    "id": 381,
+    "artist": "R.E.M.",
+    "title": "Losing my religion",
+    "audio": "https://hooks.swr.de/99005/M0002212.001.mp3"
+  },
+  {
+    "id": 382,
+    "artist": "Wanda",
+    "title": "Bologna",
+    "audio": "https://hooks.swr.de/99005/M0382348.001.mp3"
+  },
+  {
+    "id": 383,
+    "artist": "Neil Diamond",
+    "title": "Sweet Caroline",
+    "audio": "https://hooks.swr.de/99005/M0009269.012.mp3"
+  },
+  {
+    "id": 384,
+    "artist": "Coldplay",
+    "title": "A sky full of stars",
+    "audio": "https://hooks.swr.de/99005/M0360610.001.mp3"
+  },
+  {
+    "id": 385,
+    "artist": "Udo Lindenberg",
+    "title": "Mein Ding",
+    "audio": "https://hooks.swr.de/99005/M0094539.001.mp3"
+  },
+  {
+    "id": 386,
+    "artist": "Bruce Springsteen",
+    "title": "Streets of Philadelphia",
+    "audio": "https://hooks.swr.de/99005/M0013441.024.mp3"
+  },
+  {
+    "id": 387,
+    "artist": "Pink Floyd",
+    "title": "Brain damage",
+    "audio": "https://hooks.swr.de/99005/M0022748.008.mp3"
+  },
+  {
+    "id": 388,
+    "artist": "P!nk (Pink) feat. Indigo Girls",
+    "title": "Dear Mr. President",
+    "audio": "https://hooks.swr.de/99005/M0080067.001.mp3"
+  },
+  {
+    "id": 389,
+    "artist": "Abba",
+    "title": "Don't shut me down",
+    "audio": "https://hooks.swr.de/99005/M0676585.001.mp3"
+  },
+  {
+    "id": 390,
+    "artist": "Die Toten Hosen",
+    "title": "Sascha... ein aufrechter Deutscher",
+    "audio": "https://hooks.swr.de/99005/M0339456.001.mp3"
+  },
+  {
+    "id": 391,
+    "artist": "John Denver",
+    "title": "Annie's song",
+    "audio": "https://hooks.swr.de/99005/M0072678.004.mp3"
+  },
+  {
+    "id": 392,
+    "artist": "Elvis Presley",
+    "title": "Suspicious minds",
+    "audio": "https://hooks.swr.de/99005/M0007805.016.mp3"
+  },
+  {
+    "id": 393,
+    "artist": "Judas Priest",
+    "title": "Breaking the law",
+    "audio": "https://hooks.swr.de/99005/M0080059.010.mp3"
+  },
+  {
+    "id": 394,
+    "artist": "Abba",
+    "title": "I still have faith in you",
+    "audio": "https://hooks.swr.de/99005/M0676586.001.mp3"
+  },
+  {
+    "id": 395,
+    "artist": "Abba",
+    "title": "Eagle",
+    "audio": "https://hooks.swr.de/99005/M0001409.004.mp3"
+  },
+  {
+    "id": 396,
+    "artist": "Chris Stapleton",
+    "title": "Tennessee whiskey",
+    "audio": "https://hooks.swr.de/99005/M0408173.001.mp3"
+  },
+  {
+    "id": 397,
+    "artist": "Sia",
+    "title": "Unstoppable",
+    "audio": "https://hooks.swr.de/99005/M0422683.001.mp3"
+  },
+  {
+    "id": 398,
+    "artist": "Grachmusikoff",
+    "title": "Drägglacha Blues (live)",
+    "audio": "https://hooks.swr.de/99005/M0068266.002.mp3"
+  },
+  {
+    "id": 399,
+    "artist": "Sarah Connor",
+    "title": "Wie schön du bist",
+    "audio": "https://hooks.swr.de/99005/M0397658.001.mp3"
+  },
+  {
+    "id": 400,
+    "artist": "Dire Straits",
+    "title": "Romeo and Juliet",
+    "audio": "https://hooks.swr.de/99005/M0368923.004.mp3"
+  },
+  {
+    "id": 401,
+    "artist": "David Bowie",
+    "title": "Space oddity",
+    "audio": "https://hooks.swr.de/99005/M0022747.001.mp3"
+  },
+  {
+    "id": 402,
+    "artist": "Karel Gott",
+    "title": "Die Biene Maja",
+    "audio": "https://hooks.swr.de/99005/M0005492.011.mp3"
+  },
+  {
+    "id": 403,
+    "artist": "Hiss",
+    "title": "Tanz!",
+    "audio": "https://hooks.swr.de/99005/M0039888.001.mp3"
+  },
+  {
+    "id": 404,
+    "artist": "John Denver",
+    "title": "Take me home, country roads",
+    "audio": "https://hooks.swr.de/99005/M0007693.020.mp3"
+  },
+  {
+    "id": 405,
+    "artist": "Backstreet Boys",
+    "title": "Everybody (Backstreet's Back)",
+    "audio": "https://hooks.swr.de/99005/M0563983.001.mp3"
+  },
+  {
+    "id": 406,
+    "artist": "Rosenstolz",
+    "title": "Liebe ist alles",
+    "audio": "https://hooks.swr.de/99005/M0081783.001.mp3"
+  },
+  {
+    "id": 407,
+    "artist": "Pink Floyd",
+    "title": "The great gig in the sky",
+    "audio": "https://hooks.swr.de/99005/M0041433.008.mp3"
+  },
+  {
+    "id": 408,
+    "artist": "Bruce Springsteen",
+    "title": "Born to run",
+    "audio": "https://hooks.swr.de/99005/M0026777.005.mp3"
+  },
+  {
+    "id": 409,
+    "artist": "Queen",
+    "title": "We are the champions",
+    "audio": "https://hooks.swr.de/99005/M0029343.001.mp3"
+  },
+  {
+    "id": 410,
+    "artist": "Amy Macdonald",
+    "title": "This is the life",
+    "audio": "https://hooks.swr.de/99005/M0087696.001.mp3"
+  },
+  {
+    "id": 411,
+    "artist": "Supertramp",
+    "title": "Fool's overture",
+    "audio": "https://hooks.swr.de/99005/M0234071.007.mp3"
+  },
+  {
+    "id": 412,
+    "artist": "Die Fantastischen Vier",
+    "title": "Tag am Meer",
+    "audio": "https://hooks.swr.de/99005/M0513091.003.mp3"
+  },
+  {
+    "id": 413,
+    "artist": "AC/DC",
+    "title": "Who made who",
+    "audio": "https://hooks.swr.de/99005/M0240241.001.mp3"
+  },
+  {
+    "id": 414,
+    "artist": "Peter Maffay",
+    "title": "Du",
+    "audio": "https://hooks.swr.de/99005/M0040491.001.mp3"
+  },
+  {
+    "id": 415,
+    "artist": "Queen",
+    "title": "39",
+    "audio": "https://hooks.swr.de/99005/M0005682.005.mp3"
+  },
+  {
+    "id": 416,
+    "artist": "Ed Sheeran",
+    "title": "I see fire",
+    "audio": "https://hooks.swr.de/99005/M0348986.027.mp3"
+  },
+  {
+    "id": 417,
+    "artist": "Reinhard Mey",
+    "title": "Keine ruhige Minute",
+    "audio": "https://hooks.swr.de/99005/M0301644.002.mp3"
+  },
+  {
+    "id": 418,
+    "artist": "Sinéad O'Connor",
+    "title": "Nothing compares 2 U",
+    "audio": "https://hooks.swr.de/99005/M0516796.001.mp3"
+  },
+  {
+    "id": 419,
+    "artist": "David Bowie",
+    "title": "Starman",
+    "audio": "https://hooks.swr.de/99005/M0025062.004.mp3"
+  },
+  {
+    "id": 420,
+    "artist": "Silbermond",
+    "title": "Das Beste",
+    "audio": "https://hooks.swr.de/99005/M0057715.001.mp3"
+  },
+  {
+    "id": 421,
+    "artist": "Clowns & Helden",
+    "title": "Ich liebe dich",
+    "audio": "https://hooks.swr.de/99005/M0069440.002.mp3"
+  },
+  {
+    "id": 422,
+    "artist": "Joe Cocker",
+    "title": "With a little help from my friends",
+    "audio": "https://hooks.swr.de/99005/M0410419.017.mp3"
+  },
+  {
+    "id": 423,
+    "artist": "Bob Dylan",
+    "title": "Knockin' on heaven's door",
+    "audio": "https://hooks.swr.de/99005/M0016502.011.mp3"
+  },
+  {
+    "id": 424,
+    "artist": "Queen",
+    "title": "Face it alone",
+    "audio": "https://hooks.swr.de/99005/1741366.mp3"
+  },
+  {
+    "id": 425,
+    "artist": "Foreigner",
+    "title": "I want to know what love is",
+    "audio": "https://hooks.swr.de/99005/M0508237.002.mp3"
+  },
+  {
+    "id": 426,
+    "artist": "Genesis",
+    "title": "Firth of fifth",
+    "audio": "https://hooks.swr.de/99005/M0025371.003.mp3"
+  },
+  {
+    "id": 427,
+    "artist": "Linkin Park",
+    "title": "Castle of glass",
+    "audio": "https://hooks.swr.de/99005/M0315231.001.mp3"
+  },
+  {
+    "id": 428,
+    "artist": "Tenacious D",
+    "title": "Tribute",
+    "audio": "https://hooks.swr.de/99005/M0375090.001.mp3"
+  },
+  {
+    "id": 429,
+    "artist": "Pearl Jam",
+    "title": "Alive",
+    "audio": "https://hooks.swr.de/99005/M0270346.001.mp3"
+  },
+  {
+    "id": 430,
+    "artist": "Chris de Burgh",
+    "title": "The Lady in red",
+    "audio": "https://hooks.swr.de/99005/M0118992.001.mp3"
+  },
+  {
+    "id": 431,
+    "artist": "Element of Crime",
+    "title": "Delmenhorst",
+    "audio": "https://hooks.swr.de/99005/M0054941.001.mp3"
+  },
+  {
+    "id": 432,
+    "artist": "Nina Chuba",
+    "title": "Wildberry Lillet",
+    "audio": "https://hooks.swr.de/99005/1854448.mp3"
+  },
+  {
+    "id": 433,
+    "artist": "Sting",
+    "title": "Shape of my heart",
+    "audio": "https://hooks.swr.de/99005/M0004715.012.mp3"
+  },
+  {
+    "id": 434,
+    "artist": "Wincent Weiss",
+    "title": "Feuerwerk",
+    "audio": "https://hooks.swr.de/99005/M0465366.001.mp3"
+  },
+  {
+    "id": 435,
+    "artist": "Juliane Werding",
+    "title": "Am Tag, als Conny Kramer starb",
+    "audio": "https://hooks.swr.de/99005/M0008852.009.mp3"
+  },
+  {
+    "id": 436,
+    "artist": "Scott McKenzie",
+    "title": "San Francisco (be sure to wear some flowers in you",
+    "audio": "https://hooks.swr.de/99005/M0023704.009.mp3"
+  },
+  {
+    "id": 437,
+    "artist": "Kings Of Leon",
+    "title": "Sex on fire",
+    "audio": "https://hooks.swr.de/99005/M0097950.001.mp3"
+  },
+  {
+    "id": 438,
+    "artist": "Apache 207",
+    "title": "Roller",
+    "audio": "https://hooks.swr.de/99005/1849594.mp3"
+  },
+  {
+    "id": 439,
+    "artist": "The Rolling Stones",
+    "title": "Wild horses",
+    "audio": "https://hooks.swr.de/99005/M0320629.001.mp3"
+  },
+  {
+    "id": 440,
+    "artist": "Queen",
+    "title": "I want it all",
+    "audio": "https://hooks.swr.de/99005/M0007430.004.mp3"
+  },
+  {
+    "id": 441,
+    "artist": "Simple Minds",
+    "title": "Belfast Child",
+    "audio": "https://hooks.swr.de/99005/M0350640.001.mp3"
+  },
+  {
+    "id": 442,
+    "artist": "Pentatonix",
+    "title": "Hallelujah",
+    "audio": "https://hooks.swr.de/99005/M0452178.001.mp3"
+  },
+  {
+    "id": 443,
+    "artist": "AC/DC",
+    "title": "Ride on",
+    "audio": "https://hooks.swr.de/99005/M0079561.008.mp3"
+  },
+  {
+    "id": 444,
+    "artist": "Anyone's Daughter",
+    "title": "Moria",
+    "audio": "https://hooks.swr.de/99005/M0294557.004.mp3"
+  },
+  {
+    "id": 445,
+    "artist": "U2",
+    "title": "Sunday bloody Sunday",
+    "audio": "https://hooks.swr.de/99005/M0006160.001.mp3"
+  },
+  {
+    "id": 446,
+    "artist": "Nena",
+    "title": "Irgendwie, irgendwo, irgendwann",
+    "audio": "https://hooks.swr.de/99005/M0000944.012.mp3"
+  },
+  {
+    "id": 447,
+    "artist": "Nicole",
+    "title": "Ein bißchen Frieden",
+    "audio": "https://hooks.swr.de/99005/M0043491.005.mp3"
+  },
+  {
+    "id": 448,
+    "artist": "Whitney Houston",
+    "title": "I will always love you",
+    "audio": "https://hooks.swr.de/99005/M0516882.001.mp3"
+  },
+  {
+    "id": 449,
+    "artist": "Scooter",
+    "title": "Hyper, hyper",
+    "audio": "https://hooks.swr.de/99005/M0579311.001.mp3"
+  },
+  {
+    "id": 450,
+    "artist": "Gary Moore",
+    "title": "Still got the blues (for you)",
+    "audio": "https://hooks.swr.de/99005/M0023751.014.mp3"
+  },
+  {
+    "id": 451,
+    "artist": "Bryan Adams",
+    "title": "Heaven",
+    "audio": "https://hooks.swr.de/99005/M0006215.004.mp3"
+  },
+  {
+    "id": 452,
+    "artist": "Bob Marley & The Wailers",
+    "title": "Three little birds",
+    "audio": "https://hooks.swr.de/99005/M0018323.004.mp3"
+  },
+  {
+    "id": 453,
+    "artist": "Coldplay",
+    "title": "Clocks",
+    "audio": "https://hooks.swr.de/99005/M0036371.001.mp3"
+  },
+  {
+    "id": 454,
+    "artist": "The Rolling Stones",
+    "title": "Paint it black",
+    "audio": "https://hooks.swr.de/99005/M0000352.009.mp3"
+  },
+  {
+    "id": 455,
+    "artist": "Helene Fischer",
+    "title": "Herzbeben",
+    "audio": "https://hooks.swr.de/99005/M0486286.001.mp3"
+  },
+  {
+    "id": 456,
+    "artist": "Die Fantastischen Vier",
+    "title": "Die da!?!",
+    "audio": "https://hooks.swr.de/99005/M0508246.001.mp3"
+  },
+  {
+    "id": 457,
+    "artist": "Helloween",
+    "title": "Future world",
+    "audio": "https://hooks.swr.de/99005/M0370801.006.mp3"
+  },
+  {
+    "id": 458,
+    "artist": "Don Henley",
+    "title": "The boys of summer (Single Edit)",
+    "audio": "https://hooks.swr.de/99005/M0041251.001.mp3"
+  },
+  {
+    "id": 459,
+    "artist": "Benson Boone",
+    "title": "Beautiful things",
+    "audio": "https://hooks.swr.de/99005/2019703.mp3"
+  },
+  {
+    "id": 460,
+    "artist": "Journey",
+    "title": "Separate ways (Worlds apart)",
+    "audio": "https://hooks.swr.de/99005/M0023550.015.mp3"
+  },
+  {
+    "id": 461,
+    "artist": "Suzi Quatro & Chris Norman",
+    "title": "Stumblin' in",
+    "audio": "https://hooks.swr.de/99005/M0024556.041.mp3"
+  },
+  {
+    "id": 462,
+    "artist": "USA For Africa",
+    "title": "We are the world",
+    "audio": "https://hooks.swr.de/99005/M0039953.001.mp3"
+  },
+  {
+    "id": 463,
+    "artist": "Roxette",
+    "title": "Listen to your heart",
+    "audio": "https://hooks.swr.de/99005/M0349506.001.mp3"
+  },
+  {
+    "id": 464,
+    "artist": "Bruce Springsteen",
+    "title": "Glory days",
+    "audio": "https://hooks.swr.de/99005/M0013441.017.mp3"
+  },
+  {
+    "id": 465,
+    "artist": "Uriah Heep",
+    "title": "July morning",
+    "audio": "https://hooks.swr.de/99005/M0236513.001.mp3"
+  },
+  {
+    "id": 466,
+    "artist": "Mike Batt",
+    "title": "The ride to Agadir",
+    "audio": "https://hooks.swr.de/99005/M0033826.001.mp3"
+  },
+  {
+    "id": 467,
+    "artist": "Slade",
+    "title": "My oh my",
+    "audio": "https://hooks.swr.de/99005/M0024466.003.mp3"
+  },
+  {
+    "id": 468,
+    "artist": "Neil Young",
+    "title": "Heart of gold",
+    "audio": "https://hooks.swr.de/99005/M0022537.011.mp3"
+  },
+  {
+    "id": 469,
+    "artist": "America",
+    "title": "The last unicorn",
+    "audio": "https://hooks.swr.de/99005/M0039605.019.mp3"
+  },
+  {
+    "id": 470,
+    "artist": "Severija",
+    "title": "Zu Asche, zu Staub (Babylon Berlin)",
+    "audio": "https://hooks.swr.de/99005/M0496893.001.mp3"
+  },
+  {
+    "id": 471,
+    "artist": "Unheilig",
+    "title": "So wie du warst",
+    "audio": "https://hooks.swr.de/99005/M0298455.001.mp3"
+  },
+  {
+    "id": 472,
+    "artist": "Pink Floyd",
+    "title": "Money",
+    "audio": "https://hooks.swr.de/99005/M0287740.006.mp3"
+  },
+  {
+    "id": 473,
+    "artist": "Elton John",
+    "title": "Circle of life",
+    "audio": "https://hooks.swr.de/99005/M0001948.001.mp3"
+  },
+  {
+    "id": 474,
+    "artist": "Andreas Gabalier",
+    "title": "Hulapalu",
+    "audio": "https://hooks.swr.de/99005/M0411381.001.mp3"
+  },
+  {
+    "id": 475,
+    "artist": "Helene Fischer",
+    "title": "Achterbahn",
+    "audio": "https://hooks.swr.de/99005/M0492289.001.mp3"
+  },
+  {
+    "id": 476,
+    "artist": "Taylor Swift",
+    "title": "Anti-hero",
+    "audio": "https://hooks.swr.de/99005/1752993.mp3"
+  },
+  {
+    "id": 477,
+    "artist": "Genesis",
+    "title": "Musical box",
+    "audio": "https://hooks.swr.de/99005/M0025898.001.mp3"
+  },
+  {
+    "id": 478,
+    "artist": "Journey",
+    "title": "Faithfully",
+    "audio": "https://hooks.swr.de/99005/M0023550.018.mp3"
+  },
+  {
+    "id": 479,
+    "artist": "The Rolling Stones",
+    "title": "Angie",
+    "audio": "https://hooks.swr.de/99005/M0023362.001.mp3"
+  },
+  {
+    "id": 480,
+    "artist": "Leonard Cohen",
+    "title": "Suzanne",
+    "audio": "https://hooks.swr.de/99005/M0388307.001.mp3"
+  },
+  {
+    "id": 481,
+    "artist": "Konstantin Wecker",
+    "title": "Genug ist nicht genug",
+    "audio": "https://hooks.swr.de/99005/M0024448.001.mp3"
+  },
+  {
+    "id": 482,
+    "artist": "Eric Clapton",
+    "title": "Layla",
+    "audio": "https://hooks.swr.de/99005/M0026481.007.mp3"
+  },
+  {
+    "id": 483,
+    "artist": "Gloria Gaynor",
+    "title": "I am what I am",
+    "audio": "https://hooks.swr.de/99005/M0385139.009.mp3"
+  },
+  {
+    "id": 484,
+    "artist": "Edoardo Bennato & Gianna Nannini",
+    "title": "Un' estate italiana",
+    "audio": "https://hooks.swr.de/99005/M0415053.006.mp3"
+  },
+  {
+    "id": 485,
+    "artist": "Pink Floyd",
+    "title": "Learning to fly",
+    "audio": "https://hooks.swr.de/99005/M0280534.004.mp3"
+  },
+  {
+    "id": 486,
+    "artist": "Kansas",
+    "title": "Carry on wayward son",
+    "audio": "https://hooks.swr.de/99005/M0561001.001.mp3"
+  },
+  {
+    "id": 487,
+    "artist": "Mark Knopfler feat. James Taylor",
+    "title": "Sailing to Philadelphia",
+    "audio": "https://hooks.swr.de/99005/M0080681.002.mp3"
+  },
+  {
+    "id": 488,
+    "artist": "R.E.M.",
+    "title": "Everybody hurts",
+    "audio": "https://hooks.swr.de/99005/M0036412.001.mp3"
+  },
+  {
+    "id": 489,
+    "artist": "Marillion",
+    "title": "Script for a jester's tear",
+    "audio": "https://hooks.swr.de/99005/M0080347.001.mp3"
+  },
+  {
+    "id": 490,
+    "artist": "Teddy Swims",
+    "title": "Bad dreams",
+    "audio": "https://hooks.swr.de/99005/2118675.mp3"
+  },
+  {
+    "id": 491,
+    "artist": "The Coalminers' Beat",
+    "title": "Land of green",
+    "audio": "https://hooks.swr.de/99005/M0645782.001.mp3"
+  },
+  {
+    "id": 492,
+    "artist": "Labrassbanda",
+    "title": "Autobahn",
+    "audio": "https://hooks.swr.de/99005/M0092624.002.mp3"
+  },
+  {
+    "id": 493,
+    "artist": "Udo Jürgens",
+    "title": "Ein ehrenwertes Haus",
+    "audio": "https://hooks.swr.de/99005/M0065645.004.mp3"
+  },
+  {
+    "id": 494,
+    "artist": "Schwoißfuaß",
+    "title": "Bin ich selbr Rastaman??",
+    "audio": "https://hooks.swr.de/99005/M0020660.005.mp3"
+  },
+  {
+    "id": 495,
+    "artist": "Lynyrd Skynyrd",
+    "title": "Sweet home Alabama",
+    "audio": "https://hooks.swr.de/99005/M0417106.037.mp3"
+  },
+  {
+    "id": 496,
+    "artist": "Rush",
+    "title": "Tom Sawyer",
+    "audio": "https://hooks.swr.de/99005/M0023432.009.mp3"
+  },
+  {
+    "id": 497,
+    "artist": "Silly",
+    "title": "Alles rot",
+    "audio": "https://hooks.swr.de/99005/M0256212.001.mp3"
+  },
+  {
+    "id": 498,
+    "artist": "WIZO",
+    "title": "Quadrat im Kreis",
+    "audio": "https://hooks.swr.de/99005/M0592634.004.mp3"
+  },
+  {
+    "id": 499,
+    "artist": "Nirvana",
+    "title": "Come as you are",
+    "audio": "https://hooks.swr.de/99005/M0110045.001.mp3"
+  },
+  {
+    "id": 500,
+    "artist": "Aerosmith",
+    "title": "I don't want to miss a thing",
+    "audio": "https://hooks.swr.de/99005/M0006103.001.mp3"
+  },
+  {
+    "id": 501,
+    "artist": "Pavlov's Dog",
+    "title": "Julia",
+    "audio": "https://hooks.swr.de/99005/1830112.mp3"
+  },
+  {
+    "id": 502,
+    "artist": "Cat Stevens",
+    "title": "Morning has broken",
+    "audio": "https://hooks.swr.de/99005/M0056488.001.mp3"
+  },
+  {
+    "id": 503,
+    "artist": "Jennifer Rush",
+    "title": "The power of love",
+    "audio": "https://hooks.swr.de/99005/M0023581.005.mp3"
+  },
+  {
+    "id": 504,
+    "artist": "Sunrise Avenue",
+    "title": "Hollywood hills",
+    "audio": "https://hooks.swr.de/99005/M0449930.001.mp3"
+  },
+  {
+    "id": 505,
+    "artist": "Abba",
+    "title": "Lay all your love on me",
+    "audio": "https://hooks.swr.de/99005/M0001414.009.mp3"
+  },
+  {
+    "id": 506,
+    "artist": "NoRMAhl",
+    "title": "Trümmertango",
+    "audio": "https://hooks.swr.de/99005/M0498651.001.mp3"
+  },
+  {
+    "id": 507,
+    "artist": "Achim Reichel",
+    "title": "Aloha heja he",
+    "audio": "https://hooks.swr.de/99005/M0337269.025.mp3"
+  },
+  {
+    "id": 508,
+    "artist": "Frank Zappa",
+    "title": "Bobby Brown",
+    "audio": "https://hooks.swr.de/99005/M0018458.001.mp3"
+  },
+  {
+    "id": 509,
+    "artist": "Pur",
+    "title": "Drachen sollen fliegen",
+    "audio": "https://hooks.swr.de/99005/M0400209.001.mp3"
+  },
+  {
+    "id": 510,
+    "artist": "Plácido Domingo & John Denver",
+    "title": "Perhaps love",
+    "audio": "https://hooks.swr.de/99005/M0007693.003.mp3"
+  },
+  {
+    "id": 511,
+    "artist": "Green Day",
+    "title": "Basket case",
+    "audio": "https://hooks.swr.de/99005/M0249402.009.mp3"
+  },
+  {
+    "id": 512,
+    "artist": "The Moody Blues",
+    "title": "Nights in white satin",
+    "audio": "https://hooks.swr.de/99005/M0024546.013.mp3"
+  },
+  {
+    "id": 513,
+    "artist": "Whitesnake",
+    "title": "Here I go again [USA Remix]",
+    "audio": "https://hooks.swr.de/99005/M0023566.001.mp3"
+  },
+  {
+    "id": 514,
+    "artist": "Trude Herr",
+    "title": "Niemals geht man so ganz",
+    "audio": "https://hooks.swr.de/99005/M0065867.011.mp3"
+  },
+  {
+    "id": 515,
+    "artist": "Dolls United",
+    "title": "Eine Insel mit zwei Bergen",
+    "audio": "https://hooks.swr.de/99005/M0554078.001.mp3"
+  },
+  {
+    "id": 516,
+    "artist": "Whitney Houston",
+    "title": "One moment in time",
+    "audio": "https://hooks.swr.de/99005/M0002308.004.mp3"
+  },
+  {
+    "id": 517,
+    "artist": "Pur",
+    "title": "Kein Krieg",
+    "audio": "https://hooks.swr.de/99005/M0023583.002.mp3"
+  },
+  {
+    "id": 518,
+    "artist": "Hildegard Knef",
+    "title": "Für mich soll's rote Rosen regnen",
+    "audio": "https://hooks.swr.de/99005/M0040536.009.mp3"
+  },
+  {
+    "id": 519,
+    "artist": "Aretha Franklin",
+    "title": "Respect",
+    "audio": "https://hooks.swr.de/99005/M0285084.014.mp3"
+  },
+  {
+    "id": 520,
+    "artist": "The Doors",
+    "title": "Riders on the storm [long version]",
+    "audio": "https://hooks.swr.de/99005/M0024455.005.mp3"
+  },
+  {
+    "id": 521,
+    "artist": "Leona Lewis",
+    "title": "Run",
+    "audio": "https://hooks.swr.de/99005/M0519064.015.mp3"
+  },
+  {
+    "id": 522,
+    "artist": "Herbert Grönemeyer",
+    "title": "Sekundenglück",
+    "audio": "https://hooks.swr.de/99005/M0544387.001.mp3"
+  },
+  {
+    "id": 523,
+    "artist": "Alicia Keys",
+    "title": "Empire state of mind (Part II)",
+    "audio": "https://hooks.swr.de/99005/M0250927.014.mp3"
+  },
+  {
+    "id": 524,
+    "artist": "Bruce Springsteen",
+    "title": "I'm on fire",
+    "audio": "https://hooks.swr.de/99005/M0002523.006.mp3"
+  },
+  {
+    "id": 525,
+    "artist": "BAP",
+    "title": "Jraaduss",
+    "audio": "https://hooks.swr.de/99005/M0000314.003.mp3"
+  },
+  {
+    "id": 526,
+    "artist": "Saga",
+    "title": "Wind him up",
+    "audio": "https://hooks.swr.de/99005/2253914.mp3"
+  },
+  {
+    "id": 527,
+    "artist": "Adele",
+    "title": "Easy on me",
+    "audio": "https://hooks.swr.de/99005/M0678142.001.mp3"
+  },
+  {
+    "id": 528,
+    "artist": "Genesis",
+    "title": "Follow you follow me",
+    "audio": "https://hooks.swr.de/99005/M0006142.006.mp3"
+  },
+  {
+    "id": 529,
+    "artist": "Kansas",
+    "title": "Dust in the wind",
+    "audio": "https://hooks.swr.de/99005/M0561001.006.mp3"
+  },
+  {
+    "id": 530,
+    "artist": "Abba",
+    "title": "Gimme! Gimme! Gimme! (A man after midnight)",
+    "audio": "https://hooks.swr.de/99005/M0373047.001.mp3"
+  },
+  {
+    "id": 531,
+    "artist": "Johnny Cash",
+    "title": "Ring of fire",
+    "audio": "https://hooks.swr.de/99005/M0006165.001.mp3"
+  },
+  {
+    "id": 532,
+    "artist": "Udo Jürgens",
+    "title": "Mit 66 Jahren",
+    "audio": "https://hooks.swr.de/99005/M0017886.004.mp3"
+  },
+  {
+    "id": 533,
+    "artist": "Birth Control",
+    "title": "Gamma ray (LP-Version)",
+    "audio": "https://hooks.swr.de/99005/M0002777.004.mp3"
+  },
+  {
+    "id": 534,
+    "artist": "Herbert Grönemeyer",
+    "title": "Demo (Letzter Tag)",
+    "audio": "https://hooks.swr.de/99005/M0001119.001.mp3"
+  },
+  {
+    "id": 535,
+    "artist": "Edith Piaf",
+    "title": "Non, je ne regrette rien",
+    "audio": "https://hooks.swr.de/99005/M0064892.040.mp3"
+  },
+  {
+    "id": 536,
+    "artist": "Journey",
+    "title": "Wheel in the sky",
+    "audio": "https://hooks.swr.de/99005/M0023550.001.mp3"
+  },
+  {
+    "id": 537,
+    "artist": "Dire Straits",
+    "title": "Private investigations",
+    "audio": "https://hooks.swr.de/99005/M0006158.002.mp3"
+  },
+  {
+    "id": 538,
+    "artist": "Don McLean",
+    "title": "American pie",
+    "audio": "https://hooks.swr.de/99005/M0020539.008.mp3"
+  },
+  {
+    "id": 539,
+    "artist": "Ralph McTell",
+    "title": "Streets of London",
+    "audio": "https://hooks.swr.de/99005/M0025676.001.mp3"
+  },
+  {
+    "id": 540,
+    "artist": "Frankie Goes To Hollywood",
+    "title": "The power of love",
+    "audio": "https://hooks.swr.de/99005/M0007224.001.mp3"
+  },
+  {
+    "id": 541,
+    "artist": "Boston",
+    "title": "More than a feeling",
+    "audio": "https://hooks.swr.de/99005/M0024981.001.mp3"
+  },
+  {
+    "id": 542,
+    "artist": "Coldplay",
+    "title": "The scientist",
+    "audio": "https://hooks.swr.de/99005/M0242479.001.mp3"
+  },
+  {
+    "id": 543,
+    "artist": "Chris de Burgh",
+    "title": "Don't pay the ferryman",
+    "audio": "https://hooks.swr.de/99005/M0018377.001.mp3"
+  },
+  {
+    "id": 544,
+    "artist": "Georg Danzer",
+    "title": "Frieden",
+    "audio": "https://hooks.swr.de/99005/M0065218.012.mp3"
+  },
+  {
+    "id": 545,
+    "artist": "The Verve",
+    "title": "Bitter sweet symphony",
+    "audio": "https://hooks.swr.de/99005/M0087627.014.mp3"
+  },
+  {
+    "id": 546,
+    "artist": "Udo Lindenberg",
+    "title": "Reeperbahn",
+    "audio": "https://hooks.swr.de/99005/M0005232.012.mp3"
+  },
+  {
+    "id": 547,
+    "artist": "John Denver",
+    "title": "Leaving on a jet plane",
+    "audio": "https://hooks.swr.de/99005/M0007693.001.mp3"
+  },
+  {
+    "id": 548,
+    "artist": "Europe",
+    "title": "The final countdown (Album Version)",
+    "audio": "https://hooks.swr.de/99005/M0002497.007.mp3"
+  },
+  {
+    "id": 549,
+    "artist": "Peter Maffay",
+    "title": "Sonne in der Nacht",
+    "audio": "https://hooks.swr.de/99005/M0040005.007.mp3"
+  },
+  {
+    "id": 550,
+    "artist": "Orchestral Manoeuvres In The Dark (OMD)",
+    "title": "Maid Of Orleans",
+    "audio": "https://hooks.swr.de/99005/M0023752.006.mp3"
+  },
+  {
+    "id": 551,
+    "artist": "Rory Gallagher",
+    "title": "A million miles away",
+    "audio": "https://hooks.swr.de/99005/M0235702.008.mp3"
+  },
+  {
+    "id": 552,
+    "artist": "Freddy Kalas",
+    "title": "Hey Ho",
+    "audio": "https://hooks.swr.de/99005/M0679942.001.mp3"
+  },
+  {
+    "id": 553,
+    "artist": "P!nk (Pink)",
+    "title": "Try",
+    "audio": "https://hooks.swr.de/99005/M0315775.001.mp3"
+  },
+  {
+    "id": 554,
+    "artist": "Neil Young",
+    "title": "Rockin' in the free world",
+    "audio": "https://hooks.swr.de/99005/M0347374.012.mp3"
+  },
+  {
+    "id": 555,
+    "artist": "AC/DC",
+    "title": "Dirty deeds done dirt cheap",
+    "audio": "https://hooks.swr.de/99005/M0079561.001.mp3"
+  },
+  {
+    "id": 556,
+    "artist": "Falco",
+    "title": "Rock me Amadeus",
+    "audio": "https://hooks.swr.de/99005/M0040019.001.mp3"
+  },
+  {
+    "id": 557,
+    "artist": "Nightwish",
+    "title": "Nemo",
+    "audio": "https://hooks.swr.de/99005/M0038791.007.mp3"
+  },
+  {
+    "id": 558,
+    "artist": "Manfred Mann's Earth Band",
+    "title": "For you",
+    "audio": "https://hooks.swr.de/99005/M0009954.026.mp3"
+  },
+  {
+    "id": 559,
+    "artist": "Bon Jovi",
+    "title": "Always",
+    "audio": "https://hooks.swr.de/99005/M0281688.012.mp3"
+  },
+  {
+    "id": 560,
+    "artist": "Taylor Swift",
+    "title": "Shake it off",
+    "audio": "https://hooks.swr.de/99005/M0369129.001.mp3"
+  },
+  {
+    "id": 561,
+    "artist": "Gerry Rafferty",
+    "title": "Baker Street",
+    "audio": "https://hooks.swr.de/99005/M0020661.013.mp3"
+  },
+  {
+    "id": 562,
+    "artist": "The Who",
+    "title": "Baba O'Riley",
+    "audio": "https://hooks.swr.de/99005/M0025894.001.mp3"
+  },
+  {
+    "id": 563,
+    "artist": "Nena",
+    "title": "Leuchtturm",
+    "audio": "https://hooks.swr.de/99005/M0006310.009.mp3"
+  },
+  {
+    "id": 564,
+    "artist": "Marius Müller-Westernhagen",
+    "title": "Taximann",
+    "audio": "https://hooks.swr.de/99005/M0028221.004.mp3"
+  },
+  {
+    "id": 565,
+    "artist": "Herbert Grönemeyer",
+    "title": "Kinder an die Macht",
+    "audio": "https://hooks.swr.de/99005/M0002495.001.mp3"
+  },
+  {
+    "id": 566,
+    "artist": "Crosby, Stills & Nash",
+    "title": "Cathedral",
+    "audio": "https://hooks.swr.de/99005/M0027901.018.mp3"
+  },
+  {
+    "id": 567,
+    "artist": "AC/DC",
+    "title": "For those about to rock we salute you",
+    "audio": "https://hooks.swr.de/99005/M0319785.001.mp3"
+  },
+  {
+    "id": 568,
+    "artist": "Das Lumpenpack",
+    "title": "Hauch mich mal an",
+    "audio": "https://hooks.swr.de/99005/M0565165.001.mp3"
+  },
+  {
+    "id": 569,
+    "artist": "The Cure",
+    "title": "A forest",
+    "audio": "https://hooks.swr.de/99005/M0044445.015.mp3"
+  },
+  {
+    "id": 570,
+    "artist": "ABBA",
+    "title": "Waterloo",
+    "audio": "https://hooks.swr.de/99005/M0417201.001.mp3"
+  },
+  {
+    "id": 571,
+    "artist": "Max Giesinger",
+    "title": "80 Millionen",
+    "audio": "https://hooks.swr.de/99005/M0421758.001.mp3"
+  },
+  {
+    "id": 572,
+    "artist": "Electric Light Orchestra",
+    "title": "Mr. Blue Sky",
+    "audio": "https://hooks.swr.de/99005/M0314886.001.mp3"
+  },
+  {
+    "id": 573,
+    "artist": "Coldplay",
+    "title": "Paradise",
+    "audio": "https://hooks.swr.de/99005/M0286077.001.mp3"
+  },
+  {
+    "id": 574,
+    "artist": "Queen",
+    "title": "Killer queen",
+    "audio": "https://hooks.swr.de/99005/M0000285.003.mp3"
+  },
+  {
+    "id": 575,
+    "artist": "Udo Lindenberg",
+    "title": "Das Leben",
+    "audio": "https://hooks.swr.de/99005/M0313424.001.mp3"
+  },
+  {
+    "id": 576,
+    "artist": "The Beatles",
+    "title": "Penny Lane",
+    "audio": "https://hooks.swr.de/99005/M0032408.009.mp3"
+  },
+  {
+    "id": 577,
+    "artist": "P!nk (Pink)",
+    "title": "What About Us",
+    "audio": "https://hooks.swr.de/99005/M0489550.001.mp3"
+  },
+  {
+    "id": 578,
+    "artist": "STS",
+    "title": "Fürstenfeld (Album Version)",
+    "audio": "https://hooks.swr.de/99005/M0233935.005.mp3"
+  },
+  {
+    "id": 579,
+    "artist": "Bruce Springsteen",
+    "title": "Born in the U.S.A.",
+    "audio": "https://hooks.swr.de/99005/M0002523.001.mp3"
+  },
+  {
+    "id": 580,
+    "artist": "Bob Seger & The Silver Bullet Band",
+    "title": "Turn the page (live)",
+    "audio": "https://hooks.swr.de/99005/M0037742.006.mp3"
+  },
+  {
+    "id": 581,
+    "artist": "Dolly Parton",
+    "title": "Jolene",
+    "audio": "https://hooks.swr.de/99005/M0442663.001.mp3"
+  },
+  {
+    "id": 582,
+    "artist": "Elton John",
+    "title": "I'm still standing",
+    "audio": "https://hooks.swr.de/99005/M0007220.022.mp3"
+  },
+  {
+    "id": 583,
+    "artist": "Green Day",
+    "title": "Boulevard of broken dreams",
+    "audio": "https://hooks.swr.de/99005/M0021096.001.mp3"
+  },
+  {
+    "id": 584,
+    "artist": "Pur",
+    "title": "Hör gut zu",
+    "audio": "https://hooks.swr.de/99005/M0003249.001.mp3"
+  },
+  {
+    "id": 585,
+    "artist": "Schwoißfuaß",
+    "title": "Nacht ohne Froga",
+    "audio": "https://hooks.swr.de/99005/M0674419.006.mp3"
+  },
+  {
+    "id": 586,
+    "artist": "Ed Sheeran",
+    "title": "Afterglow",
+    "audio": "https://hooks.swr.de/99005/M0627574.001.mp3"
+  },
+  {
+    "id": 587,
+    "artist": "Helge Schneider",
+    "title": "Sommer, Sonne, Kaktus!",
+    "audio": "https://hooks.swr.de/99005/M0334814.001.mp3"
+  },
+  {
+    "id": 588,
+    "artist": "Michael Patrick Kelly",
+    "title": "The one",
+    "audio": "https://hooks.swr.de/99005/2237247.mp3"
+  },
+  {
+    "id": 589,
+    "artist": "Bee Gees",
+    "title": "Massachusetts",
+    "audio": "https://hooks.swr.de/99005/M0369541.023.mp3"
+  },
+  {
+    "id": 590,
+    "artist": "Reinhard Mey",
+    "title": "Ankomme Freitag, den 13.",
+    "audio": "https://hooks.swr.de/99005/M0301646.011.mp3"
+  },
+  {
+    "id": 591,
+    "artist": "Foreigner",
+    "title": "Urgent",
+    "audio": "https://hooks.swr.de/99005/M0023415.005.mp3"
+  },
+  {
+    "id": 592,
+    "artist": "Die Toten Hosen",
+    "title": "Wünsch Dir was",
+    "audio": "https://hooks.swr.de/99005/M0307802.013.mp3"
+  },
+  {
+    "id": 593,
+    "artist": "Karussell",
+    "title": "Als ich fortging",
+    "audio": "https://hooks.swr.de/99005/2272599.mp3"
+  },
+  {
+    "id": 594,
+    "artist": "Iggy Pop",
+    "title": "The passenger",
+    "audio": "https://hooks.swr.de/99005/M0026783.004.mp3"
+  },
+  {
+    "id": 595,
+    "artist": "Fleetwood Mac",
+    "title": "Dreams",
+    "audio": "https://hooks.swr.de/99005/M0324659.001.mp3"
+  },
+  {
+    "id": 596,
+    "artist": "Deep Purple",
+    "title": "When a blind man cries",
+    "audio": "https://hooks.swr.de/99005/M0006524.008.mp3"
+  },
+  {
+    "id": 597,
+    "artist": "Deep Purple",
+    "title": "Lazy",
+    "audio": "https://hooks.swr.de/99005/M0240082.006.mp3"
+  },
+  {
+    "id": 598,
+    "artist": "Bruce Springsteen",
+    "title": "Thunder road",
+    "audio": "https://hooks.swr.de/99005/M0013441.006.mp3"
+  },
+  {
+    "id": 599,
+    "artist": "Dieter Thomas Kuhn",
+    "title": "Über den Wolken",
+    "audio": "https://hooks.swr.de/99005/M0072431.003.mp3"
+  },
+  {
+    "id": 600,
+    "artist": "Supertramp",
+    "title": "The logical song",
+    "audio": "https://hooks.swr.de/99005/M0007909.002.mp3"
+  },
+  {
+    "id": 601,
+    "artist": "Status Quo",
+    "title": "Rockin' all over the world",
+    "audio": "https://hooks.swr.de/99005/M0002522.014.mp3"
+  },
+  {
+    "id": 602,
+    "artist": "Andrea Berg",
+    "title": "Du hast mich tausendmal belogen",
+    "audio": "https://hooks.swr.de/99005/M0285165.001.mp3"
+  },
+  {
+    "id": 603,
+    "artist": "Barry Ryan",
+    "title": "Eloise",
+    "audio": "https://hooks.swr.de/99005/M0083996.001.mp3"
+  },
+  {
+    "id": 604,
+    "artist": "Ike & Tina Turner",
+    "title": "Proud Mary",
+    "audio": "https://hooks.swr.de/99005/M0377549.001.mp3"
+  },
+  {
+    "id": 605,
+    "artist": "P!nk (Pink)",
+    "title": "A million dreams",
+    "audio": "https://hooks.swr.de/99005/M0554321.001.mp3"
+  },
+  {
+    "id": 606,
+    "artist": "Pur",
+    "title": "Prinzessin",
+    "audio": "https://hooks.swr.de/99005/M0041439.013.mp3"
+  },
+  {
+    "id": 607,
+    "artist": "Matthias Reim",
+    "title": "Verdammt, ich lieb' dich",
+    "audio": "https://hooks.swr.de/99005/M0106856.001.mp3"
+  },
+  {
+    "id": 608,
+    "artist": "Creedence Clearwater Revival",
+    "title": "Bad moon rising",
+    "audio": "https://hooks.swr.de/99005/M0041061.002.mp3"
+  },
+  {
+    "id": 609,
+    "artist": "The Beatles",
+    "title": "Here comes the sun",
+    "audio": "https://hooks.swr.de/99005/M0233041.001.mp3"
+  },
+  {
+    "id": 610,
+    "artist": "Andreas Bourani",
+    "title": "Auf uns",
+    "audio": "https://hooks.swr.de/99005/M0355962.001.mp3"
+  },
+  {
+    "id": 611,
+    "artist": "Juliane Werding",
+    "title": "Das Würfelspiel",
+    "audio": "https://hooks.swr.de/99005/M0009454.003.mp3"
+  },
+  {
+    "id": 612,
+    "artist": "Revolverheld",
+    "title": "Ich lass für dich das Licht an",
+    "audio": "https://hooks.swr.de/99005/M0349646.001.mp3"
+  },
+  {
+    "id": 613,
+    "artist": "P!nk (Pink) & Willow Sage Hart",
+    "title": "Cover me in sunshine",
+    "audio": "https://hooks.swr.de/99005/M0640458.001.mp3"
+  },
+  {
+    "id": 614,
+    "artist": "Green Day",
+    "title": "American idiot",
+    "audio": "https://hooks.swr.de/99005/M0017889.001.mp3"
+  },
+  {
+    "id": 615,
+    "artist": "Sting",
+    "title": "Desert rose",
+    "audio": "https://hooks.swr.de/99005/M0039574.001.mp3"
+  },
+  {
+    "id": 616,
+    "artist": "Plastic Ono Band",
+    "title": "Give peace a chance",
+    "audio": "https://hooks.swr.de/99005/M0404499.001.mp3"
+  },
+  {
+    "id": 617,
+    "artist": "Michael Patrick Kelly",
+    "title": "Blurry eyes",
+    "audio": "https://hooks.swr.de/99005/M0678933.001.mp3"
+  },
+  {
+    "id": 618,
+    "artist": "Rainbow",
+    "title": "Catch the rainbow",
+    "audio": "https://hooks.swr.de/99005/M0023431.003.mp3"
+  },
+  {
+    "id": 619,
+    "artist": "AnnenMayKantereit",
+    "title": "Barfuß am Klavier",
+    "audio": "https://hooks.swr.de/99005/M0427877.001.mp3"
+  },
+  {
+    "id": 620,
+    "artist": "Black Sabbath",
+    "title": "Changes",
+    "audio": "https://hooks.swr.de/99005/M0627230.009.mp3"
+  },
+  {
+    "id": 621,
+    "artist": "Ten Years After",
+    "title": "I'm going home (live)",
+    "audio": "https://hooks.swr.de/99005/M0025911.016.mp3"
+  },
+  {
+    "id": 622,
+    "artist": "AnnenMayKantereit",
+    "title": "Pocahontas",
+    "audio": "https://hooks.swr.de/99005/M0423768.001.mp3"
+  },
+  {
+    "id": 623,
+    "artist": "Status Quo",
+    "title": "Whatever You Want",
+    "audio": "https://hooks.swr.de/99005/M0007630.013.mp3"
+  },
+  {
+    "id": 624,
+    "artist": "Taylor Swift",
+    "title": "Cruel summer",
+    "audio": "https://hooks.swr.de/99005/1927667.mp3"
+  },
+  {
+    "id": 625,
+    "artist": "Roland Kaiser",
+    "title": "Santa Maria",
+    "audio": "https://hooks.swr.de/99005/M0026262.002.mp3"
+  },
+  {
+    "id": 626,
+    "artist": "Ed Sheeran",
+    "title": "Photograph",
+    "audio": "https://hooks.swr.de/99005/M0393812.001.mp3"
+  },
+  {
+    "id": 627,
+    "artist": "Scorpions",
+    "title": "Send me an angel",
+    "audio": "https://hooks.swr.de/99005/M0358405.013.mp3"
+  },
+  {
+    "id": 628,
+    "artist": "Rufus & Chaka Khan",
+    "title": "Ain't nobody",
+    "audio": "https://hooks.swr.de/99005/M0511001.001.mp3"
+  },
+  {
+    "id": 629,
+    "artist": "America",
+    "title": "A horse with no name",
+    "audio": "https://hooks.swr.de/99005/M0020845.001.mp3"
+  },
+  {
+    "id": 630,
+    "artist": "Die Fantastischen Vier",
+    "title": "MfG (Mit freundlichen Grüßen)",
+    "audio": "https://hooks.swr.de/99005/M0041944.028.mp3"
+  },
+  {
+    "id": 631,
+    "artist": "Iron Maiden",
+    "title": "Can I play with madness",
+    "audio": "https://hooks.swr.de/99005/M0062212.002.mp3"
+  },
+  {
+    "id": 632,
+    "artist": "The Pogues feat. Kirsty MacColl",
+    "title": "Fairytale of New York",
+    "audio": "https://hooks.swr.de/99005/M0083816.022.mp3"
+  },
+  {
+    "id": 633,
+    "artist": "Head East",
+    "title": "If you knew me better",
+    "audio": "https://hooks.swr.de/99005/M0096906.021.mp3"
+  },
+  {
+    "id": 634,
+    "artist": "Red Hot Chili Peppers",
+    "title": "Californication",
+    "audio": "https://hooks.swr.de/99005/M0106561.001.mp3"
+  },
+  {
+    "id": 635,
+    "artist": "Survivor",
+    "title": "Eye of the tiger",
+    "audio": "https://hooks.swr.de/99005/M0024643.015.mp3"
+  },
+  {
+    "id": 636,
+    "artist": "Black Sabbath",
+    "title": "Black Sabbath",
+    "audio": "https://hooks.swr.de/99005/M0080082.001.mp3"
+  },
+  {
+    "id": 637,
+    "artist": "Foo Fighters",
+    "title": "The pretender",
+    "audio": "https://hooks.swr.de/99005/M0236913.001.mp3"
+  },
+  {
+    "id": 638,
+    "artist": "Coldplay",
+    "title": "Everglow",
+    "audio": "https://hooks.swr.de/99005/M0451947.001.mp3"
+  },
+  {
+    "id": 639,
+    "artist": "Phil Collins",
+    "title": "Another day in paradise",
+    "audio": "https://hooks.swr.de/99005/M0002224.007.mp3"
+  },
+  {
+    "id": 640,
+    "artist": "Nena",
+    "title": "Wunder gescheh'n",
+    "audio": "https://hooks.swr.de/99005/M0006147.016.mp3"
+  },
+  {
+    "id": 641,
+    "artist": "Ed Sheeran",
+    "title": "Shape of you",
+    "audio": "https://hooks.swr.de/99005/M0464781.001.mp3"
+  },
+  {
+    "id": 642,
+    "artist": "Udo Jürgens",
+    "title": "Merci, chèrie",
+    "audio": "https://hooks.swr.de/99005/M0017886.015.mp3"
+  },
+  {
+    "id": 643,
+    "artist": "Pink Floyd",
+    "title": "Mother",
+    "audio": "https://hooks.swr.de/99005/M0006307.006.mp3"
+  },
+  {
+    "id": 644,
+    "artist": "Reinhard Mey",
+    "title": "Ich bin Klempner von Beruf",
+    "audio": "https://hooks.swr.de/99005/M0009406.008.mp3"
+  },
+  {
+    "id": 645,
+    "artist": "Die Ärzte",
+    "title": "Zu spät (Single Live Mix)",
+    "audio": "https://hooks.swr.de/99005/M0080338.003.mp3"
+  },
+  {
+    "id": 646,
+    "artist": "Midnight Oil",
+    "title": "Beds are burning",
+    "audio": "https://hooks.swr.de/99005/M0000312.001.mp3"
+  },
+  {
+    "id": 647,
+    "artist": "Nina Chuba",
+    "title": "Nina",
+    "audio": "https://hooks.swr.de/99005/2035767.mp3"
+  },
+  {
+    "id": 648,
+    "artist": "Bronski Beat",
+    "title": "Smalltown boy",
+    "audio": "https://hooks.swr.de/99005/M0519817.001.mp3"
+  },
+  {
+    "id": 649,
+    "artist": "Rainbow",
+    "title": "The temple of the king",
+    "audio": "https://hooks.swr.de/99005/M0106742.006.mp3"
+  },
+  {
+    "id": 650,
+    "artist": "The Temptations",
+    "title": "Papa was a rollin' stone",
+    "audio": "https://hooks.swr.de/99005/M0123865.001.mp3"
+  },
+  {
+    "id": 651,
+    "artist": "Evanescence",
+    "title": "Bring me to life",
+    "audio": "https://hooks.swr.de/99005/M0082000.001.mp3"
+  },
+  {
+    "id": 652,
+    "artist": "Michael Jackson",
+    "title": "Heal the world",
+    "audio": "https://hooks.swr.de/99005/M0001986.001.mp3"
+  },
+  {
+    "id": 653,
+    "artist": "The Offspring",
+    "title": "Self esteem",
+    "audio": "https://hooks.swr.de/99005/M0033967.003.mp3"
+  },
+  {
+    "id": 654,
+    "artist": "Meat Loaf",
+    "title": "Paradise by the dashboard light",
+    "audio": "https://hooks.swr.de/99005/M0028210.006.mp3"
+  },
+  {
+    "id": 655,
+    "artist": "Pur",
+    "title": "Freunde",
+    "audio": "https://hooks.swr.de/99005/M0041439.001.mp3"
+  },
+  {
+    "id": 656,
+    "artist": "Joachim Witt",
+    "title": "Goldener Reiter",
+    "audio": "https://hooks.swr.de/99005/M0041438.001.mp3"
+  },
+  {
+    "id": 657,
+    "artist": "Pink Floyd",
+    "title": "One of these days",
+    "audio": "https://hooks.swr.de/99005/M0041433.019.mp3"
+  },
+  {
+    "id": 658,
+    "artist": "Peter Gabriel",
+    "title": "Biko",
+    "audio": "https://hooks.swr.de/99005/M0026461.010.mp3"
+  },
+  {
+    "id": 659,
+    "artist": "Fury In The Slaughterhouse",
+    "title": "Won't forget these days",
+    "audio": "https://hooks.swr.de/99005/M0378662.021.mp3"
+  },
+  {
+    "id": 660,
+    "artist": "Paolo Conte",
+    "title": "Via con me",
+    "audio": "https://hooks.swr.de/99005/M0000356.001.mp3"
+  },
+  {
+    "id": 661,
+    "artist": "Rosenstolz",
+    "title": "Ich bin ich",
+    "audio": "https://hooks.swr.de/99005/M0044761.001.mp3"
+  },
+  {
+    "id": 662,
+    "artist": "Red Hot Chili Peppers",
+    "title": "Under the bridge",
+    "audio": "https://hooks.swr.de/99005/M0006587.001.mp3"
+  },
+  {
+    "id": 663,
+    "artist": "Nazareth",
+    "title": "Love hurts",
+    "audio": "https://hooks.swr.de/99005/M0018321.001.mp3"
+  },
+  {
+    "id": 664,
+    "artist": "Patti Smith Group",
+    "title": "Because the night",
+    "audio": "https://hooks.swr.de/99005/M0404258.001.mp3"
+  },
+  {
+    "id": 665,
+    "artist": "Die Ärzte",
+    "title": "Himmelblau",
+    "audio": "https://hooks.swr.de/99005/M0081254.001.mp3"
+  },
+  {
+    "id": 666,
+    "artist": "Harpo",
+    "title": "Moviestar",
+    "audio": "https://hooks.swr.de/99005/M0025872.001.mp3"
+  },
+  {
+    "id": 667,
+    "artist": "Jupiter Jones",
+    "title": "Still",
+    "audio": "https://hooks.swr.de/99005/M0264295.001.mp3"
+  },
+  {
+    "id": 668,
+    "artist": "Neil Young",
+    "title": "Like a hurricane",
+    "audio": "https://hooks.swr.de/99005/M0280064.006.mp3"
+  },
+  {
+    "id": 669,
+    "artist": "Billy Idol",
+    "title": "Rebel yell",
+    "audio": "https://hooks.swr.de/99005/M0093110.004.mp3"
+  },
+  {
+    "id": 670,
+    "artist": "Queen",
+    "title": "Spread your wings",
+    "audio": "https://hooks.swr.de/99005/M0005740.005.mp3"
+  },
+  {
+    "id": 671,
+    "artist": "Bob Dylan",
+    "title": "Blowin' in the wind",
+    "audio": "https://hooks.swr.de/99005/M0317870.002.mp3"
+  },
+  {
+    "id": 672,
+    "artist": "Mark Knopfler",
+    "title": "What it is",
+    "audio": "https://hooks.swr.de/99005/M0080681.001.mp3"
+  },
+  {
+    "id": 673,
+    "artist": "Mark Knopfler",
+    "title": "Going home - Theme of the Local Hero",
+    "audio": "https://hooks.swr.de/99005/M0645775.018.mp3"
+  },
+  {
+    "id": 674,
+    "artist": "Bon Jovi",
+    "title": "Wanted dead or alive",
+    "audio": "https://hooks.swr.de/99005/M0082800.001.mp3"
+  },
+  {
+    "id": 675,
+    "artist": "Genesis",
+    "title": "The lamb lies down on Broadway",
+    "audio": "https://hooks.swr.de/99005/M0000277.001.mp3"
+  },
+  {
+    "id": 676,
+    "artist": "Visage",
+    "title": "Fade to grey",
+    "audio": "https://hooks.swr.de/99005/M0024570.024.mp3"
+  },
+  {
+    "id": 677,
+    "artist": "Joe Cocker",
+    "title": "N'oubliez jamais",
+    "audio": "https://hooks.swr.de/99005/M0001821.001.mp3"
+  },
+  {
+    "id": 678,
+    "artist": "Brozzo",
+    "title": "King uf em Feldweg",
+    "audio": "https://hooks.swr.de/99005/M0516634.105.mp3"
+  },
+  {
+    "id": 679,
+    "artist": "3 Doors Down",
+    "title": "Kryptonite",
+    "audio": "https://hooks.swr.de/99005/M0319663.001.mp3"
+  },
+  {
+    "id": 680,
+    "artist": "Westernhagen",
+    "title": "Laß uns leben",
+    "audio": "https://hooks.swr.de/99005/M0018248.009.mp3"
+  },
+  {
+    "id": 681,
+    "artist": "Sportfreunde Stiller",
+    "title": "Applaus, Applaus",
+    "audio": "https://hooks.swr.de/99005/M0328754.001.mp3"
+  },
+  {
+    "id": 682,
+    "artist": "Billy Talent",
+    "title": "Red flag",
+    "audio": "https://hooks.swr.de/99005/M0070279.001.mp3"
+  },
+  {
+    "id": 683,
+    "artist": "Kraftklub",
+    "title": "Kein Liebeslied",
+    "audio": "https://hooks.swr.de/99005/1933468.mp3"
+  },
+  {
+    "id": 684,
+    "artist": "Die Fantastischen Vier",
+    "title": "Wie weit",
+    "audio": "https://hooks.swr.de/99005/2098195.mp3"
+  },
+  {
+    "id": 685,
+    "artist": "Leonard Cohen",
+    "title": "So long, Marianne",
+    "audio": "https://hooks.swr.de/99005/M0262334.003.mp3"
+  },
+  {
+    "id": 686,
+    "artist": "Creedence Clearwater Revival",
+    "title": "Fortunate son",
+    "audio": "https://hooks.swr.de/99005/M0041061.004.mp3"
+  },
+  {
+    "id": 687,
+    "artist": "Dasha",
+    "title": "Austin",
+    "audio": "https://hooks.swr.de/99005/2061158.mp3"
+  },
+  {
+    "id": 688,
+    "artist": "Men At Work",
+    "title": "Down under",
+    "audio": "https://hooks.swr.de/99005/M0018385.003.mp3"
+  },
+  {
+    "id": 689,
+    "artist": "Colosseum",
+    "title": "The Valentyne Suite",
+    "audio": "https://hooks.swr.de/99005/M0645771.009.mp3"
+  },
+  {
+    "id": 690,
+    "artist": "The Pogues",
+    "title": "Dirty old town",
+    "audio": "https://hooks.swr.de/99005/M0277791.001.mp3"
+  },
+  {
+    "id": 691,
+    "artist": "Hooters",
+    "title": "500 miles",
+    "audio": "https://hooks.swr.de/99005/M0002283.004.mp3"
+  },
+  {
+    "id": 692,
+    "artist": "Namika",
+    "title": "Lieblingsmensch",
+    "audio": "https://hooks.swr.de/99005/M0400267.001.mp3"
+  },
+  {
+    "id": 693,
+    "artist": "Falco",
+    "title": "Der Kommissar",
+    "audio": "https://hooks.swr.de/99005/M0084925.001.mp3"
+  },
+  {
+    "id": 694,
+    "artist": "Anne Clark",
+    "title": "Our darkness",
+    "audio": "https://hooks.swr.de/99005/M0265662.001.mp3"
+  },
+  {
+    "id": 695,
+    "artist": "Blink 182",
+    "title": "All the small things",
+    "audio": "https://hooks.swr.de/99005/M0041281.006.mp3"
+  },
+  {
+    "id": 696,
+    "artist": "Johnny Cash",
+    "title": "I walk the line",
+    "audio": "https://hooks.swr.de/99005/M0033830.004.mp3"
+  },
+  {
+    "id": 697,
+    "artist": "The Animals",
+    "title": "House of the rising sun",
+    "audio": "https://hooks.swr.de/99005/M0023699.007.mp3"
+  },
+  {
+    "id": 698,
+    "artist": "Guns N' Roses",
+    "title": "Patience",
+    "audio": "https://hooks.swr.de/99005/M0003800.005.mp3"
+  },
+  {
+    "id": 699,
+    "artist": "Depeche Mode",
+    "title": "Somebody",
+    "audio": "https://hooks.swr.de/99005/M0039605.011.mp3"
+  },
+  {
+    "id": 700,
+    "artist": "Die Prinzen",
+    "title": "Alles nur geklaut",
+    "audio": "https://hooks.swr.de/99005/M0265396.001.mp3"
+  },
+  {
+    "id": 701,
+    "artist": "Aphrodite's Child",
+    "title": "The four horsemen",
+    "audio": "https://hooks.swr.de/99005/M0008324.004.mp3"
+  },
+  {
+    "id": 702,
+    "artist": "Konstantin Wecker",
+    "title": "Wenn der Sommer nicht mehr weit ist (live)",
+    "audio": "https://hooks.swr.de/99005/M0418514.018.mp3"
+  },
+  {
+    "id": 703,
+    "artist": "Mike Oldfield & Maggie Reilly",
+    "title": "Moonlight shadow",
+    "audio": "https://hooks.swr.de/99005/M0024478.007.mp3"
+  },
+  {
+    "id": 704,
+    "artist": "Guns N' Roses",
+    "title": "Don't cry",
+    "audio": "https://hooks.swr.de/99005/M0291851.004.mp3"
+  },
+  {
+    "id": 705,
+    "artist": "Joan Baez",
+    "title": "Sag' mir, wo die Blumen sind",
+    "audio": "https://hooks.swr.de/99005/M0080336.010.mp3"
+  },
+  {
+    "id": 706,
+    "artist": "Die Toten Hosen",
+    "title": "Wannsee",
+    "audio": "https://hooks.swr.de/99005/M0485709.001.mp3"
+  },
+  {
+    "id": 707,
+    "artist": "Herbert Grönemeyer",
+    "title": "Mambo",
+    "audio": "https://hooks.swr.de/99005/M0006151.010.mp3"
+  },
+  {
+    "id": 708,
+    "artist": "Ben E. King",
+    "title": "Stand by me",
+    "audio": "https://hooks.swr.de/99005/M0405379.001.mp3"
+  },
+  {
+    "id": 709,
+    "artist": "Die Ärzte",
+    "title": "Lasse redn",
+    "audio": "https://hooks.swr.de/99005/M0080960.004.mp3"
+  },
+  {
+    "id": 710,
+    "artist": "UFO",
+    "title": "Doctor Doctor",
+    "audio": "https://hooks.swr.de/99005/M0040642.003.mp3"
+  },
+  {
+    "id": 711,
+    "artist": "David Bowie",
+    "title": "Life on Mars?",
+    "audio": "https://hooks.swr.de/99005/M0101902.001.mp3"
+  },
+  {
+    "id": 712,
+    "artist": "Abba",
+    "title": "Money, money, money",
+    "audio": "https://hooks.swr.de/99005/M0001410.005.mp3"
+  },
+  {
+    "id": 713,
+    "artist": "Janis Joplin",
+    "title": "Mercedes Benz",
+    "audio": "https://hooks.swr.de/99005/M0024391.008.mp3"
+  },
+  {
+    "id": 714,
+    "artist": "Udo Lindenberg",
+    "title": "Stark wie Zwei",
+    "audio": "https://hooks.swr.de/99005/M0263068.001.mp3"
+  },
+  {
+    "id": 715,
+    "artist": "Meat Loaf",
+    "title": "Heaven can wait",
+    "audio": "https://hooks.swr.de/99005/M0028210.003.mp3"
+  },
+  {
+    "id": 716,
+    "artist": "Dire Straits",
+    "title": "Walk of life",
+    "audio": "https://hooks.swr.de/99005/M0000354.003.mp3"
+  },
+  {
+    "id": 717,
+    "artist": "Sportfreunde Stiller",
+    "title": "Das Geschenk",
+    "audio": "https://hooks.swr.de/99005/M0441428.001.mp3"
+  },
+  {
+    "id": 718,
+    "artist": "Thom Pace",
+    "title": "Maybe",
+    "audio": "https://hooks.swr.de/99005/M0030366.046.mp3"
+  },
+  {
+    "id": 719,
+    "artist": "Cream",
+    "title": "White room",
+    "audio": "https://hooks.swr.de/99005/M0024449.013.mp3"
+  },
+  {
+    "id": 720,
+    "artist": "Bosse",
+    "title": "Der letzte Tanz",
+    "audio": "https://hooks.swr.de/99005/M0609347.001.mp3"
+  },
+  {
+    "id": 721,
+    "artist": "Mamas & Papas",
+    "title": "California dreamin'",
+    "audio": "https://hooks.swr.de/99005/M0036136.007.mp3"
+  },
+  {
+    "id": 722,
+    "artist": "The Sweet",
+    "title": "Fox on the run",
+    "audio": "https://hooks.swr.de/99005/M0106747.007.mp3"
+  },
+  {
+    "id": 723,
+    "artist": "AnnenMayKantereit",
+    "title": "Ausgehen",
+    "audio": "https://hooks.swr.de/99005/M0587568.001.mp3"
+  },
+  {
+    "id": 724,
+    "artist": "Barclay James Harvest",
+    "title": "Poor man's Moody Blues",
+    "audio": "https://hooks.swr.de/99005/M0051380.006.mp3"
+  },
+  {
+    "id": 725,
+    "artist": "Michael Jackson",
+    "title": "Billie Jean",
+    "audio": "https://hooks.swr.de/99005/M0098525.001.mp3"
+  },
+  {
+    "id": 726,
+    "artist": "Sting",
+    "title": "Russians",
+    "audio": "https://hooks.swr.de/99005/M0028296.003.mp3"
+  },
+  {
+    "id": 727,
+    "artist": "Natasha Bedingfield",
+    "title": "Unwritten",
+    "audio": "https://hooks.swr.de/99005/M0019556.001.mp3"
+  },
+  {
+    "id": 728,
+    "artist": "Snap",
+    "title": "Rhythm is a dancer",
+    "audio": "https://hooks.swr.de/99005/M0534374.006.mp3"
+  },
+  {
+    "id": 729,
+    "artist": "Josh.",
+    "title": "Cordula Grün",
+    "audio": "https://hooks.swr.de/99005/M0516860.001.mp3"
+  },
+  {
+    "id": 730,
+    "artist": "The Beatles",
+    "title": "Help!",
+    "audio": "https://hooks.swr.de/99005/M0237143.001.mp3"
+  },
+  {
+    "id": 731,
+    "artist": "Puhdys",
+    "title": "Wenn ein Mensch lebt",
+    "audio": "https://hooks.swr.de/99005/M0350720.011.mp3"
+  },
+  {
+    "id": 732,
+    "artist": "Wolfgang Ambros",
+    "title": "Schifoan",
+    "audio": "https://hooks.swr.de/99005/M0006881.003.mp3"
+  },
+  {
+    "id": 733,
+    "artist": "Creedence Clearwater Revival",
+    "title": "Have You Ever Seen The Rain?",
+    "audio": "https://hooks.swr.de/99005/M0041061.018.mp3"
+  },
+  {
+    "id": 734,
+    "artist": "Austria 3",
+    "title": "I am from Austria",
+    "audio": "https://hooks.swr.de/99005/1926786.mp3"
+  },
+  {
+    "id": 735,
+    "artist": "Status Quo",
+    "title": "Gerdundula",
+    "audio": "https://hooks.swr.de/99005/M0025028.012.mp3"
+  },
+  {
+    "id": 736,
+    "artist": "Peter Fox feat. Inéz",
+    "title": "Zukunft pink",
+    "audio": "https://hooks.swr.de/99005/1747340.mp3"
+  },
+  {
+    "id": 737,
+    "artist": "Slade",
+    "title": "Far far away",
+    "audio": "https://hooks.swr.de/99005/M0417112.017.mp3"
+  },
+  {
+    "id": 738,
+    "artist": "Westernhagen",
+    "title": "Weil ich dich liebe",
+    "audio": "https://hooks.swr.de/99005/M0039955.003.mp3"
+  },
+  {
+    "id": 739,
+    "artist": "Manfred Mann's Earth Band",
+    "title": "Blinded by the light",
+    "audio": "https://hooks.swr.de/99005/M0009954.019.mp3"
+  },
+  {
+    "id": 740,
+    "artist": "Nightwish",
+    "title": "Amaranth",
+    "audio": "https://hooks.swr.de/99005/M0075297.001.mp3"
+  },
+  {
+    "id": 741,
+    "artist": "The Sweet",
+    "title": "Love is like oxygen",
+    "audio": "https://hooks.swr.de/99005/M0557960.002.mp3"
+  },
+  {
+    "id": 742,
+    "artist": "Queen",
+    "title": "Bicycle race",
+    "audio": "https://hooks.swr.de/99005/M0106737.004.mp3"
+  },
+  {
+    "id": 743,
+    "artist": "Abba",
+    "title": "The day before you came",
+    "audio": "https://hooks.swr.de/99005/M0287554.003.mp3"
+  },
+  {
+    "id": 744,
+    "artist": "The Police",
+    "title": "Every breath you take",
+    "audio": "https://hooks.swr.de/99005/M0076554.007.mp3"
+  },
+  {
+    "id": 745,
+    "artist": "Backstreet Boys",
+    "title": "I want it that way",
+    "audio": "https://hooks.swr.de/99005/M0435925.001.mp3"
+  },
+  {
+    "id": 746,
+    "artist": "Imagine Dragons",
+    "title": "Demons",
+    "audio": "https://hooks.swr.de/99005/M0346048.001.mp3"
+  },
+  {
+    "id": 747,
+    "artist": "Ozzy Osbourne",
+    "title": "No more tears",
+    "audio": "https://hooks.swr.de/99005/M0024371.011.mp3"
+  },
+  {
+    "id": 748,
+    "artist": "The Jimi Hendrix Experience",
+    "title": "Hey Joe",
+    "audio": "https://hooks.swr.de/99005/M0021168.004.mp3"
+  },
+  {
+    "id": 749,
+    "artist": "Bruce Springsteen",
+    "title": "Badlands",
+    "audio": "https://hooks.swr.de/99005/M0001934.003.mp3"
+  },
+  {
+    "id": 750,
+    "artist": "Toto",
+    "title": "Hold the line",
+    "audio": "https://hooks.swr.de/99005/M0024541.001.mp3"
+  },
+  {
+    "id": 751,
+    "artist": "AnnenMayKantereit",
+    "title": "3 Tage am Meer",
+    "audio": "https://hooks.swr.de/99005/1728952.mp3"
+  },
+  {
+    "id": 752,
+    "artist": "Beyoncé",
+    "title": "Texas hold 'em",
+    "audio": "https://hooks.swr.de/99005/2003438.mp3"
+  },
+  {
+    "id": 753,
+    "artist": "Bee Gees",
+    "title": "Stayin' alive",
+    "audio": "https://hooks.swr.de/99005/M0024976.001.mp3"
+  },
+  {
+    "id": 754,
+    "artist": "Die Ärzte",
+    "title": "Unrockbar",
+    "audio": "https://hooks.swr.de/99005/M0006637.014.mp3"
+  },
+  {
+    "id": 755,
+    "artist": "Reamonn",
+    "title": "Supergirl",
+    "audio": "https://hooks.swr.de/99005/M0006150.001.mp3"
+  },
+  {
+    "id": 756,
+    "artist": "The Rolling Stones",
+    "title": "Honky tonk women",
+    "audio": "https://hooks.swr.de/99005/M0315988.049.mp3"
+  },
+  {
+    "id": 757,
+    "artist": "Gerry & The Pacemakers",
+    "title": "You'll never walk alone",
+    "audio": "https://hooks.swr.de/99005/M0590800.001.mp3"
+  },
+  {
+    "id": 758,
+    "artist": "Evanescence",
+    "title": "My immortal",
+    "audio": "https://hooks.swr.de/99005/M0499088.001.mp3"
+  },
+  {
+    "id": 759,
+    "artist": "DJ Ötzi & Nik P.",
+    "title": "Ein Stern (der deinen Namen trägt)",
+    "audio": "https://hooks.swr.de/99005/M0078364.001.mp3"
+  },
+  {
+    "id": 760,
+    "artist": "Tom Waits",
+    "title": "Tom Traubert's Blues",
+    "audio": "https://hooks.swr.de/99005/M0257966.001.mp3"
+  },
+  {
+    "id": 761,
+    "artist": "Die Fantastischen Vier feat. Clueso",
+    "title": "Zusammen",
+    "audio": "https://hooks.swr.de/99005/M0508074.001.mp3"
+  },
+  {
+    "id": 762,
+    "artist": "Frank Sinatra",
+    "title": "Theme from New York, New York",
+    "audio": "https://hooks.swr.de/99005/M0041113.001.mp3"
+  },
+  {
+    "id": 763,
+    "artist": "Wir Sind Helden",
+    "title": "Denkmal",
+    "audio": "https://hooks.swr.de/99005/M0002746.004.mp3"
+  },
+  {
+    "id": 764,
+    "artist": "Dire Straits",
+    "title": "Tunnel of love",
+    "audio": "https://hooks.swr.de/99005/M0018452.001.mp3"
+  },
+  {
+    "id": 765,
+    "artist": "The Sensational Alex Harvey Band",
+    "title": "Isobel Goudie",
+    "audio": "https://hooks.swr.de/99005/M0289253.004.mp3"
+  },
+  {
+    "id": 766,
+    "artist": "The Sweet",
+    "title": "The Ballroom Blitz",
+    "audio": "https://hooks.swr.de/99005/M0041130.010.mp3"
+  },
+  {
+    "id": 767,
+    "artist": "Lady Gaga",
+    "title": "Hold my hand",
+    "audio": "https://hooks.swr.de/99005/M0684566.001.mp3"
+  },
+  {
+    "id": 768,
+    "artist": "John Legend",
+    "title": "All of me",
+    "audio": "https://hooks.swr.de/99005/M0344444.001.mp3"
+  },
+  {
+    "id": 769,
+    "artist": "Pur",
+    "title": "Brüder",
+    "audio": "https://hooks.swr.de/99005/M0041439.003.mp3"
+  },
+  {
+    "id": 770,
+    "artist": "Danger Dan",
+    "title": "Eine gute Nachricht",
+    "audio": "https://hooks.swr.de/99005/1988778.mp3"
+  },
+  {
+    "id": 771,
+    "artist": "Nick Cave & The Bad Seeds",
+    "title": "Into my arms",
+    "audio": "https://hooks.swr.de/99005/M0335457.001.mp3"
+  },
+  {
+    "id": 772,
+    "artist": "Ike & Tina Turner",
+    "title": "Nutbush City limits",
+    "audio": "https://hooks.swr.de/99005/M0021488.002.mp3"
+  },
+  {
+    "id": 773,
+    "artist": "Tina Turner",
+    "title": "Private dancer",
+    "audio": "https://hooks.swr.de/99005/M0023713.013.mp3"
+  },
+  {
+    "id": 774,
+    "artist": "Dire Straits",
+    "title": "Your latest trick",
+    "audio": "https://hooks.swr.de/99005/M0000354.004.mp3"
+  },
+  {
+    "id": 775,
+    "artist": "AC/DC",
+    "title": "Shoot to thrill",
+    "audio": "https://hooks.swr.de/99005/M0011555.002.mp3"
+  },
+  {
+    "id": 776,
+    "artist": "Roy Bianco & Die Abbrunzati Boys",
+    "title": "Amore Mio",
+    "audio": "https://hooks.swr.de/99005/2266302.mp3"
+  },
+  {
+    "id": 777,
+    "artist": "Tom Odell",
+    "title": "Another love",
+    "audio": "https://hooks.swr.de/99005/M0333831.001.mp3"
+  },
+  {
+    "id": 778,
+    "artist": "Herbert Grönemeyer",
+    "title": "Currywurst",
+    "audio": "https://hooks.swr.de/99005/M0110101.033.mp3"
+  },
+  {
+    "id": 779,
+    "artist": "Foreigner",
+    "title": "Juke box hero",
+    "audio": "https://hooks.swr.de/99005/M0023415.019.mp3"
+  },
+  {
+    "id": 780,
+    "artist": "Joe Bonamassa",
+    "title": "Driving towards the daylight",
+    "audio": "https://hooks.swr.de/99005/M0302940.001.mp3"
+  },
+  {
+    "id": 781,
+    "artist": "Herbert Grönemeyer",
+    "title": "Flugzeuge im Bauch",
+    "audio": "https://hooks.swr.de/99005/M0006151.003.mp3"
+  },
+  {
+    "id": 782,
+    "artist": "Peter Fox",
+    "title": "Stadtaffe",
+    "audio": "https://hooks.swr.de/99005/M0100288.001.mp3"
+  },
+  {
+    "id": 783,
+    "artist": "Elton John",
+    "title": "Rocket man",
+    "audio": "https://hooks.swr.de/99005/M0033450.014.mp3"
+  },
+  {
+    "id": 784,
+    "artist": "Gipsy Kings",
+    "title": "Hotel California",
+    "audio": "https://hooks.swr.de/99005/M0330409.012.mp3"
+  },
+  {
+    "id": 785,
+    "artist": "Manfred Mann's Earth Band",
+    "title": "Father of day, father of night",
+    "audio": "https://hooks.swr.de/99005/M0019376.001.mp3"
+  },
+  {
+    "id": 786,
+    "artist": "Ozzy Osbourne",
+    "title": "Bark at the moon",
+    "audio": "https://hooks.swr.de/99005/M0024371.008.mp3"
+  },
+  {
+    "id": 787,
+    "artist": "Chris Isaak",
+    "title": "Wicked game",
+    "audio": "https://hooks.swr.de/99005/M0020841.005.mp3"
+  },
+  {
+    "id": 788,
+    "artist": "Genesis",
+    "title": "The cinema show",
+    "audio": "https://hooks.swr.de/99005/M0025371.007.mp3"
+  },
+  {
+    "id": 789,
+    "artist": "Freddie Mercury",
+    "title": "I was born to love you",
+    "audio": "https://hooks.swr.de/99005/M0040017.003.mp3"
+  },
+  {
+    "id": 790,
+    "artist": "Emerson, Lake & Palmer",
+    "title": "Lucky man",
+    "audio": "https://hooks.swr.de/99005/M0023740.001.mp3"
+  },
+  {
+    "id": 791,
+    "artist": "Foo Fighters",
+    "title": "Learn to fly",
+    "audio": "https://hooks.swr.de/99005/M0236915.001.mp3"
+  },
+  {
+    "id": 792,
+    "artist": "Ricchi e Poveri",
+    "title": "Sarà perché ti amo",
+    "audio": "https://hooksswr-a.akamaihd.net/99005/2101086.m.mp3"
+  },
+  {
+    "id": 793,
+    "artist": "Queen",
+    "title": "Hammer to fall",
+    "audio": "https://hooks.swr.de/99005/M0557342.019.mp3"
+  },
+  {
+    "id": 794,
+    "artist": "Led Zeppelin",
+    "title": "Black dog",
+    "audio": "https://hooks.swr.de/99005/M0319000.001.mp3"
+  },
+  {
+    "id": 795,
+    "artist": "Linkin Park",
+    "title": "Breaking the habit",
+    "audio": "https://hooks.swr.de/99005/M0109332.001.mp3"
+  },
+  {
+    "id": 796,
+    "artist": "Nightwish",
+    "title": "Elan",
+    "audio": "https://hooks.swr.de/99005/M0389181.001.mp3"
+  },
+  {
+    "id": 797,
+    "artist": "The Beatles",
+    "title": "Blackbird",
+    "audio": "https://hooks.swr.de/99005/M0233066.001.mp3"
+  },
+  {
+    "id": 798,
+    "artist": "Supertramp",
+    "title": "Breakfast in America",
+    "audio": "https://hooks.swr.de/99005/M0018511.004.mp3"
+  },
+  {
+    "id": 799,
+    "artist": "The White Stripes",
+    "title": "Seven nation army",
+    "audio": "https://hooks.swr.de/99005/M0022301.001.mp3"
+  },
+  {
+    "id": 800,
+    "artist": "Depeche Mode",
+    "title": "People are people",
+    "audio": "https://hooks.swr.de/99005/M0538780.001.mp3"
+  },
+  {
+    "id": 801,
+    "artist": "Clueso",
+    "title": "Flugmodus",
+    "audio": "https://hooks.swr.de/99005/M0598752.001.mp3"
+  },
+  {
+    "id": 802,
+    "artist": "The Hooters",
+    "title": "All you zombies",
+    "audio": "https://hooks.swr.de/99005/M0002283.001.mp3"
+  },
+  {
+    "id": 803,
+    "artist": "The Weeknd",
+    "title": "Blinding lights",
+    "audio": "https://hooks.swr.de/99005/M0583362.001.mp3"
+  },
+  {
+    "id": 804,
+    "artist": "Billy Joel",
+    "title": "The Downeaster 'Alexa'",
+    "audio": "https://hooks.swr.de/99005/M0063390.003.mp3"
+  },
+  {
+    "id": 805,
+    "artist": "Genesis",
+    "title": "Land of confusion",
+    "audio": "https://hooks.swr.de/99005/M0002496.003.mp3"
+  },
+  {
+    "id": 806,
+    "artist": "The Proclaimers",
+    "title": "I'm gonna be (500 Miles)",
+    "audio": "https://hooks.swr.de/99005/M0066231.002.mp3"
+  },
+  {
+    "id": 807,
+    "artist": "Meat Loaf",
+    "title": "You took the words right out of my mouth",
+    "audio": "https://hooks.swr.de/99005/M0028210.002.mp3"
+  },
+  {
+    "id": 808,
+    "artist": "Bon Jovi",
+    "title": "In these arms",
+    "audio": "https://hooks.swr.de/99005/M0264626.014.mp3"
+  },
+  {
+    "id": 809,
+    "artist": "Bon Jovi",
+    "title": "These days",
+    "audio": "https://hooks.swr.de/99005/M0082029.001.mp3"
+  },
+  {
+    "id": 810,
+    "artist": "Depeche Mode",
+    "title": "Walking in my shoes",
+    "audio": "https://hooks.swr.de/99005/M0057950.001.mp3"
+  },
+  {
+    "id": 811,
+    "artist": "Simple Minds",
+    "title": "Don't you (forget about me)",
+    "audio": "https://hooks.swr.de/99005/M0020399.002.mp3"
+  },
+  {
+    "id": 812,
+    "artist": "Das Lumpenpack",
+    "title": "Kann es sein, dass du dumm bist?",
+    "audio": "https://hooks.swr.de/99005/1913115.mp3"
+  },
+  {
+    "id": 813,
+    "artist": "Falco",
+    "title": "Vienna calling",
+    "audio": "https://hooks.swr.de/99005/M0254297.003.mp3"
+  },
+  {
+    "id": 814,
+    "artist": "Linkin Park",
+    "title": "Somewhere I belong",
+    "audio": "https://hooks.swr.de/99005/1928172.mp3"
+  },
+  {
+    "id": 815,
+    "artist": "Kenny Loggins",
+    "title": "Welcome to heartlight",
+    "audio": "https://hooks.swr.de/99005/M0041033.002.mp3"
+  },
+  {
+    "id": 816,
+    "artist": "Coldplay",
+    "title": "In my place",
+    "audio": "https://hooks.swr.de/99005/M0245877.001.mp3"
+  },
+  {
+    "id": 817,
+    "artist": "Lou Reed",
+    "title": "Perfect day",
+    "audio": "https://hooks.swr.de/99005/M0315164.008.mp3"
+  },
+  {
+    "id": 818,
+    "artist": "Blue Öyster Cult",
+    "title": "(Don't fear) the reaper",
+    "audio": "https://hooks.swr.de/99005/M0024475.001.mp3"
+  },
+  {
+    "id": 819,
+    "artist": "Grachmusikoff",
+    "title": "Ratzariader Schenkelbatscher (live)",
+    "audio": "https://hooks.swr.de/99005/M0105758.003.mp3"
+  },
+  {
+    "id": 820,
+    "artist": "Deep Purple",
+    "title": "Burn",
+    "audio": "https://hooks.swr.de/99005/M0080229.001.mp3"
+  },
+  {
+    "id": 821,
+    "artist": "Peter Gabriel & Kate Bush",
+    "title": "Don't give up",
+    "audio": "https://hooks.swr.de/99005/M0287517.001.mp3"
+  },
+  {
+    "id": 822,
+    "artist": "The Pixies",
+    "title": "Where is my mind",
+    "audio": "https://hooks.swr.de/99005/M0291414.006.mp3"
+  },
+  {
+    "id": 823,
+    "artist": "Bee Gees",
+    "title": "Lamplight",
+    "audio": "https://hooks.swr.de/99005/M0042120.009.mp3"
+  },
+  {
+    "id": 824,
+    "artist": "Eminem",
+    "title": "The real Slim Shady",
+    "audio": "https://hooks.swr.de/99005/M0400522.001.mp3"
+  },
+  {
+    "id": 825,
+    "artist": "Abba",
+    "title": "SOS",
+    "audio": "https://hooks.swr.de/99005/M0001413.005.mp3"
+  },
+  {
+    "id": 826,
+    "artist": "Scorpions",
+    "title": "Rock you like a hurricane",
+    "audio": "https://hooks.swr.de/99005/M0020813.011.mp3"
+  },
+  {
+    "id": 827,
+    "artist": "Jethro Tull",
+    "title": "Aqualung",
+    "audio": "https://hooks.swr.de/99005/M0020662.001.mp3"
+  },
+  {
+    "id": 828,
+    "artist": "Neil Diamond",
+    "title": "I am... I said",
+    "audio": "https://hooks.swr.de/99005/M0009269.021.mp3"
+  },
+  {
+    "id": 829,
+    "artist": "The Rolling Stones",
+    "title": "You can't always get what you want",
+    "audio": "https://hooks.swr.de/99005/M0028193.009.mp3"
+  },
+  {
+    "id": 830,
+    "artist": "Eros Ramazzotti",
+    "title": "Musica è",
+    "audio": "https://hooks.swr.de/99005/M0040261.001.mp3"
+  },
+  {
+    "id": 831,
+    "artist": "Tracy Chapman",
+    "title": "Fast car",
+    "audio": "https://hooks.swr.de/99005/M0002315.002.mp3"
+  },
+  {
+    "id": 832,
+    "artist": "Opus",
+    "title": "Live is life",
+    "audio": "https://hooks.swr.de/99005/M0021377.014.mp3"
+  },
+  {
+    "id": 833,
+    "artist": "Eric Burdon & War",
+    "title": "Tobacco Road",
+    "audio": "https://hooks.swr.de/99005/M0025079.002.mp3"
+  },
+  {
+    "id": 834,
+    "artist": "The Stranglers",
+    "title": "Golden brown",
+    "audio": "https://hooks.swr.de/99005/M0024641.014.mp3"
+  },
+  {
+    "id": 835,
+    "artist": "Peter Gabriel",
+    "title": "In your eyes",
+    "audio": "https://hooks.swr.de/99005/M0287513.001.mp3"
+  },
+  {
+    "id": 836,
+    "artist": "Rory Gallagher",
+    "title": "Moonchild",
+    "audio": "https://hooks.swr.de/99005/M0609770.001.mp3"
+  },
+  {
+    "id": 837,
+    "artist": "Pink Floyd",
+    "title": "Hey you",
+    "audio": "https://hooks.swr.de/99005/M0041433.006.mp3"
+  },
+  {
+    "id": 838,
+    "artist": "The Sisters Of Mercy",
+    "title": "Temple of love",
+    "audio": "https://hooks.swr.de/99005/M0240240.023.mp3"
+  },
+  {
+    "id": 839,
+    "artist": "The Eagles",
+    "title": "Heartache tonight",
+    "audio": "https://hooks.swr.de/99005/M0017553.024.mp3"
+  },
+  {
+    "id": 840,
+    "artist": "Bill Withers",
+    "title": "Ain't no sunshine",
+    "audio": "https://hooks.swr.de/99005/M0116050.001.mp3"
+  },
+  {
+    "id": 841,
+    "artist": "Fury In The Slaughterhouse",
+    "title": "Radio Orchid",
+    "audio": "https://hooks.swr.de/99005/M0508256.001.mp3"
+  },
+  {
+    "id": 842,
+    "artist": "Terry Jacks",
+    "title": "Seasons in the sun",
+    "audio": "https://hooks.swr.de/99005/M0271212.001.mp3"
+  },
+  {
+    "id": 843,
+    "artist": "Harry Styles",
+    "title": "As it was",
+    "audio": "https://hooks.swr.de/99005/M0683713.001.mp3"
+  },
+  {
+    "id": 844,
+    "artist": "Pur",
+    "title": "Wenn du da bist",
+    "audio": "https://hooks.swr.de/99005/1928242.mp3"
+  },
+  {
+    "id": 845,
+    "artist": "The Cranberries",
+    "title": "Dreams",
+    "audio": "https://hooks.swr.de/99005/M0478554.001.mp3"
+  },
+  {
+    "id": 846,
+    "artist": "Led Zeppelin",
+    "title": "Rock and Roll",
+    "audio": "https://hooks.swr.de/99005/M0082998.010.mp3"
+  },
+  {
+    "id": 847,
+    "artist": "Lita Ford with Ozzy Osbourne",
+    "title": "Close my eyes forever",
+    "audio": "https://hooks.swr.de/99005/M0239359.006.mp3"
+  },
+  {
+    "id": 848,
+    "artist": "Bette Midler",
+    "title": "From a distance",
+    "audio": "https://hooks.swr.de/99005/M0002243.001.mp3"
+  },
+  {
+    "id": 849,
+    "artist": "Bad Religion",
+    "title": "Punk Rock Song",
+    "audio": "https://hooks.swr.de/99005/M0228912.005.mp3"
+  },
+  {
+    "id": 850,
+    "artist": "Fleetwood Mac",
+    "title": "Albatross",
+    "audio": "https://hooks.swr.de/99005/M0003884.006.mp3"
+  },
+  {
+    "id": 851,
+    "artist": "Bad Company",
+    "title": "Bad company",
+    "audio": "https://hooks.swr.de/99005/M0432580.001.mp3"
+  },
+  {
+    "id": 852,
+    "artist": "Beth Hart",
+    "title": "Bad Woman Blues",
+    "audio": "https://hooks.swr.de/99005/M0573218.001.mp3"
+  },
+  {
+    "id": 853,
+    "artist": "Max Giesinger",
+    "title": "Wenn sie tanzt",
+    "audio": "https://hooks.swr.de/99005/M0445566.001.mp3"
+  },
+  {
+    "id": 854,
+    "artist": "Art Garfunkel",
+    "title": "Bright eyes",
+    "audio": "https://hooks.swr.de/99005/M0041133.001.mp3"
+  },
+  {
+    "id": 855,
+    "artist": "Hans Hartz",
+    "title": "Die weißen Tauben sind müde",
+    "audio": "https://hooks.swr.de/99005/M0007570.007.mp3"
+  },
+  {
+    "id": 856,
+    "artist": "Adele",
+    "title": "Make you feel my love",
+    "audio": "https://hooks.swr.de/99005/M0087617.009.mp3"
+  },
+  {
+    "id": 857,
+    "artist": "Robbie Williams",
+    "title": "Love my life",
+    "audio": "https://hooks.swr.de/99005/M0448999.001.mp3"
+  },
+  {
+    "id": 858,
+    "artist": "Muse",
+    "title": "Supermassive black hole",
+    "audio": "https://hooks.swr.de/99005/M0048993.001.mp3"
+  },
+  {
+    "id": 859,
+    "artist": "Wheatus",
+    "title": "Teenage dirtbag",
+    "audio": "https://hooks.swr.de/99005/M0505463.001.mp3"
+  },
+  {
+    "id": 860,
+    "artist": "Extrabreit & Hildegard Knef",
+    "title": "Für mich soll's rote Rosen regnen",
+    "audio": "https://hooks.swr.de/99005/M0273464.001.mp3"
+  },
+  {
+    "id": 861,
+    "artist": "Rumpelstilz",
+    "title": "Kiosk (schwyzerdütsch)",
+    "audio": "https://hooks.swr.de/99005/M0122898.014.mp3"
+  },
+  {
+    "id": 862,
+    "artist": "The Eagles",
+    "title": "Take it easy",
+    "audio": "https://hooks.swr.de/99005/M0088659.012.mp3"
+  },
+  {
+    "id": 863,
+    "artist": "Adele",
+    "title": "When we were young",
+    "audio": "https://hooks.swr.de/99005/M0422704.001.mp3"
+  },
+  {
+    "id": 864,
+    "artist": "Eminem",
+    "title": "Houdini",
+    "audio": "https://hooks.swr.de/99005/2080825.mp3"
+  },
+  {
+    "id": 865,
+    "artist": "Steppenwolf",
+    "title": "Born to be wild",
+    "audio": "https://hooks.swr.de/99005/M0024445.001.mp3"
+  },
+  {
+    "id": 866,
+    "artist": "Spandau Ballet",
+    "title": "Through the barricades",
+    "audio": "https://hooks.swr.de/99005/M0079488.018.mp3"
+  },
+  {
+    "id": 867,
+    "artist": "Udo Lindenberg",
+    "title": "Ich lieb Dich überhaupt nicht mehr",
+    "audio": "https://hooks.swr.de/99005/M0022533.019.mp3"
+  },
+  {
+    "id": 868,
+    "artist": "Mathou",
+    "title": "You never walk alone",
+    "audio": "https://hooks.swr.de/99005/M0001987.001.mp3"
+  },
+  {
+    "id": 869,
+    "artist": "Céline Dion",
+    "title": "My heart will go on",
+    "audio": "https://hooks.swr.de/99005/M0001818.001.mp3"
+  },
+  {
+    "id": 870,
+    "artist": "Twisted Sister",
+    "title": "We're not gonna take it",
+    "audio": "https://hooks.swr.de/99005/M0257713.001.mp3"
+  },
+  {
+    "id": 871,
+    "artist": "Chris de Burgh",
+    "title": "A Spaceman came travelling",
+    "audio": "https://hooks.swr.de/99005/M0018390.010.mp3"
+  },
+  {
+    "id": 872,
+    "artist": "Ronan Keating",
+    "title": "When you say nothing at all",
+    "audio": "https://hooks.swr.de/99005/M0020430.001.mp3"
+  },
+  {
+    "id": 873,
+    "artist": "Wham!",
+    "title": "Careless whisper",
+    "audio": "https://hooks.swr.de/99005/M0024478.011.mp3"
+  },
+  {
+    "id": 874,
+    "artist": "Them",
+    "title": "It's all over now, Baby Blue",
+    "audio": "https://hooks.swr.de/99005/M0024352.034.mp3"
+  },
+  {
+    "id": 875,
+    "artist": "Bob Marley & The Wailers",
+    "title": "Redemption song",
+    "audio": "https://hooks.swr.de/99005/M0051746.010.mp3"
+  },
+  {
+    "id": 876,
+    "artist": "Soft Cell",
+    "title": "Tainted love",
+    "audio": "https://hooks.swr.de/99005/M0023749.020.mp3"
+  },
+  {
+    "id": 877,
+    "artist": "Max Werner",
+    "title": "Rain in May",
+    "audio": "https://hooks.swr.de/99005/M0339093.025.mp3"
+  },
+  {
+    "id": 878,
+    "artist": "Nazareth",
+    "title": "This flight tonight",
+    "audio": "https://hooks.swr.de/99005/M0417882.021.mp3"
+  },
+  {
+    "id": 879,
+    "artist": "The Eagles",
+    "title": "Desperado",
+    "audio": "https://hooks.swr.de/99005/M0088659.015.mp3"
+  },
+  {
+    "id": 880,
+    "artist": "The Rolling Stones",
+    "title": "Brown sugar",
+    "audio": "https://hooks.swr.de/99005/M0028209.001.mp3"
+  },
+  {
+    "id": 881,
+    "artist": "Enya",
+    "title": "Orinoco flow (Sail away)",
+    "audio": "https://hooks.swr.de/99005/M0025030.007.mp3"
+  },
+  {
+    "id": 882,
+    "artist": "Kiss",
+    "title": "Detroit Rock City",
+    "audio": "https://hooks.swr.de/99005/M0023412.007.mp3"
+  },
+  {
+    "id": 883,
+    "artist": "ZZ Top",
+    "title": "Sharp dressed man",
+    "audio": "https://hooks.swr.de/99005/M0363772.001.mp3"
+  },
+  {
+    "id": 884,
+    "artist": "Abba",
+    "title": "Fernando",
+    "audio": "https://hooks.swr.de/99005/M0373027.001.mp3"
+  },
+  {
+    "id": 885,
+    "artist": "Phil Collins",
+    "title": "Against All Odds (Take A Look At Me Now)",
+    "audio": "https://hooks.swr.de/99005/M0019662.004.mp3"
+  },
+  {
+    "id": 886,
+    "artist": "Jean-Jacques Goldman",
+    "title": "Je marche seul (Single edit)",
+    "audio": "https://hooks.swr.de/99005/M0042399.021.mp3"
+  },
+  {
+    "id": 887,
+    "artist": "The Rolling Stones",
+    "title": "Jumpin' Jack flash",
+    "audio": "https://hooks.swr.de/99005/M0002917.004.mp3"
+  },
+  {
+    "id": 888,
+    "artist": "Erste Allgemeine Verunsicherung (EAV)",
+    "title": "Ba-Ba Banküberfall",
+    "audio": "https://hooks.swr.de/99005/M0130863.019.mp3"
+  },
+  {
+    "id": 889,
+    "artist": "Drafi Deutscher",
+    "title": "Marmor, Stein und Eisen bricht",
+    "audio": "https://hooks.swr.de/99005/M0023554.014.mp3"
+  },
+  {
+    "id": 890,
+    "artist": "Alanis Morissette",
+    "title": "Ironic",
+    "audio": "https://hooks.swr.de/99005/M0005701.010.mp3"
+  },
+  {
+    "id": 891,
+    "artist": "Peter Gabriel",
+    "title": "The book of love",
+    "audio": "https://hooks.swr.de/99005/M0241714.001.mp3"
+  },
+  {
+    "id": 892,
+    "artist": "Wise Guys",
+    "title": "Radio",
+    "audio": "https://hooks.swr.de/99005/M0050503.002.mp3"
+  },
+  {
+    "id": 893,
+    "artist": "Lo & Leduc",
+    "title": "079 (Original-Version)",
+    "audio": "https://hooks.swr.de/99005/M0514679.001.mp3"
+  },
+  {
+    "id": 894,
+    "artist": "Mike & The Mechanics",
+    "title": "Word of mouth",
+    "audio": "https://hooks.swr.de/99005/M0338147.003.mp3"
+  },
+  {
+    "id": 895,
+    "artist": "Dr. Alban",
+    "title": "Sing Hallelujah!",
+    "audio": "https://hooks.swr.de/99005/M0115059.001.mp3"
+  },
+  {
+    "id": 896,
+    "artist": "Eurythmics",
+    "title": "Sweet dreams (are made of this)",
+    "audio": "https://hooks.swr.de/99005/M0024559.001.mp3"
+  },
+  {
+    "id": 897,
+    "artist": "Van Halen",
+    "title": "Why can't this be love",
+    "audio": "https://hooks.swr.de/99005/M0017059.025.mp3"
+  },
+  {
+    "id": 898,
+    "artist": "a-ha",
+    "title": "Hunting High And Low",
+    "audio": "https://hooks.swr.de/99005/M0410760.001.mp3"
+  },
+  {
+    "id": 899,
+    "artist": "Snow Patrol",
+    "title": "Run",
+    "audio": "https://hooks.swr.de/99005/M0086089.001.mp3"
+  },
+  {
+    "id": 900,
+    "artist": "The Doors",
+    "title": "The end",
+    "audio": "https://hooks.swr.de/99005/M0025043.011.mp3"
+  },
+  {
+    "id": 901,
+    "artist": "Die Toten Hosen",
+    "title": "1000 gute Gründe",
+    "audio": "https://hooks.swr.de/99005/M0051308.013.mp3"
+  },
+  {
+    "id": 902,
+    "artist": "Stereoact feat. Kerstin Ott",
+    "title": "Die immer lacht",
+    "audio": "https://hooks.swr.de/99005/M0421305.001.mp3"
+  },
+  {
+    "id": 903,
+    "artist": "Foo Fighters",
+    "title": "My Hero",
+    "audio": "https://hooksswr-a.akamaihd.net/99005/1727114.mp3"
+  },
+  {
+    "id": 904,
+    "artist": "Queen",
+    "title": "Too much love will kill you",
+    "audio": "https://hooks.swr.de/99005/M0003748.008.mp3"
+  },
+  {
+    "id": 905,
+    "artist": "David Bowie",
+    "title": "Absolute beginners",
+    "audio": "https://hooks.swr.de/99005/M0051519.001.mp3"
+  },
+  {
+    "id": 906,
+    "artist": "David Hasselhoff",
+    "title": "Looking for freedom",
+    "audio": "https://hooks.swr.de/99005/M0322769.004.mp3"
+  },
+  {
+    "id": 907,
+    "artist": "Peter Maffay",
+    "title": "Weil es dich gibt",
+    "audio": "https://hooks.swr.de/99005/M0242242.001.mp3"
+  },
+  {
+    "id": 908,
+    "artist": "Derek & The Dominos",
+    "title": "Layla",
+    "audio": "https://hooks.swr.de/99005/M0025075.013.mp3"
+  },
+  {
+    "id": 909,
+    "artist": "Kraftwerk",
+    "title": "Das Model",
+    "audio": "https://hooks.swr.de/99005/M0235648.001.mp3"
+  },
+  {
+    "id": 910,
+    "artist": "Marianne Rosenberg",
+    "title": "Er gehört zu mir",
+    "audio": "https://hooks.swr.de/99005/M0337939.044.mp3"
+  },
+  {
+    "id": 911,
+    "artist": "Bob Dylan",
+    "title": "The times they are a-changin´",
+    "audio": "https://hooks.swr.de/99005/M0307157.022.mp3"
+  },
+  {
+    "id": 912,
+    "artist": "Fettes Brot",
+    "title": "Jein",
+    "audio": "https://hooks.swr.de/99005/M0516961.001.mp3"
+  },
+  {
+    "id": 913,
+    "artist": "Duran Duran",
+    "title": "The wild boys",
+    "audio": "https://hooks.swr.de/99005/M0037743.009.mp3"
+  },
+  {
+    "id": 914,
+    "artist": "Coldplay",
+    "title": "Higher power",
+    "audio": "https://hooks.swr.de/99005/M0672743.001.mp3"
+  },
+  {
+    "id": 915,
+    "artist": "Chris de Burgh",
+    "title": "Borderline",
+    "audio": "https://hooks.swr.de/99005/M0018377.008.mp3"
+  },
+  {
+    "id": 916,
+    "artist": "Scorpions",
+    "title": "Holiday",
+    "audio": "https://hooks.swr.de/99005/M0020813.009.mp3"
+  },
+  {
+    "id": 917,
+    "artist": "Rosa Linn",
+    "title": "Snap",
+    "audio": "https://hooks.swr.de/99005/M0685459.001.mp3"
+  },
+  {
+    "id": 918,
+    "artist": "Thin Lizzy",
+    "title": "Whisky in the jar (Album Version)",
+    "audio": "https://hooks.swr.de/99005/M0039599.016.mp3"
+  },
+  {
+    "id": 919,
+    "artist": "Michael Jackson",
+    "title": "Man in the mirror",
+    "audio": "https://hooks.swr.de/99005/M0074886.007.mp3"
+  },
+  {
+    "id": 920,
+    "artist": "Journey",
+    "title": "Open arms",
+    "audio": "https://hooks.swr.de/99005/M0054869.010.mp3"
+  },
+  {
+    "id": 921,
+    "artist": "AC/DC",
+    "title": "Moneytalks",
+    "audio": "https://hooks.swr.de/99005/M0078231.003.mp3"
+  },
+  {
+    "id": 922,
+    "artist": "Dusty Springfield",
+    "title": "Son of a preacher man",
+    "audio": "https://hooks.swr.de/99005/M0002255.005.mp3"
+  },
+  {
+    "id": 923,
+    "artist": "DÖF",
+    "title": "Codo",
+    "audio": "https://hooks.swr.de/99005/M0023555.006.mp3"
+  },
+  {
+    "id": 924,
+    "artist": "Elvis Presley",
+    "title": "Always on my mind",
+    "audio": "https://hooks.swr.de/99005/M0342983.014.mp3"
+  },
+  {
+    "id": 925,
+    "artist": "The Alan Parsons Project",
+    "title": "Eye in the sky",
+    "audio": "https://hooks.swr.de/99005/M0003248.002.mp3"
+  },
+  {
+    "id": 926,
+    "artist": "U2",
+    "title": "Where the streets have no name",
+    "audio": "https://hooks.swr.de/99005/M0473826.001.mp3"
+  },
+  {
+    "id": 927,
+    "artist": "Phil Collins",
+    "title": "You'll be in my heart",
+    "audio": "https://hooks.swr.de/99005/M0001749.001.mp3"
+  },
+  {
+    "id": 928,
+    "artist": "Herbert Grönemeyer",
+    "title": "Lied 1 - Stück vom Himmel",
+    "audio": "https://hooks.swr.de/99005/M0062006.001.mp3"
+  },
+  {
+    "id": 929,
+    "artist": "Abba",
+    "title": "My love, my life",
+    "audio": "https://hooks.swr.de/99005/1810732.mp3"
+  },
+  {
+    "id": 930,
+    "artist": "Black",
+    "title": "Wonderful life",
+    "audio": "https://hooks.swr.de/99005/M0026263.018.mp3"
+  },
+  {
+    "id": 931,
+    "artist": "Herbert Grönemeyer",
+    "title": "Land unter",
+    "audio": "https://hooks.swr.de/99005/M0066741.007.mp3"
+  },
+  {
+    "id": 932,
+    "artist": "Die Toten Hosen",
+    "title": "Alle sagen das",
+    "audio": "https://hooks.swr.de/99005/M0685450.102.mp3"
+  },
+  {
+    "id": 933,
+    "artist": "Yes",
+    "title": "Close to the edge",
+    "audio": "https://hooks.swr.de/99005/1928343.mp3"
+  },
+  {
+    "id": 934,
+    "artist": "Chicago",
+    "title": "You're the inspiration",
+    "audio": "https://hooks.swr.de/99005/M0027900.001.mp3"
+  },
+  {
+    "id": 935,
+    "artist": "Bob Dylan",
+    "title": "Hurricane",
+    "audio": "https://hooks.swr.de/99005/M0032724.003.mp3"
+  },
+  {
+    "id": 936,
+    "artist": "Bob Seger",
+    "title": "Against the wind",
+    "audio": "https://hooks.swr.de/99005/M0040989.006.mp3"
+  },
+  {
+    "id": 937,
+    "artist": "Chris de Burgh",
+    "title": "Spanish train",
+    "audio": "https://hooks.swr.de/99005/M0018390.006.mp3"
+  },
+  {
+    "id": 938,
+    "artist": "Hubert von Goisern",
+    "title": "Koa Hiatamadl",
+    "audio": "https://hooks.swr.de/99005/M0043920.019.mp3"
+  },
+  {
+    "id": 939,
+    "artist": "ZAZ",
+    "title": "Si jamais j'oublie",
+    "audio": "https://hooks.swr.de/99005/M0432301.001.mp3"
+  },
+  {
+    "id": 940,
+    "artist": "Michael Jackson",
+    "title": "Smooth criminal",
+    "audio": "https://hooks.swr.de/99005/M0130154.001.mp3"
+  },
+  {
+    "id": 941,
+    "artist": "U2",
+    "title": "I still haven't found what I'm looking for",
+    "audio": "https://hooks.swr.de/99005/M0000283.002.mp3"
+  },
+  {
+    "id": 942,
+    "artist": "Ronan Keating",
+    "title": "If tomorrow never comes",
+    "audio": "https://hooks.swr.de/99005/M0020430.005.mp3"
+  },
+  {
+    "id": 943,
+    "artist": "Green Day",
+    "title": "Good riddance (Time of your life)",
+    "audio": "https://hooks.swr.de/99005/M0063664.017.mp3"
+  },
+  {
+    "id": 944,
+    "artist": "Ram Jam",
+    "title": "Black Betty (Long Version)",
+    "audio": "https://hooks.swr.de/99005/M0539208.002.mp3"
+  },
+  {
+    "id": 945,
+    "artist": "Abba",
+    "title": "Move on",
+    "audio": "https://hooks.swr.de/99005/M0001393.005.mp3"
+  },
+  {
+    "id": 946,
+    "artist": "Red Hot Chili Peppers",
+    "title": "Otherside",
+    "audio": "https://hooks.swr.de/99005/M0006587.006.mp3"
+  },
+  {
+    "id": 947,
+    "artist": "Tracy Chapman",
+    "title": "Talkin' bout a revolution",
+    "audio": "https://hooks.swr.de/99005/M0002315.001.mp3"
+  },
+  {
+    "id": 948,
+    "artist": "Gianna Nannini",
+    "title": "Bello e impossibile",
+    "audio": "https://hooks.swr.de/99005/M0406521.011.mp3"
+  },
+  {
+    "id": 949,
+    "artist": "Dio",
+    "title": "Rainbow in the dark",
+    "audio": "https://hooksswr-a.akamaihd.net/99005/1886041.mp3"
+  },
+  {
+    "id": 950,
+    "artist": "Sido feat. Andreas Bourani",
+    "title": "Astronaut",
+    "audio": "https://hooks.swr.de/99005/M0401582.001.mp3"
+  },
+  {
+    "id": 951,
+    "artist": "Styx",
+    "title": "Boat on the river",
+    "audio": "https://hooks.swr.de/99005/M0024383.009.mp3"
+  },
+  {
+    "id": 952,
+    "artist": "Wir Sind Helden",
+    "title": "Nur ein Wort",
+    "audio": "https://hooks.swr.de/99005/M0028864.011.mp3"
+  },
+  {
+    "id": 953,
+    "artist": "Black Sabbath",
+    "title": "N. I. B.",
+    "audio": "https://hooks.swr.de/99005/M0080082.004.mp3"
+  },
+  {
+    "id": 954,
+    "artist": "Roxette",
+    "title": "The look",
+    "audio": "https://hooks.swr.de/99005/M0002299.001.mp3"
+  },
+  {
+    "id": 955,
+    "artist": "Keane",
+    "title": "Somewhere only we know",
+    "audio": "https://hooks.swr.de/99005/M0348462.001.mp3"
+  },
+  {
+    "id": 956,
+    "artist": "Tom Petty",
+    "title": "Free fallin'",
+    "audio": "https://hooks.swr.de/99005/M0508221.001.mp3"
+  },
+  {
+    "id": 957,
+    "artist": "Green Day",
+    "title": "Wake me up when September ends",
+    "audio": "https://hooks.swr.de/99005/M0042925.001.mp3"
+  },
+  {
+    "id": 958,
+    "artist": "Coolio",
+    "title": "Gangsta's paradise",
+    "audio": "https://hooks.swr.de/99005/M0519603.001.mp3"
+  },
+  {
+    "id": 959,
+    "artist": "Jim Croce",
+    "title": "Time in a bottle",
+    "audio": "https://hooks.swr.de/99005/M0041730.005.mp3"
+  },
+  {
+    "id": 960,
+    "artist": "Queen",
+    "title": "Fat bottomed girls",
+    "audio": "https://hooks.swr.de/99005/M0106737.002.mp3"
+  },
+  {
+    "id": 961,
+    "artist": "Eros Ramazzotti & Tina Turner",
+    "title": "Cose Della Vita",
+    "audio": "https://hooks.swr.de/99005/M0081058.007.mp3"
+  },
+  {
+    "id": 962,
+    "artist": "Manfred Mann's Earth Band",
+    "title": "Questions",
+    "audio": "https://hooks.swr.de/99005/M0009954.031.mp3"
+  },
+  {
+    "id": 963,
+    "artist": "Bonnie Tyler",
+    "title": "Holding out for a hero",
+    "audio": "https://hooks.swr.de/99005/M0024466.002.mp3"
+  },
+  {
+    "id": 964,
+    "artist": "Genesis",
+    "title": "Home by the sea",
+    "audio": "https://hooks.swr.de/99005/M0107290.012.mp3"
+  },
+  {
+    "id": 965,
+    "artist": "Element of Crime",
+    "title": "Weißes Papier",
+    "audio": "https://hooks.swr.de/99005/M0342010.005.mp3"
+  },
+  {
+    "id": 966,
+    "artist": "King Crimson",
+    "title": "The court of the Crimson King",
+    "audio": "https://hooks.swr.de/99005/M0003973.005.mp3"
+  },
+  {
+    "id": 967,
+    "artist": "Prince",
+    "title": "When doves cry",
+    "audio": "https://hooks.swr.de/99005/M0003796.006.mp3"
+  },
+  {
+    "id": 968,
+    "artist": "Stealers Wheel",
+    "title": "Stuck in the middle with you",
+    "audio": "https://hooks.swr.de/99005/M0268572.001.mp3"
+  },
+  {
+    "id": 969,
+    "artist": "Linkin Park",
+    "title": "Burn it down",
+    "audio": "https://hooks.swr.de/99005/M0306062.001.mp3"
+  },
+  {
+    "id": 970,
+    "artist": "Mike & The Mechanics",
+    "title": "In the living years",
+    "audio": "https://hooks.swr.de/99005/M0244562.002.mp3"
+  },
+  {
+    "id": 971,
+    "artist": "Fleetwood Mac",
+    "title": "Everywhere",
+    "audio": "https://hooks.swr.de/99005/M0023586.005.mp3"
+  },
+  {
+    "id": 972,
+    "artist": "Karat",
+    "title": "Jede Stunde",
+    "audio": "https://hooks.swr.de/99005/M0250592.005.mp3"
+  },
+  {
+    "id": 973,
+    "artist": "Alphaville",
+    "title": "Sounds like a melody",
+    "audio": "https://hooks.swr.de/99005/M0024466.006.mp3"
+  },
+  {
+    "id": 974,
+    "artist": "Johannes Oerding",
+    "title": "Kreise",
+    "audio": "https://hooks.swr.de/99005/M0475684.001.mp3"
+  },
+  {
+    "id": 975,
+    "artist": "Depeche Mode",
+    "title": "Shake the disease",
+    "audio": "https://hooks.swr.de/99005/1845128.mp3"
+  },
+  {
+    "id": 976,
+    "artist": "Foo Fighters",
+    "title": "Best of you",
+    "audio": "https://hooks.swr.de/99005/M0029905.001.mp3"
+  },
+  {
+    "id": 977,
+    "artist": "U2",
+    "title": "Beautiful day",
+    "audio": "https://hooks.swr.de/99005/M0060170.001.mp3"
+  },
+  {
+    "id": 978,
+    "artist": "U2",
+    "title": "Pride (in the name of love)",
+    "audio": "https://hooks.swr.de/99005/M0302475.002.mp3"
+  },
+  {
+    "id": 979,
+    "artist": "Peter Fox",
+    "title": "Alles neu",
+    "audio": "https://hooks.swr.de/99005/M0111320.001.mp3"
+  },
+  {
+    "id": 980,
+    "artist": "AnnenMayKantereit",
+    "title": "Oft gefragt",
+    "audio": "https://hooks.swr.de/99005/M0412480.001.mp3"
+  },
+  {
+    "id": 981,
+    "artist": "Udo Lindenberg",
+    "title": "Wenn du gehst",
+    "audio": "https://hooks.swr.de/99005/M0449451.001.mp3"
+  },
+  {
+    "id": 982,
+    "artist": "Whitney Houston",
+    "title": "Greatest Love Of All",
+    "audio": "https://hooks.swr.de/99005/M0002493.009.mp3"
+  },
+  {
+    "id": 983,
+    "artist": "Cyndi Lauper",
+    "title": "Time after time",
+    "audio": "https://hooks.swr.de/99005/M0410873.012.mp3"
+  },
+  {
+    "id": 984,
+    "artist": "Avicii",
+    "title": "Levels",
+    "audio": "https://hooks.swr.de/99005/M0290074.001.mp3"
+  },
+  {
+    "id": 985,
+    "artist": "The Kelly Family",
+    "title": "An angel",
+    "audio": "https://hooks.swr.de/99005/M0070243.012.mp3"
+  },
+  {
+    "id": 986,
+    "artist": "Robbie Williams",
+    "title": "Let me entertain you",
+    "audio": "https://hooks.swr.de/99005/M0260688.001.mp3"
+  },
+  {
+    "id": 987,
+    "artist": "Nena",
+    "title": "In meinem Leben",
+    "audio": "https://hooks.swr.de/99005/M0246020.001.mp3"
+  },
+  {
+    "id": 988,
+    "artist": "R.E.M.",
+    "title": "Drive",
+    "audio": "https://hooks.swr.de/99005/M0001978.001.mp3"
+  },
+  {
+    "id": 989,
+    "artist": "Die Toten Hosen",
+    "title": "Alles passiert",
+    "audio": "https://hooks.swr.de/99005/M0496649.001.mp3"
+  },
+  {
+    "id": 990,
+    "artist": "Barry McGuire",
+    "title": "Eve of destruction",
+    "audio": "https://hooks.swr.de/99005/M0086336.006.mp3"
+  },
+  {
+    "id": 991,
+    "artist": "David Bowie",
+    "title": "China girl",
+    "audio": "https://hooks.swr.de/99005/M0511041.002.mp3"
+  },
+  {
+    "id": 992,
+    "artist": "Gossip",
+    "title": "Heavy cross",
+    "audio": "https://hooks.swr.de/99005/M0128452.002.mp3"
+  },
+  {
+    "id": 993,
+    "artist": "Lotte & Max Giesinger",
+    "title": "Auf das, was da noch kommt",
+    "audio": "https://hooks.swr.de/99005/M0574544.001.mp3"
+  },
+  {
+    "id": 994,
+    "artist": "Ideal",
+    "title": "Blaue Augen",
+    "audio": "https://hooks.swr.de/99005/M0025896.010.mp3"
+  },
+  {
+    "id": 995,
+    "artist": "Madonna",
+    "title": "Like a prayer",
+    "audio": "https://hooks.swr.de/99005/M0029557.001.mp3"
+  },
+  {
+    "id": 996,
+    "artist": "George Michael & Elton John",
+    "title": "Don't let the sun go down on me",
+    "audio": "https://hooks.swr.de/99005/M0505244.001.mp3"
+  },
+  {
+    "id": 997,
+    "artist": "Mark Forster",
+    "title": "194 Länder",
+    "audio": "https://hooks.swr.de/99005/M0576114.001.mp3"
+  },
+  {
+    "id": 998,
+    "artist": "Mark Ambor",
+    "title": "Belong together",
+    "audio": "https://hooks.swr.de/99005/2112024.mp3"
+  },
+  {
+    "id": 999,
+    "artist": "John Farnham",
+    "title": "You're the voice",
+    "audio": "https://hooks.swr.de/99005/M0016738.015.mp3"
+  },
+  {
+    "id": 1000,
+    "artist": "Calum Scott + Whitney Houston",
+    "title": "I wanna dance with somebody (who loves me)",
+    "audio": "https://hooks.swr.de/99005/2267892.mp3"
+  },
+  {
+    "id": 1001,
+    "artist": "a-ha",
+    "title": "Crying in the rain",
+    "audio": "https://hooks.swr.de/99005/M0413687.001.mp3"
+  },
+  {
+    "id": 1002,
+    "artist": "Gary Moore",
+    "title": "Empty rooms",
+    "audio": "https://hooks.swr.de/99005/M0023751.005.mp3"
+  },
+  {
+    "id": 1003,
+    "artist": "Deep Purple",
+    "title": "Hush",
+    "audio": "https://hooks.swr.de/99005/M0290168.001.mp3"
+  },
+  {
+    "id": 1004,
+    "artist": "Queen",
+    "title": "Another one bites the dust",
+    "audio": "https://hooks.swr.de/99005/2253761.mp3"
+  },
+  {
+    "id": 1005,
+    "artist": "Hozier",
+    "title": "Take me to church",
+    "audio": "https://hooks.swr.de/99005/M0363911.001.mp3"
+  },
+  {
+    "id": 1006,
+    "artist": "Wolfgang Petry",
+    "title": "Verlieben, verloren, vergessen, verzeih'n",
+    "audio": "https://hooks.swr.de/99005/1928269.mp3"
+  },
+  {
+    "id": 1007,
+    "artist": "AC/DC",
+    "title": "High voltage",
+    "audio": "https://hooks.swr.de/99005/M0079560.009.mp3"
+  },
+  {
+    "id": 1008,
+    "artist": "Ton Steine Scherben",
+    "title": "Der Traum ist aus",
+    "audio": "https://hooks.swr.de/99005/M0278070.008.mp3"
+  },
+  {
+    "id": 1009,
+    "artist": "Marillion",
+    "title": "Lavender",
+    "audio": "https://hooks.swr.de/99005/M0019384.012.mp3"
+  },
+  {
+    "id": 1010,
+    "artist": "Maroon 5",
+    "title": "Memories",
+    "audio": "https://hooks.swr.de/99005/M0576546.001.mp3"
+  },
+  {
+    "id": 1011,
+    "artist": "Bruce Springsteen",
+    "title": "Hungry heart",
+    "audio": "https://hooks.swr.de/99005/M0018447.006.mp3"
+  },
+  {
+    "id": 1012,
+    "artist": "Wanda",
+    "title": "Columbo",
+    "audio": "https://hooks.swr.de/99005/M0491027.001.mp3"
+  },
+  {
+    "id": 1013,
+    "artist": "Die Toten Hosen",
+    "title": "Das ist der Moment",
+    "audio": "https://hooks.swr.de/99005/M0336958.001.mp3"
+  },
+  {
+    "id": 1014,
+    "artist": "Sade",
+    "title": "Smooth operator",
+    "audio": "https://hooks.swr.de/99005/M0002525.003.mp3"
+  },
+  {
+    "id": 1015,
+    "artist": "Billy Joel",
+    "title": "Turn the lights back on",
+    "audio": "https://hooks.swr.de/99005/1996350.mp3"
+  },
+  {
+    "id": 1016,
+    "artist": "Aerosmith & Yungblud",
+    "title": "My only Angel",
+    "audio": "https://hooks.swr.de/99005/2268499.mp3"
+  },
+  {
+    "id": 1017,
+    "artist": "Master KG feat. Nomcebo Zikode",
+    "title": "Jerusalema",
+    "audio": "https://hooks.swr.de/99005/M0598709.001.mp3"
+  },
+  {
+    "id": 1018,
+    "artist": "New Order",
+    "title": "Blue Monday '88",
+    "audio": "https://hooks.swr.de/99005/M0039673.016.mp3"
+  },
+  {
+    "id": 1019,
+    "artist": "Creedence Clearwater Revival",
+    "title": "Proud Mary",
+    "audio": "https://hooks.swr.de/99005/M0041061.001.mp3"
+  },
+  {
+    "id": 1020,
+    "artist": "George Harrison",
+    "title": "My sweet Lord",
+    "audio": "https://hooks.swr.de/99005/M0025890.002.mp3"
+  },
+  {
+    "id": 1021,
+    "artist": "Focus",
+    "title": "Hocus Pocus",
+    "audio": "https://hooks.swr.de/99005/M0041256.011.mp3"
+  },
+  {
+    "id": 1022,
+    "artist": "Wolfgang Petry",
+    "title": "Der Himmel brennt",
+    "audio": "https://hooks.swr.de/99005/1927256.mp3"
+  },
+  {
+    "id": 1023,
+    "artist": "Marianne Faithfull",
+    "title": "The ballad of Lucy Jordan",
+    "audio": "https://hooks.swr.de/99005/M0024559.011.mp3"
+  },
+  {
+    "id": 1024,
+    "artist": "Robbie Williams feat. Nicole Kidman",
+    "title": "Somethin' Stupid",
+    "audio": "https://hooks.swr.de/99005/M0001283.001.mp3"
+  },
+  {
+    "id": 1025,
+    "artist": "Limp Bizkit",
+    "title": "Behind blue eyes",
+    "audio": "https://hooks.swr.de/99005/M0004775.015.mp3"
+  },
+  {
+    "id": 1026,
+    "artist": "The Kinks",
+    "title": "Lola",
+    "audio": "https://hooks.swr.de/99005/M0514678.005.mp3"
+  },
+  {
+    "id": 1027,
+    "artist": "Billy Joel",
+    "title": "She's always a woman",
+    "audio": "https://hooks.swr.de/99005/M0063358.007.mp3"
+  },
+  {
+    "id": 1028,
+    "artist": "Mark Forster",
+    "title": "Chöre",
+    "audio": "https://hooks.swr.de/99005/M0446763.001.mp3"
+  },
+  {
+    "id": 1029,
+    "artist": "Status Quo",
+    "title": "In the army now",
+    "audio": "https://hooks.swr.de/99005/M0002522.031.mp3"
+  },
+  {
+    "id": 1030,
+    "artist": "Abba",
+    "title": "Knowing me, knowing you",
+    "audio": "https://hooks.swr.de/99005/M0001410.006.mp3"
+  },
+  {
+    "id": 1031,
+    "artist": "Bosse",
+    "title": "Schönste Zeit",
+    "audio": "https://hooks.swr.de/99005/M0321984.001.mp3"
+  },
+  {
+    "id": 1032,
+    "artist": "Heart",
+    "title": "Alone",
+    "audio": "https://hooks.swr.de/99005/M0004091.002.mp3"
+  },
+  {
+    "id": 1033,
+    "artist": "Marlene Dietrich",
+    "title": "Sag mir wo die Blumen sind",
+    "audio": "https://hooks.swr.de/99005/M0114405.001.mp3"
+  },
+  {
+    "id": 1034,
+    "artist": "Lewis Capaldi",
+    "title": "Someone you loved",
+    "audio": "https://hooks.swr.de/99005/M0558978.001.mp3"
+  },
+  {
+    "id": 1035,
+    "artist": "Cro",
+    "title": "Einmal um die Welt",
+    "audio": "https://hooks.swr.de/99005/M0316282.001.mp3"
+  },
+  {
+    "id": 1036,
+    "artist": "The Outfield",
+    "title": "Your love",
+    "audio": "https://hooks.swr.de/99005/M0096416.025.mp3"
+  },
+  {
+    "id": 1037,
+    "artist": "Billie Eilish",
+    "title": "No time to die",
+    "audio": "https://hooks.swr.de/99005/M0587946.001.mp3"
+  },
+  {
+    "id": 1038,
+    "artist": "Joan Baez",
+    "title": "Diamonds & rust",
+    "audio": "https://hooks.swr.de/99005/M0085792.001.mp3"
+  },
+  {
+    "id": 1039,
+    "artist": "Hot Chocolate",
+    "title": "Emma",
+    "audio": "https://hooks.swr.de/99005/M0018374.014.mp3"
+  },
+  {
+    "id": 1040,
+    "artist": "ZAZ",
+    "title": "Demain c'est toi",
+    "audio": "https://hooks.swr.de/99005/M0555887.001.mp3"
+  },
+  {
+    "id": 1041,
+    "artist": "Rosenstolz",
+    "title": "Gib mir Sonne",
+    "audio": "https://hooks.swr.de/99005/M0094508.001.mp3"
+  },
+  {
+    "id": 1042,
+    "artist": "Joe Cocker",
+    "title": "Unchain my heart",
+    "audio": "https://hooks.swr.de/99005/M0038220.012.mp3"
+  },
+  {
+    "id": 1043,
+    "artist": "Elvis Presley",
+    "title": "Can't help falling in love",
+    "audio": "https://hooks.swr.de/99005/M0028258.024.mp3"
+  },
+  {
+    "id": 1044,
+    "artist": "Joe Cocker",
+    "title": "You are so beautiful",
+    "audio": "https://hooks.swr.de/99005/M0020848.029.mp3"
+  },
+  {
+    "id": 1045,
+    "artist": "All I want for Christmas is you",
+    "title": "Mariah Carey",
+    "audio": "https://hooks.swr.de/99005/M0057702.002.mp3"
+  },
+  {
+    "id": 1046,
+    "artist": "10cc",
+    "title": "I'm not in love",
+    "audio": "https://hooks.swr.de/99005/M0518474.001.mp3"
+  },
+  {
+    "id": 1047,
+    "artist": "Meat Loaf",
+    "title": "Rock and roll dreams come through",
+    "audio": "https://hooks.swr.de/99005/M0131041.003.mp3"
+  },
+  {
+    "id": 1048,
+    "artist": "Münchener Freiheit",
+    "title": "Tausendmal du",
+    "audio": "https://hooks.swr.de/99005/M0058296.008.mp3"
+  },
+  {
+    "id": 1049,
+    "artist": "Taylor Swift",
+    "title": "Lover",
+    "audio": "https://hooks.swr.de/99005/M0578228.001.mp3"
+  },
+  {
+    "id": 1050,
+    "artist": "Buena Vista Social Club",
+    "title": "Chan Chan",
+    "audio": "https://hooks.swr.de/99005/M0040527.001.mp3"
+  },
+  {
+    "id": 1051,
+    "artist": "The Beatles",
+    "title": "Yellow submarine",
+    "audio": "https://hooks.swr.de/99005/M0024986.006.mp3"
+  },
+  {
+    "id": 1052,
+    "artist": "Imagine Dragons",
+    "title": "Thunder",
+    "audio": "https://hooks.swr.de/99005/M0479000.001.mp3"
+  },
+  {
+    "id": 1053,
+    "artist": "Pink Floyd",
+    "title": "Welcome to the machine",
+    "audio": "https://hooks.swr.de/99005/M0006301.002.mp3"
+  }
+]
