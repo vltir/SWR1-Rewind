@@ -213,7 +213,7 @@ function stopAudio() {
 <style scoped>
 .container {
   display: flex; justify-content: center; align-items: center;
-  min-height: 100vh; background: #1a1a1a; color: white;
+  min-height: 100vh; color: white;
   font-family: 'Segoe UI', sans-serif;
 }
 
@@ -305,4 +305,15 @@ h1 { color: #ffcc00; margin: 0; font-size: 1.8rem; letter-spacing: -0.5px; }
   box-shadow: none;
 }
 
+</style>
+<style>
+/* GLOBALE STYLES (gelten für die ganze Seite) */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  /* Hier setzen wir die Farbe für den "Hintergrund hinter dem Hintergrund" */
+  background-color: #1a1a1a;
+}
 </style>
