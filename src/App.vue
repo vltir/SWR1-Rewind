@@ -16,9 +16,7 @@ const isReady = ref(false)
 let audioCtx = null
 let currentSourceNode = null
 
-// --- COMPUTED: Der Button Text ---
 const buttonText = computed(() => {
-  // 1. Ganz am Anfang (Datenbank lädt noch)
   if (songs.value.length === 0) return 'Lade Datenbank...'
 
   // 2. Erster Start
@@ -36,8 +34,6 @@ const buttonText = computed(() => {
 
   return 'Nächster Song'
 })
-
-// --- LOGIK ---
 
 onMounted(async () => {
   audioCtx = new (window.AudioContext || window.webkitAudioContext)()
@@ -69,7 +65,6 @@ async function prepareNextSong() {
     const arrayBuffer = await response.arrayBuffer()
     const fullBuffer = await audioCtx.decodeAudioData(arrayBuffer)
 
-    // Schnitt & Reverse
     const SECONDS_TO_CUT = 7.3
     const samplesToCut = Math.floor(fullBuffer.sampleRate * SECONDS_TO_CUT)
     const newLength = Math.max(0, fullBuffer.length - samplesToCut)
@@ -88,7 +83,6 @@ async function prepareNextSong() {
     nextAudioBuffer.value = trimmedBuffer
     isReady.value = true
 
-    // Status nur updaten, wenn wir gerade warten (also noch nicht gestartet haben)
     if (!currentSong.value) statusMessage.value = "Bereit zum Start!"
 
   } catch (e) {
@@ -98,12 +92,9 @@ async function prepareNextSong() {
 }
 
 async function handleMainAction() {
-  // A: Starten oder Nächster Song
   if (!currentSong.value || isRevealed.value) {
     await playNextReadySong()
-  }
-  // B: Auflösen
-  else {
+  } else {
     revealAndStop()
   }
 }
@@ -113,11 +104,16 @@ async function playNextReadySong() {
 
   if (audioCtx.state === 'suspended') await audioCtx.resume()
 
-  // 1. Erstmal nur das Ergebnis ausblenden (alter Text verschwindet)
+  // 1. ZUSTANDS-RESET (Das passiert jetzt alles im gleichen Frame)
+  // CSS sorgt dafür, dass das Ausblenden in 0 Sekunden passiert.
   isRevealed.value = false
   isPlaying.value = true
 
-  // 2. Audio starten (Das soll sofort passieren, ohne Wartezeit)
+  // Da isRevealed 'false' ist, ist das Element jetzt unsichtbar (Opacity 0).
+  // Wir können den Text also gefahrlos austauschen.
+  currentSong.value = nextSong.value
+
+  // 2. AUDIO START
   const source = audioCtx.createBufferSource()
   source.buffer = nextAudioBuffer.value
   source.connect(audioCtx.destination)
@@ -126,21 +122,12 @@ async function playNextReadySong() {
 
   statusMessage.value = "Läuft rückwärts..."
 
-  // 3. WICHTIG: Den Text erst austauschen, wenn die Animation vorbei ist!
-  // Dein CSS hat eine Transition von ca 0.4s oder 0.5s.
-  // Wir warten 500ms, damit der alte Text komplett weg ist.
-  setTimeout(() => {
-    currentSong.value = nextSong.value
-  }, 400)
-
-  // Event Listener für Audio-Ende
   source.onended = () => {
     isPlaying.value = false
     currentSourceNode = null
     if (!isRevealed.value) statusMessage.value = "Zu Ende. Weißt du es?"
   }
 
-  // Hintergrund-Reload
   nextAudioBuffer.value = null
   isReady.value = false
   prepareNextSong()
@@ -170,7 +157,7 @@ function revealAndStop() {
       </div>
 
       <div class="result-area">
-        <div class="result-content" :class="{ visible: isRevealed && currentSong }">
+        <div class="result-content" :class="{ visible: isRevealed && currentSong, 'force-hidden': isSwapping }">
           <h2 v-if="currentSong">{{ currentSong.title }}</h2>
           <h3 v-if="currentSong">{{ currentSong.artist }}</h3>
           <h2 v-else>&nbsp;</h2>
@@ -234,14 +221,24 @@ h1 { color: #ffcc00; margin: 0; font-size: 1.8rem; letter-spacing: -0.5px; }
 }
 
 .result-content {
-  opacity: 0; /* Standardmäßig unsichtbar, aber nimmt Platz ein */
+  opacity: 0;
   transform: translateY(10px);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* WICHTIG: Hier KEINE transition definieren (oder 0s).
+     Das bedeutet: Wenn wir in diesen Zustand wechseln (Ausblenden),
+     passiert es SOFORT ohne Verzögerung.
+  */
+  transition: none;
 }
 
+/* AKTIVER ZUSTAND (SICHTBAR) */
 .result-content.visible {
   opacity: 1;
   transform: translateY(0);
+
+  /* WICHTIG: Die Transition steht NUR hier.
+     Sie greift nur, wenn wir IN diesen Zustand wechseln (Einblenden).
+  */
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .result-content h2 { margin: 0; color: #fff; font-size: 1.4rem; line-height: 1.2; }
