@@ -8,9 +8,12 @@ const isPlaying = ref(false)
 const isRevealed = ref(false)
 const statusMessage = ref('Lade Liste...')
 
-// --- PRELOAD STATE ---
+// --- AUDIO SPEICHER ---
+// Wir merken uns jetzt ein Paket aus zwei Versionen
+const nextAudioPackage = ref(null) // { forward: AudioBuffer, reversed: AudioBuffer }
+const currentAudioPackage = ref(null) // Das Paket, das gerade aktiv ist
+
 const nextSong = ref(null)
-const nextAudioBuffer = ref(null)
 const isReady = ref(false)
 
 let audioCtx = null
@@ -18,20 +21,9 @@ let currentSourceNode = null
 
 const buttonText = computed(() => {
   if (songs.value.length === 0) return 'Lade Datenbank...'
-
-  // 2. Erster Start
-  if (!currentSong.value) {
-    return isReady.value ? 'Spiel starten' : 'Lade Start...'
-  }
-
-  // 3. Rate-Modus (Hier ist der Text fix, egal was im Hintergrund lädt!)
-  if (!isRevealed.value) {
-    return 'Auflösen'
-  }
-
-  // 4. Weiter-Modus (Nur hier zeigen wir an, wenn wir noch warten müssen)
-  if (!isReady.value) return 'Lade nächsten Song'
-
+  if (!currentSong.value) return isReady.value ? 'Spiel starten' : 'Lade Start...'
+  if (!isRevealed.value) return 'Auflösen'
+  if (!isReady.value) return 'Lade nächsten...'
   return 'Nächster Song'
 })
 
@@ -65,24 +57,39 @@ async function prepareNextSong() {
     const arrayBuffer = await response.arrayBuffer()
     const fullBuffer = await audioCtx.decodeAudioData(arrayBuffer)
 
+    // Schnitt berechnen
     const SECONDS_TO_CUT = 7.3
     const samplesToCut = Math.floor(fullBuffer.sampleRate * SECONDS_TO_CUT)
     const newLength = Math.max(0, fullBuffer.length - samplesToCut)
 
-    const trimmedBuffer = audioCtx.createBuffer(fullBuffer.numberOfChannels, newLength, fullBuffer.sampleRate)
+    // --- ÄNDERUNG: WIR ERSTELLEN ZWEI BUFFER ---
+    const reversedBuffer = audioCtx.createBuffer(fullBuffer.numberOfChannels, newLength, fullBuffer.sampleRate)
+    const forwardBuffer = audioCtx.createBuffer(fullBuffer.numberOfChannels, newLength, fullBuffer.sampleRate)
 
     for (let i = 0; i < fullBuffer.numberOfChannels; i++) {
       const originalData = fullBuffer.getChannelData(i)
-      const newData = trimmedBuffer.getChannelData(i)
+
+      // Daten holen und schneiden
       const cutData = originalData.subarray(0, newLength)
-      newData.set(cutData)
-      Array.prototype.reverse.call(newData)
+
+      // 1. In den Forward-Buffer kopieren (Normal)
+      forwardBuffer.getChannelData(i).set(cutData)
+
+      // 2. In den Reverse-Buffer kopieren und umdrehen
+      // Wir müssen .slice() benutzen, um eine Kopie zu machen, sonst drehen wir beide um!
+      const reversedData = cutData.slice()
+      Array.prototype.reverse.call(reversedData)
+      reversedBuffer.getChannelData(i).set(reversedData)
     }
 
+    // Paket schnüren
     nextSong.value = selectedSong
-    nextAudioBuffer.value = trimmedBuffer
-    isReady.value = true
+    nextAudioPackage.value = {
+      forward: forwardBuffer,
+      reversed: reversedBuffer
+    }
 
+    isReady.value = true
     if (!currentSong.value) statusMessage.value = "Bereit zum Start!"
 
   } catch (e) {
@@ -95,45 +102,72 @@ async function handleMainAction() {
   if (!currentSong.value || isRevealed.value) {
     await playNextReadySong()
   } else {
-    revealAndStop()
+    revealAndPlayOriginal()
   }
 }
 
 async function playNextReadySong() {
-  if (!isReady.value || !nextAudioBuffer.value) return
+  if (!isReady.value || !nextAudioPackage.value) return
 
   if (audioCtx.state === 'suspended') await audioCtx.resume()
 
-  // 1. ZUSTANDS-RESET (Das passiert jetzt alles im gleichen Frame)
-  // CSS sorgt dafür, dass das Ausblenden in 0 Sekunden passiert.
+  // Reset
   isRevealed.value = false
   isPlaying.value = true
 
-  // Da isRevealed 'false' ist, ist das Element jetzt unsichtbar (Opacity 0).
-  // Wir können den Text also gefahrlos austauschen.
+  // Daten übernehmen
   currentSong.value = nextSong.value
+  currentAudioPackage.value = nextAudioPackage.value
 
-  // 2. AUDIO START
-  const source = audioCtx.createBufferSource()
-  source.buffer = nextAudioBuffer.value
-  source.connect(audioCtx.destination)
-  currentSourceNode = source
-  source.start()
+  // RÜCKWÄRTS ABSPIELEN
+  playBuffer(currentAudioPackage.value.reversed)
 
   statusMessage.value = "Läuft rückwärts..."
 
-  source.onended = () => {
-    isPlaying.value = false
-    currentSourceNode = null
-    if (!isRevealed.value) statusMessage.value = "Zu Ende. Weißt du es?"
-  }
-
-  nextAudioBuffer.value = null
+  nextAudioPackage.value = null
   isReady.value = false
   prepareNextSong()
 }
 
-function revealAndStop() {
+// --- ÄNDERUNG: NICHT MEHR STOPPEN, SONDERN ORIGINAL SPIELEN ---
+function revealAndPlayOriginal() {
+  // 1. Aktuelles (rückwärts) stoppen
+  stopAudio()
+
+  // 2. UI aufdecken
+  isPlaying.value = true // Bleibt true, weil Musik läuft
+  isRevealed.value = true
+  statusMessage.value = "Original wird abgespielt!"
+
+  // 3. VORWÄRTS ABSPIELEN
+  if (currentAudioPackage.value && currentAudioPackage.value.forward) {
+    playBuffer(currentAudioPackage.value.forward)
+  }
+}
+
+// Hilfsfunktion zum Abspielen
+function playBuffer(buffer) {
+  stopAudio() // Zur Sicherheit
+
+  const source = audioCtx.createBufferSource()
+  source.buffer = buffer
+  source.connect(audioCtx.destination)
+  currentSourceNode = source
+  source.start()
+
+  source.onended = () => {
+    // Nur wenn wir noch im gleichen Modus sind, Status ändern
+    if (currentSourceNode === source) {
+      isPlaying.value = false
+      currentSourceNode = null
+      if (!isRevealed.value) statusMessage.value = "Zu Ende. Weißt du es?"
+      else statusMessage.value = "War es richtig?"
+    }
+  }
+}
+
+// Hilfsfunktion zum Stoppen
+function stopAudio() {
   if (currentSourceNode) {
     try {
       currentSourceNode.onended = null
@@ -141,10 +175,6 @@ function revealAndStop() {
     } catch(e) {}
     currentSourceNode = null
   }
-
-  isPlaying.value = false
-  isRevealed.value = true
-  statusMessage.value = "Aufgelöst!"
 }
 </script>
 
