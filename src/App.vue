@@ -58,7 +58,7 @@ async function prepareNextSong() {
 
   try {
     const originalUrl = selectedSong.audio
-    const proxyUrl = originalUrl.replace('https://hooks.swr.de', '/swr-proxy')
+    const proxyUrl = 'https://corsproxy.io/?' + encodeURIComponent(originalUrl)
     const response = await fetch(proxyUrl)
     const arrayBuffer = await response.arrayBuffer()
     const fullBuffer = await audioCtx.decodeAudioData(arrayBuffer)
