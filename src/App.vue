@@ -1,5 +1,7 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
+import { Vue3Lottie } from 'vue3-lottie'
+import discoAnimation from '../public/disco.json'
 
 // --- ZUSTAND ---
 const songs = ref([])
@@ -174,6 +176,13 @@ function stopAudio() {
 <template>
   <div class="container">
     <div class="card">
+      <div class="lottie-wrapper">
+        <Vue3Lottie
+            :animationData="discoAnimation"
+            :height="120"
+            :width="120"
+        />
+      </div>
       <div class="header">
         <h1>⏪ SWR1 Rewind</h1>
         <div class="status-bar">{{ statusMessage }}</div>
