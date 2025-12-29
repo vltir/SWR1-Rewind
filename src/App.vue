@@ -1,52 +1,60 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 
-// --- ZUSTAND (STATE) ---
+// --- ZUSTAND ---
 const songs = ref([])
-const currentSong = ref(null)      // Der Song, der gerade läuft/angezeigt wird
+const currentSong = ref(null)
 const isPlaying = ref(false)
 const isRevealed = ref(false)
-const statusMessage = ref('Initialisiere...')
+const statusMessage = ref('Lade Liste...')
 
-// --- PRELOAD STATE (Der Puffer) ---
-const nextSong = ref(null)         // Metadaten für den NÄCHSTEN Song
-const nextAudioBuffer = ref(null)  // Das fertige Audio für den NÄCHSTEN Song
-const isReady = ref(false)         // Ist der nächste Song abspielbereit?
+// --- PRELOAD STATE ---
+const nextSong = ref(null)
+const nextAudioBuffer = ref(null)
+const isReady = ref(false)
 
 let audioCtx = null
-
-// NEU: Hier merken wir uns den aktuellen "Player", um ihn stoppen zu können
 let currentSourceNode = null
+
+// --- COMPUTED: Der Button Text ---
+const buttonText = computed(() => {
+  // 1. Ganz am Anfang (Datenbank lädt noch)
+  if (songs.value.length === 0) return 'Lade Datenbank...'
+
+  // 2. Erster Start
+  if (!currentSong.value) {
+    return isReady.value ? 'Spiel starten' : 'Lade Start...'
+  }
+
+  // 3. Rate-Modus (Hier ist der Text fix, egal was im Hintergrund lädt!)
+  if (!isRevealed.value) {
+    return 'Auflösen'
+  }
+
+  // 4. Weiter-Modus (Nur hier zeigen wir an, wenn wir noch warten müssen)
+  if (!isReady.value) return 'Lade nächsten Song'
+
+  return 'Nächster Song'
+})
 
 // --- LOGIK ---
 
 onMounted(async () => {
-  // 1. AudioContext sofort anlegen (aber er ist noch "suspended")
   audioCtx = new (window.AudioContext || window.webkitAudioContext)()
-
   try {
-    // 2. Liste laden
     const res = await fetch('/swr1_songs.json')
     songs.value = await res.json()
-    statusMessage.value = `${songs.value.length} Songs geladen.`
-
-    // 3. SOFORT den ersten Song vorbereiten
+    statusMessage.value = `${songs.value.length} Songs in der Datenbank.`
     await prepareNextSong()
-
   } catch (e) {
-    statusMessage.value = 'Fehler beim Laden der JSON.'
-    console.error(e)
+    statusMessage.value = 'Fehler: JSON nicht gefunden.'
   }
 })
 
-// Diese Funktion macht die schwere Arbeit im Hintergrund
 async function prepareNextSong() {
   if (songs.value.length === 0) return
-
   isReady.value = false
-  statusMessage.value = "Lade nächsten Song im Hintergrund..."
 
-  // Zufälligen Song wählen (verhindern, dass es der gleiche wie gerade eben ist)
   let randomIndex
   do {
     randomIndex = Math.floor(Math.random() * songs.value.length)
@@ -55,25 +63,18 @@ async function prepareNextSong() {
   const selectedSong = songs.value[randomIndex]
 
   try {
-    // A) Fetch
     const originalUrl = selectedSong.audio
     const proxyUrl = originalUrl.replace('https://hooks.swr.de', '/swr-proxy')
     const response = await fetch(proxyUrl)
     const arrayBuffer = await response.arrayBuffer()
-
-    // B) Decode
     const fullBuffer = await audioCtx.decodeAudioData(arrayBuffer)
 
-    // C) Schneiden & Umdrehen
+    // Schnitt & Reverse
     const SECONDS_TO_CUT = 7.3
     const samplesToCut = Math.floor(fullBuffer.sampleRate * SECONDS_TO_CUT)
     const newLength = Math.max(0, fullBuffer.length - samplesToCut)
 
-    const trimmedBuffer = audioCtx.createBuffer(
-        fullBuffer.numberOfChannels,
-        newLength,
-        fullBuffer.sampleRate
-    )
+    const trimmedBuffer = audioCtx.createBuffer(fullBuffer.numberOfChannels, newLength, fullBuffer.sampleRate)
 
     for (let i = 0; i < fullBuffer.numberOfChannels; i++) {
       const originalData = fullBuffer.getChannelData(i)
@@ -83,80 +84,78 @@ async function prepareNextSong() {
       Array.prototype.reverse.call(newData)
     }
 
-    // D) In den "Puffer"-Variablen speichern
     nextSong.value = selectedSong
     nextAudioBuffer.value = trimmedBuffer
-
-    // Fertig!
     isReady.value = true
-    // Wenn gerade nichts spielt, können wir "Bereit" anzeigen,
-    // sonst lassen wir die Nachricht des laufenden Songs stehen.
-    if (!isPlaying.value) {
-      statusMessage.value = "Bereit für nächsten Song!"
-    }
+
+    // Status nur updaten, wenn wir gerade warten (also noch nicht gestartet haben)
+    if (!currentSong.value) statusMessage.value = "Bereit zum Start!"
 
   } catch (e) {
-    console.error("Fehler beim Vorladen:", e)
-    // Falls einer fehlschlägt, einfach nochmal probieren
+    console.error(e)
     setTimeout(prepareNextSong, 1000)
   }
 }
 
-// Diese Funktion wird beim Button-Klick ausgeführt (passiert sofort)
-async function playReadySong() {
+async function handleMainAction() {
+  // A: Starten oder Nächster Song
+  if (!currentSong.value || isRevealed.value) {
+    await playNextReadySong()
+  }
+  // B: Auflösen
+  else {
+    revealAndStop()
+  }
+}
+
+async function playNextReadySong() {
   if (!isReady.value || !nextAudioBuffer.value) return
 
-  // 1. Browser-Policy: Context aufwecken beim ersten Klick
-  if (audioCtx.state === 'suspended') {
-    await audioCtx.resume()
-  }
+  if (audioCtx.state === 'suspended') await audioCtx.resume()
 
-  // --- NEU: ALTE WIEDERGABE STOPPEN ---
-  if (currentSourceNode) {
-    try {
-      // Wichtig: Wir entfernen den Event-Listener, damit nicht "Wiedergabe beendet"
-      // aufploppt, obwohl wir gerade einen neuen Song starten.
-      currentSourceNode.onended = null
-      currentSourceNode.stop()
-    } catch (e) {
-      // Falls er schon gestoppt war, egal.
-    }
-  }
-  // ------------------------------------
-
+  // 1. Erstmal nur das Ergebnis ausblenden (alter Text verschwindet)
   isRevealed.value = false
   isPlaying.value = true
 
-  // 3. Den Puffer in den "Live"-Status schieben
-  currentSong.value = nextSong.value // Metadaten anzeigen (aber noch verdeckt)
-
-  // 4. Abspielen
+  // 2. Audio starten (Das soll sofort passieren, ohne Wartezeit)
   const source = audioCtx.createBufferSource()
   source.buffer = nextAudioBuffer.value
   source.connect(audioCtx.destination)
-
-  // NEU: Den neuen Player in der Variable speichern
   currentSourceNode = source
-
   source.start()
 
-  statusMessage.value = "Spielt ab... 🎵"
+  statusMessage.value = "Läuft rückwärts..."
 
+  // 3. WICHTIG: Den Text erst austauschen, wenn die Animation vorbei ist!
+  // Dein CSS hat eine Transition von ca 0.4s oder 0.5s.
+  // Wir warten 500ms, damit der alte Text komplett weg ist.
+  setTimeout(() => {
+    currentSong.value = nextSong.value
+  }, 400)
+
+  // Event Listener für Audio-Ende
   source.onended = () => {
     isPlaying.value = false
-    statusMessage.value = "Wiedergabe beendet. Rate mal!"
-    // Variable leeren, da der Song physikalisch zu Ende ist
     currentSourceNode = null
+    if (!isRevealed.value) statusMessage.value = "Zu Ende. Weißt du es?"
   }
 
-  // 5. WICHTIG: Sofort den NÄCHSTEN Song laden, während der User rät!
-  // Wir löschen den Puffer und laden neu.
+  // Hintergrund-Reload
   nextAudioBuffer.value = null
   isReady.value = false
   prepareNextSong()
 }
 
-function reveal() {
+function revealAndStop() {
+  if (currentSourceNode) {
+    try {
+      currentSourceNode.onended = null
+      currentSourceNode.stop()
+    } catch(e) {}
+    currentSourceNode = null
+  }
+
+  isPlaying.value = false
   isRevealed.value = true
   statusMessage.value = "Aufgelöst!"
 }
@@ -165,32 +164,29 @@ function reveal() {
 <template>
   <div class="container">
     <div class="card">
-      <h1>⏪ SWR1 Rewind</h1>
+      <div class="header">
+        <h1>⏪ SWR1 Rewind</h1>
+        <div class="status-bar">{{ statusMessage }}</div>
+      </div>
 
-      <div class="status-bar">{{ statusMessage }}</div>
+      <div class="result-area">
+        <div class="result-content" :class="{ visible: isRevealed && currentSong }">
+          <h2 v-if="currentSong">{{ currentSong.title }}</h2>
+          <h3 v-if="currentSong">{{ currentSong.artist }}</h3>
+          <h2 v-else>&nbsp;</h2>
+        </div>
+      </div>
 
       <div class="controls">
         <button
-            @click="playReadySong"
-            :disabled="!isReady"
-            class="btn-primary"
+            @click="handleMainAction"
+            :disabled="(!isReady && !currentSong) || (isRevealed && !isReady)"
+            class="main-btn"
         >
-          {{ !isReady ? '⏳ Lade im Hintergrund...' : '🎲 Song abspielen (Sofort!)' }}
-        </button>
-
-        <button
-            v-if="currentSong"
-            @click="reveal"
-            class="btn-secondary"
-        >
-          👀 Auflösen
+          {{ buttonText }}
         </button>
       </div>
 
-      <div v-if="isRevealed && currentSong" class="result animated">
-        <h2>{{ currentSong.title }}</h2>
-        <h3>{{ currentSong.artist }}</h3>
-      </div>
     </div>
   </div>
 </template>
@@ -201,27 +197,83 @@ function reveal() {
   min-height: 100vh; background: #1a1a1a; color: white;
   font-family: 'Segoe UI', sans-serif;
 }
-.card {
-  background: #2c2c2c; padding: 2rem; border-radius: 12px;
-  text-align: center; width: 100%; max-width: 400px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-}
-h1 { color: #ffcc00; margin-bottom: 0.5rem; }
-.status-bar { height: 20px; font-size: 0.9rem; color: #888; margin-bottom: 20px; transition: color 0.3s;}
-.controls { display: flex; flex-direction: column; gap: 10px; }
-button {
-  padding: 12px; font-size: 1rem; border: none; border-radius: 6px;
-  cursor: pointer; font-weight: bold; transition: all 0.2s;
-}
-button:active { transform: scale(0.98); }
-.btn-primary { background: #ffcc00; color: #222; }
-/* Wenn deaktiviert (während des Ladens): */
-.btn-primary:disabled { background: #444; color: #888; cursor: wait; opacity: 0.7; }
 
-.btn-secondary { background: #444; color: #fff; }
-.result { margin-top: 25px; padding-top: 20px; border-top: 1px solid #444; }
-.result h2 { margin: 0; color: #fff; }
-.result h3 { margin: 5px 0 0 0; color: #aaa; font-weight: normal; }
-.animated { animation: fadeIn 0.5s ease-out; }
-@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+.card {
+  background: #2c2c2c;
+  padding: 2.5rem;
+  border-radius: 16px;
+  text-align: center;
+  width: 90vw;
+  max-width: 420px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 { color: #ffcc00; margin: 0; font-size: 1.8rem; letter-spacing: -0.5px; }
+
+.status-bar {
+  height: 20px;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 5px;
+}
+
+/* --- RESULT AREA: FIXIERTE HÖHE --- */
+.result-area {
+  height: 100px; /* Reservierter Platz: Verhindert Springen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
+  background: rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.result-content {
+  opacity: 0; /* Standardmäßig unsichtbar, aber nimmt Platz ein */
+  transform: translateY(10px);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.result-content.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.result-content h2 { margin: 0; color: #fff; font-size: 1.4rem; line-height: 1.2; }
+.result-content h3 { margin: 5px 0 0 0; color: #aaa; font-weight: normal; font-size: 1rem; }
+
+/* --- BUTTON STYLES --- */
+.controls { display: flex; flex-direction: column; }
+
+.main-btn {
+  /* HIER IST JETZT DIE FESTE FARBE (SWR1 Gelb) */
+  background: #ffcc00;
+  color: #222;
+
+  padding: 18px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 800;
+  transition: all 0.2s ease;
+  width: 100%;
+  box-shadow: 0 4px 0 rgba(0,0,0,0.2);
+}
+
+.main-btn:active { transform: translateY(2px); box-shadow: none; }
+
+/* Das bleibt wichtig: Wenn er lädt, wird er grau */
+.main-btn:disabled {
+  background: #444;
+  color: #888;
+  cursor: wait;
+  box-shadow: none;
+}
+
 </style>
