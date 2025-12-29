@@ -22,7 +22,7 @@ let currentSourceNode = null
 // --- NEU: Der Rewind-Sound ---
 // Wir erstellen das Objekt einmalig, aber laden es erst im onMounted
 // Der Pfad '/rewind.mp3' zeigt direkt in den public-Ordner
-const rewindSound = new Audio('/rewind.mp3')
+const rewindSound = new Audio(import.meta.env.BASE_URL + 'rewind.mp3')
 rewindSound.volume = 0.5 // Lautstärke anpassen (0.0 bis 1.0)
 
 const buttonText = computed(() => {
@@ -36,7 +36,7 @@ const buttonText = computed(() => {
 onMounted(async () => {
   audioCtx = new (window.AudioContext || window.webkitAudioContext)()
   try {
-    const res = await fetch('/swr1_songs.json')
+    const res = await fetch(import.meta.env.BASE_URL + 'swr1_songs.json')
     songs.value = await res.json()
     statusMessage.value = `${songs.value.length} Songs in der Datenbank.`
     await prepareNextSong()
